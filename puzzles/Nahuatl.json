@@ -1,0 +1,301 @@
+{
+    "name": "Nahuatl",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "ktlazohtla in pochtekatl in kuauhxīnki",
+                    "The carpenter loves the merchant"
+                ],
+                [
+                    "kneki in āmoxtli in zihuātl",
+                    "The woman wants the book"
+                ],
+                [
+                    "ki in pochtekatl in kuauhxīnki",
+                    "The carpenter drinks the wine"
+                ],
+                [
+                    "ktlazohtla in ātōlli in zihuātl",
+                    "The woman loves the atole"
+                ],
+                [
+                    "kēhua in kikatl in tīzītl",
+                    "The healer sings the song"
+                ],
+                [
+                    "khuīteki in pochtekatl in tīzītl",
+                    "The healer beats the merchant"
+                ],
+                [
+                    "kēhua in kikatl in āmoxtli",
+                    "The book sings the song"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "khuīteki in kuauhxīnki in zihuātl",
+                    "The woman beats the carpenter"
+                ],
+                [
+                    "khuīteki in zihuātl in kuauhxīnki",
+                    "The carpenter beats the woman"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "ni-kochi",
+                    "I sleep"
+                ],
+                [
+                    "ti-atli",
+                    "You drink"
+                ],
+                [
+                    "ni-tzāhtzi",
+                    "I shout"
+                ],
+                [
+                    "ti-huetzī",
+                    "You fall"
+                ],
+                [
+                    "ni-ēhua in kikatl",
+                    "I sing the song"
+                ],
+                [
+                    "kuīka",
+                    "He sings"
+                ],
+                [
+                    "ki in ātōlli",
+                    "He drinks the atole"
+                ]
+            ],
+            "objective": "subject agreement/intransitive",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "ni-atli",
+                    "I drink"
+                ],
+                [
+                    "ti-kuīka",
+                    "You sing"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "nēch-kāhua",
+                    "He leaves me"
+                ],
+                [
+                    "ti-nēch-tla-lhuia",
+                    "You say something to me"
+                ],
+                [
+                    "ti-k-maka in āmoxtli",
+                    "You give the book to him"
+                ],
+                [
+                    "mitz-huīteki",
+                    "He beats you"
+                ],
+                [
+                    "ti-k-tlazohtla in kuauhxīnki",
+                    "You love the carpenter"
+                ],
+                [
+                    "ni-mitz-tla-lhuia", 
+                    "I say something to you"
+                ],
+                [
+                    "ni-tla-huīteki",
+                    "I beat something"
+                ]
+            ],
+            "objective": "indirect object/object agreement",
+            "category": "syntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "nēch-tla-maka",
+                    "He gives something to me"
+                ],
+                [
+                    "ti-k-huīteki in tīzītl",
+                    "You beat the healer"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "ni-k-chīhui-lia in oktli",
+                    "I prepare the wine for him"
+                ],
+                [
+                    "ni-mitz-tē-huīteki-ltia",
+                    "I make you beat somebody"
+                ],
+                [
+                    "nēch-chīhui-lia in ātōlli",
+                    "He prepares the atole for me"
+                ],
+                [
+                    "k-ātlī-tia in kuauhxīnki",
+                    "He makes the carpenter drink"
+                ],
+                [
+                    "k-kuīka-tia in pochtekatl",
+                    "He makes the merchant sing"
+                ],
+                [
+                    "ni-k-neki-ltia in oktli",
+                    "I make him want the wine"
+                ]
+            ],
+            "objective": "causative",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "ti-k-kuīka-tia",
+                    "You make him sing"
+                ],
+                [
+                    "ni-k-tē-huīteki-lia in kuauhxīnki",
+                    "I beat somebody for the carpenter"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "nimitztlazohtla",
+                    "I love you"
+                ],
+                [
+                    "tikmaka in āmoxtli",
+                    "you give the book to him"
+                ],
+                [
+                    "nitlahtoa",
+                    "I say something"
+                ],
+                [
+                    "kātlītia in kuauhxīnki in pochtekatl ;",
+                    "the merchant makes the carpenter drink"
+                ],
+                [
+                    "titzāhtzi",
+                    "you shout"
+                ],
+                [
+                    "niki in ātōlli",
+                    "I drink the atole"
+                ],
+                [
+                    "tikuīka",
+                    "you sing"
+                ],
+                [
+                    "tinēchtlakāhuilia",
+                    "you leave something for me"
+                ],
+                [
+                    "kochi in tīzītl",
+                    "the healer sleeps"
+                ],
+                [
+                    "niknekiltia in kuauhxīnki in āmoxtli",
+                    "I make the carpenter want the book"
+                ],
+                [
+                    "mitztēhuītekilia",
+                    "he beats you for somebody;"
+                ],
+                [
+                    "kēhua in kikatl",
+                    "sings the song"
+                ],
+                [
+                    "niktlalhuia in zihuātl",
+                    "I say something to the woman"
+                ],
+                [
+                    "tiktēkāhualtia in oktli",
+                    "you make somebody leave the wine"
+                ],
+                [
+                    "ātli",
+                    "he drinks"
+                ],
+                [
+                    "tlachīhua in pochtekatl",
+                    "the merchant prepares something"
+                ],
+                [
+                    "tēhuetzītia in zihuātl",
+                    "the woman makes somebody fall"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":5,
+            "sentences": [
+                [
+                    "nēchtzāhtzītia",
+                    "he makes me shout"
+                ],
+                [
+                    "tikhuīteki",
+                    "you beat him"
+                ],
+                [
+                    "nikēhuilia in kikatl in tīzītl",
+                    "I sing the song for the healer"
+                ],
+                [
+                    "nikneki in ātōlli",
+                    "I want the atole"
+                ],
+                [
+                    "mitztlakāhualtia",
+                    "he makes you leave something"
+                ],
+                [
+                    "nēchchīhualtia in ātōlli",
+                    "he makes me prepare the atole"
+                ],
+                [
+                    "tiktēchīhuilia in oktli",
+                    "you prepare the wine for somebody"
+                ],
+                [
+                    "mitzkochītia in tīzītl",
+                    "the healer makes you sleep"
+                ],
+                [
+                    "nitlaēhua",
+                    "I sing something"
+                ]
+            ]
+        }
+    },
+    "note": "The langauge was the language of the Aztec Empire in Mexico. The sentences are given in a simplified orthography. ch, hu, ku, tl , tz , uh are consonants. The mark ̄  denotes vowel length. Atole is a cornstarch-based hot drink.",
+    "special":"ā,ē,ī,ō"
+}

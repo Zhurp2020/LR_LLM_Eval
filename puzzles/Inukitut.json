@@ -1,0 +1,302 @@
+{
+    "name": "Inukitut",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "inuuhuktuup qingmiq takujanga",
+                    "The boy saw the dog"
+                ],
+                [
+                    "angunahuktiup nanuq qukiqtanga",
+                    "The hunter shot the polar bear"
+                ],
+                [
+                    "nuuhuktuup amaruq aanniqtanga",
+                    "The boy hurt the wolf"
+                ],
+                [
+                    "iluaqhaijiup nanuq aarqijanga",
+                    "The doctor cured the polar bear"
+                ],
+                [
+                    "angunahuktiup angatkuq aanniqtanga",
+                    "The hunter hurt the shaman"
+                ],
+                [
+                    "ilinniaqtitsijiup qingmiq iputujanga",
+                    "The teacher speared the dog"
+                ],
+                [
+                    "ilinniaqtitsijiup amaruq aarqijanga",
+                    "The teacher cured the wolf"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "iluaqhaijiup angatkuq takujanga",
+                    "The doctor saw the shaman"
+                ],
+                [
+                    "angunahuktiup amaruq iputujanga",
+                    "The hunter speared the wolf"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "iluaqhaiji-up angunahukti-q aarqijanga",
+                    "The doctor cured the hunter"
+                ],
+                [
+                    "iluaqhaiji-vit nanu-q aarqijanga",
+                    "Your doctor cured the polar bear"
+                ],
+                [
+                    "angunahukti-up amaru-q aanniqtanga",
+                    "The hunter hurt the wolf"
+                ],
+                [
+                    "nanu-vit ilinniaqtitsiji-it aanniqtanga",
+                    "Your polar bear hurt your teacher"
+                ],
+                [
+                    "ilinniaqtitsiji-vit amaru-it takujanga",
+                    "The teacher saw your wolf"
+                ]
+            ],
+            "objective": "possessive/alignment",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "Qingmi-vit inuuhuktu-q aanniqtanga",
+                    "Your dog hurt the boy"
+                ],
+                [
+                    "Inuuhuktu-up qingmi-it aanniqtanga",
+                    "The boy hurt your dog"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "iluaqhaiji-up aarqi-j-a-atit",
+                    "The doctor cured you"
+                ],
+                [
+                    "iluaqhaiji-vit qingmi-it aarqi-j-a-nga",
+                    "Your doctor cured your dog"
+                ],
+                [
+                    "ilinniaqtitsiji-vit amaru-q taku-j-a-nga",
+                    "The teacher saw the dog"
+                ],
+                [
+                    "iluaqhaiji-q aanniq-t-a-it",
+                    "You hurt the doctor"
+                ],
+                [
+                    "qingmi-it aanniq-t-a-it",
+                    "You hurt your dog"
+                ]
+            ],
+            "objective": "object agreement/subject agreement/allomorph",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "angunahukti-up aanniq-t-a-atit",
+                    "The hunter hurt you"
+                ],
+                [
+                    "amaru-q taku-j-a-it",
+                    "You saw the wolf"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "angatku-q nanu-r-mik qukiq-si-u-q",
+                    "The shaman shot a polar bear"
+                ],
+                [
+                    "angatku-up nanu-q qukiq-t-a-nga",
+                    "The shaman shot the polar bear"
+                ],
+                [
+                    "nanu-r-mik aarqi-si-u-tit",
+                    "You cured a polar bear"
+                ],
+                [
+                    "iluaqhaiji-it qingmi-r-mik aarqi-si-u-q",
+                    "Your doctor cured a dog"
+                ],
+                [
+                    "qingmi-r-mik aanniq-si-u-tit",
+                    "You hurt a dog"
+                ]
+            ],
+            "objective": "definitive",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "amaru-q qingmi-r-mik aanniq-si-u-q",
+                    "The wolf hurt a dog"
+                ],
+                [
+                    "ilinniaqtitsiji-r-mik taku-si-u-tit",
+                    "You saw a teacher"
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "ukiakhaq-t-u-tit.", 
+                    "You fell"
+                ],
+                [
+                    "qingmi-it aqai-j-u-q",
+                    "Your dog came"
+                ],
+                [
+                    "qingmi-q aanniq-t-u-q",
+                    "The dog hurt itself"
+                ],
+                [
+                    "amaru-q ukiakhaq-t-u-q",
+                    "The wolf fell"
+                ]
+            ],
+            "objective": "intransitive/reflective",
+            "category": "syntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "Iluaqhaiji-it aqai-j-u-q",
+                    "Your doctor came"
+                ],
+                [
+                    "angunahukti-q qukiq-t-u-q",
+                    "The hunter shot himself"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Qingmivit takujaatit.",
+                    "Your dog saw you."
+                ],
+                [
+                    "Inuuhuktuup iluaqhaiji qukiqtanga.",
+                    "The boy shot the doctor."
+                ],
+                [
+                    "Aanniqtutit.",
+                    "You hurt yourself."
+                ],
+                [
+                    "Iluaqhaijiup aarqijaatit.",
+                    "The doctor cured you."
+                ],
+                [
+                    "Qingmiq iputujait.",
+                    "You speared the dog."
+                ],
+                [
+                    "Angatkuq iluaqhaijimik aarqisijuq.",
+                    "The shaman cured a doctor."
+                ],
+                [
+                    "Nanuq qaijuq.",
+                    "The polar bear came."
+                ],
+                [
+                    "Iluaqhaijivit inuuhuktuit aarqijanga.",
+                    "Your doctor cured your boy."
+                ],
+                [
+                    "Angunahuktiup amaruq iputujanga.",
+                    "The hunter speared the wolf."
+                ],
+                [
+                    "Qingmiup ilinniaqtitsijiit aanniqtanga.",
+                    "The dog hurt your teacher."
+                ],
+                [
+                    "Ukiakhaqtutit.",
+                    "You fell."
+                ],
+                [
+                    "Angunahukti nanurmik qukiqsijuq.",
+                    "The hunter shot a polar bear."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":6,
+            "sentences": [
+                [
+                    "amaruup angatkuit takujanga.",
+                    "The wolf saw your shaman."
+                ],
+                [
+                    "nanuit inuuhukturmik aanniqsijuq.",
+                    "Your polar bear hurt a boy."
+                ],
+                [
+                    "angunahuktiit aarqijuq.",
+                    "Your hunter cured himself."
+                ],
+                [
+                    "ilinniaqtitsiji qukiqtait.",
+                    "You shot the teacher."
+                ],
+                [
+                    "qaijutit.",
+                    "You came."
+                ],
+                [
+                    "angunahuktimik aarqisijutit",
+                    "You cured a hunter."
+                ],
+                [
+                    "angatkuup aanniqtaatit.",
+                    "The shaman hurt you."
+                ],
+                [
+                    "ilinniaqtitsijiup inuuhuktuq takujanga.",
+                    "The teacher saw the boy."
+                ],
+                [
+                    "amaruit ukiakhaqtuq.",
+                    "Your wolf fell."
+                ],
+                [
+                    "qingmirmik qukiqsijutit.",
+                    "You shot a dog."
+                ],
+                [
+                    "qingmiit ilinniaqtitsijimik aanniqsijuq.",
+                    "Your dog hurt a teacher."
+                ]
+            ]
+        }
+    },
+    "note": "The langauge belongs to the Eskimo-Aleut family of languages. It is spoken byapprox. 35 000 people in the northern part of Canada.The letter r denotes a ‘Parisian’ r (pronounced far back in the mouth), and q stands for a k-like sound made in the same place. A shaman is a priest, sorcerer and healer in some cultures."
+}

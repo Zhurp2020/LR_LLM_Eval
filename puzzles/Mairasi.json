@@ -1,0 +1,284 @@
+{
+    "name": "Mairasi",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "tat fuati nayemny",
+                    "The child chased the net"
+                ],
+                [
+                    "tat jerung nayemny",
+                    "The child carried the bow"
+                ],
+                [
+                    "sika javii imbiemny",
+                    "The cat dropped the basket"
+                ],
+                [
+                    "nani jerung navairjemny",
+                    "The father pulled back the bow"
+                ],
+                [
+                    "uratu fuati uvuemny",
+                    "The fish dipped the net in the water,"
+                ],
+                [
+                    "aasi fuati mesiemny",
+                    "The dog hided the net."
+                ],
+                [
+                    "domba javii maitavemny",
+                    "The sheep carried the basket"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "tat jerung navairjemny",
+                    "The child pulled back the bow"
+                ],
+                [
+                    "uratu javii uvuemny",
+                    "The fish dipped the basket in the water"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "omo javii te-onggai",
+                    "I cut the basket"
+                ],
+                [
+                    "neme javii te-onai",
+                    "You(sg) cut the basket"
+                ],
+                [
+                    "eme jerung bu-oiei",
+                    "You(pl) hit the bow"
+                ],
+                [
+                    "eeme jerung bu-osei",
+                    "We hit the bow"
+                ],
+                [
+                    "aasi fuati uvu-emny",
+                    "The dog dipped the net in the water"
+                ],
+                [
+                    "aasi fuati uvu-enggei",
+                    "The dogs dipped the net in the water."
+                ]
+            ],
+            "objective": "subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "omo javii bu-onggai",
+                    "I hit the basket"
+                ],
+                [
+                    "eme javii mesi-oiei",
+                    "You (pl) hided the basket"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "omo uratu na-sai navairj-omn-ai",
+                    "I caught the black fish (sg)"
+                ],
+                [
+                    "omo fuati a-sai navairj-onngai",
+                    "I pulled back the black net"
+                ],
+                [
+                    "neme bembe te-onn-ai",
+                    "You (sg) sacrificed the pig"
+                ],
+                [
+                    "neme jerung te-onai",
+                    "You (sg) cut the bow"
+                ],
+                [
+                    "eeme bembe maitav-osny-ai",
+                    "We carried the pig"
+                ],
+                [
+                    "eme sika bu-ony-ai",
+                    "You (pl) hit the cat"
+                ],
+                [
+                    "domba na-was javii a-ii maitav-emai",
+                    "The angry sheep (sg) carried the small basket"
+                ],
+                [
+                    "sika na-ii bembe na-vwer bu-emny-ai",
+                    "The small cat hit the big pig."
+                ]
+            ],
+            "objective": "noun animacy/object agreement/adjective",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "eeme bembe na-sai bu-osny-ai",
+                    "We hit the black pig"
+                ],
+                [
+                    "domba na-vwer javii te-emai",
+                    "The big sheep (sg) cut the basket"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "sika o-bae uratu nay-emny-ai",
+                    "The cat chased my fish (sg)"
+                ],
+                [
+                    "o-bae nani o-nggwasa imbi-emai",
+                    "My father dropped my hair."
+                ],
+                [
+                    "neme na-mor bu-onai",
+                    "You(sg) hit his face."
+                ],
+                [
+                    "o-bae avu na-vaseen javii a-vwer na-rovo-t maitav-emai.",
+                    "My tired grandfather carried the big basket using his hand"
+                ],
+                [
+                    "ne-bae tata bembe ne-was uvu-emny-ev",
+                    "Your(sg) child make the angry pigs swim"
+                ],
+                [
+                    "e-bae uratu ne-mor bum-bu-enggei",
+                    "Your (pl) fish (pl) kept hitting their faces."
+                ],
+                [
+                    "eeme ne-nggwasa ee-rovo-t te-osei",
+                    "We cut their hair with our hand."
+                ],
+                [
+                    "aasi vaseen ee-bae domba ne-vwer mai-maitav-emny-ev",
+                    "The tired dog kept carrying our big sheep (pl)"
+                ]
+            ],
+            "objective": "possessive/adjective",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "na-bae sika o-bae uratu imbi-emny-ev",
+                    "His cat dropped my fish (pl)"
+                ],
+                [
+                    "neme ne-bae aasi na-sai uvu-onn-ai",
+                    "You (sg) make their black dog swim"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "omo obae avu nayomnai",
+                    "I chased my grandfather."
+                ],
+                [
+                    "eeme domba teosnyai",
+                    "We sacrificed the sheep (sg)."
+                ],
+                [
+                    "sika nasai uratu imbiemnyai",
+                    "The black cat dropped the fish (sg)."
+                ],
+                [
+                    "neme uratu neii navairjonnev",
+                    "You (sg) caught the small fish (pl)."
+                ],
+                [
+                    "tat naii nabae nani navaseen bumbuemnyai",
+                    "The small child kept hitting his tired father."
+                ],
+                [
+                    "eme tat javiit mesionyev",
+                    "You (pl) hided the children using the basket."
+                ],
+                [
+                    "aasi nevwer domba nayemnyev",
+                    "The big dogs chased the sheep (pl)."
+                ],
+                [
+                    "eme onggwasa teoiei",
+                    "You (pl) cut (past) my hair."
+                ],
+                [
+                    "eme nebae fuati avwer uvuoiei",
+                    "You (pl) dipped their big net in the water."
+                ],
+                [
+                    "nebae avu javii asai maimaitavemai",
+                    "Your (sg) grandfather kept carrying the black basket."
+                ],
+                [
+                    "ebae bembe newas namor buenggei",
+                    "Your (pl) angry pigs hit (past) him in the face"
+                ],
+                [
+                    "obae nani jerung narovot navairjemai",
+                    "My father drew the bow using his hand"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "omo domba nesai maitavomnev",
+                    "I carried the black sheep (pl)."
+                ],
+                [
+                    "neme eebae jerung imbionai",
+                    "You (sg) dropped our bow."
+                ],
+                [
+                    "eeme eenggwasa eerovot uvuosei",
+                    "We dipped our hair in the water using our hands."
+                ],
+                [
+                    "omo fuati aii teonggai",
+                    "I cut (past) the small net."
+                ],
+                [
+                    "eeme uratu nevwer teosnyev",
+                    "We sacrificed the big fish (pl)."
+                ],
+                [
+                    "omo nebae aasi nasai uvuomnai",
+                    "I made your (sg) black dog swim."
+                ],
+                [
+                    "eme nabae avu fuatit mesionyai",
+                    "You (pl) hided his grandfather using the net."
+                ],
+                [
+                    "neme nebae javii aii nerovot bumbuonai",
+                    "You (sg) kept hitting their small basket using your (sg) hand."
+                ]
+            ]
+        }
+    },
+    "note": "Mairasi belongs to the Mairasi family. It is spoken by approx. 2,500 people in the Indonesianprovince of West Papua.ng = ng in king; y = y in yet."
+}

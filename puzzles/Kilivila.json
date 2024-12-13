@@ -1,0 +1,398 @@
+{
+    "name": "Kilivila",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "Le-kota guyau.",
+                    "The chief arrived."
+                ],
+                [
+                    "Le-kalimati-si na-mwaya gwe-guyau.",
+                    "The chiefs killed the old woman."
+                ],
+                [
+                    "Le-gise-si tau nu-numwaya.",
+                    "The old women saw the man."
+                ],
+                [
+                    "Le-yamata gu-gwadi tau.",
+                    "The man looked after the children."
+                ],
+                [
+                    "Le-kalimati-si guyau tau-wau.",
+                    "The men killed the chief."
+                ],
+                [
+                    "Le-yamata gwadi na-mwaya.",
+                    "The old woman looked after the child."
+                ],
+                [
+                    "Le-kota gwadi.",
+                    "The child arrived."
+                ],
+                [
+                    "Le-gise-si gu-gwadi tau-wau.",
+                    "The men saw the the children."
+                ],
+                [
+                    "Le-gisi tau gwadi.",
+                    "The child saw the man."
+                ]
+            ],
+            "objective": "words/noun number",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "Le-kota-si tauwau.",
+                    "The men arrived."
+                ],
+                [
+                    "Le-kalimati tauwau na-mwaya.",
+                    "The old woman killed the men."
+                ],
+                [
+                    "Le-gi-si guyau tau.",
+                    "The man saw the chief."
+                ],
+                [
+                    "Le-yamata-si nunumwaya gugwadi.",
+                    "The children looked after the old women."
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "Bi-bani kwe vivila.",
+                    "The woman will catch the thing."
+                ],
+                [
+                    "Bi-kamkwam-si kwe-yu na-vasi ka’ukwa.",
+                    "Four dogs will eat two things."
+                ],
+                [
+                    "Bi-gisi dakuna na-tala ka’ukwa.",
+                    "One dog will see the stone."
+                ],
+                [
+                    "Bi-bani ka’ukwa te-tala dimdim.",
+                    "One white man will catch the dogs."
+                ],
+                [
+                    "Bi-kamkwam-si na-vasi yena bunukwa.",
+                    "The pigs will eat four fish."
+                ],
+                [
+                    "Bi-gisi dakuna yena.",
+                    "The fish will see the stones."
+                ],
+                [
+                    "Bi-gise-si na-tala bunukwa na-yu vivila.",
+                    "Two women will see one pig."
+                ],
+                [
+                    "Bi-gise-si ke-yu waga bunukwa.",
+                    "The pigs will see two canoes."
+                ],
+                [
+                    "Bi-bani te-vasi dimdim na-tala vivila.",
+                    "One woman will catch four white men."
+                ],
+                [
+                    "Bi-gisi ke-tala waga ka’ukwa.",
+                    "The dog will see one canoe."
+                ],
+                [
+                    "Bi-kamkwam kwe-tala vivila.",
+                    "The woman will eat something."
+                ]
+            ],
+            "objective": "noun class/noun number/tense",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "Bi-kamkwam na-yu yena na-vasi ka’ukwa.",
+                    "Four dogs will eat two fish."
+                ],
+                [
+                    "Bi-gisi na-tala bunukwa dimdim.",
+                    "The white man will see one pig."
+                ],
+                [
+                    "Bi-bani-si dakuna vivila.",
+                    "The women will catch the stone."
+                ],
+                [
+                    "Bi-gisi kwe-tala vivila.",
+                    "The woman will see something."
+                ],
+                [
+                    "Bi-gisi ke-yu waga te-tala dimdim.",
+                    "One white man will see two canoes."
+                ],
+                [
+                    "Bi-bani na-vasi vivila ka’ukwa.",
+                    "The dog will catch four women."
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "Le-gisi ka’ukwa na-manabweta vi-vila ka’ukwa na-kabitam.",
+                    "The clever woman saw the beautiful dog."
+                ],
+                [
+                    "Le-gisi dakuna gudi-tala gwadi gudi-manabweta.",
+                    "One beautiful child saw the stone."
+                ],
+                [
+                    "Le-kalimati na-tala bunukwa na-gasisi guyau tokabitam.",
+                    "The clever chief killed one wild pig."
+                ],
+                [
+                    "Le-kalimati guyau ka’ukwa na-gasisi.",
+                    "The wild dog killed the chief."
+                ],
+                [
+                    "Le-gisi gwadi bunukwa.",
+                    "The pig saw the child."
+                ]
+            ],
+            "objective": "adjective",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "Le-gisi ka’ukwa na-kabitam gudi-tala gwadi gudi-manabweta.",
+                    "One beautiful child saw the clever dog."
+                ],
+                [
+                    "Le-kalimati vi-vila na-manabweta guyau.",
+                    "The chief killed the beautiful woman."
+                ],
+                [
+                    "Le-kalimati bunukwa na-gasisi dakuna.",
+                    "The stone killed the wild pig."
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "Le-gisi dakuna ma-kwe-na gwadi ma-gudi-we-na gudi-manabweta.",
+                    "That beautiful child saw this stone."
+                ],
+                [
+                    "Le-gisi waga ma-ke-si-we-na to-mwaya m-to-na.",
+                    "This old man saw those canoes."
+                ],
+                [
+                    "Le-gisi bunukwa mi-na-si-we-na na-gasisi gwadi ma-gudi-we-na.",
+                    "That child saw those wild pigs."
+                ],
+                [
+                    "Le-gise-si dakuna ma-kwe-si-na kwe-manabweta tauwau m-to-si-we-na.",
+                    "Those men saw these beautiful stones."
+                ],
+                [
+                    "Le-gise-si waga ma-ke-si-we-na tauwau m-to-si-na.",
+                    "These men saw those canoes."
+                ],
+                [
+                    "Le-gise-si tau m-to-na bunukwa mi-na-si-na.",
+                    "These pigs saw this man."
+                ],
+                [
+                    "Le-gisi na-mwaya ma-na-we-na gwadi ma-gudi-na.",
+                    "This child saw that old woman."
+                ],
+                [
+                    "Le-gise-si tau m-to-na nu-numwaya mi-na-si-we-na.",
+                    "Those old women saw this man."
+                ]
+            ],
+            "objective": "demonstrative",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "Le-gise-si dakuna ma-kwe-we-na kwe-gasisi nunumwaya mi-na-si-na.",
+                    "These old women saw that wild stone."
+                ],
+                [
+                    "Le-gisi dakuna ma-kwe-si-we-na na-mwaya mi-na-na na-manabweta.",
+                    "This beautiful old woman saw those stones."
+                ],
+                [
+                    "Le-gisi waga ma-ke-si-we-na tau m-to-na.",
+                    "This man saw those canoes."
+                ],
+                [
+                    "Le-gisi tauwau m-to-si-we-na gwadi ma-gudi-we-na.",
+                    "That child saw those men."
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "A-m-to-na to-mwaya le-kalimati na-yu bunukwa?",
+                    "Which old man killed two pigs?"
+                ],
+                [
+                    "A-ma-ke-na waga le-gise-si gwe-guyau?",
+                    "Which canoe did the chiefs see?"
+                ],
+                [
+                    "A-mi-na-na na-mwaya le-kalimati na-yu bunukwa?",
+                    "Which old woman killed two pigs?"
+                ],
+                [
+                    "Kwe-vila le-kamkwam-si dimdim m-to-si-we-na?",
+                    "How many things did those white men eat?"
+                ],
+                [
+                    "Na-vila vi-vila bi-yamata-si tau m-to-na?",
+                    "How many women will look after this man?"
+                ],
+                [
+                    "Le-kamkwam kwe-yu dimdim m-to-na.",
+                    "This white man ate two things."
+                ]
+            ],
+            "objective": "interrogative",
+            "category": "syntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "A-m-to-na guyau le-gise-si bunukwa?",
+                    "Which chief did the pigs see?"
+                ],
+                [
+                    "A-m-to-na tau le-kalimati nu-na-mwaya?",
+                    "Which man killed the old women?"
+                ],
+                [
+                    "Kwe-vila le-kamkwam-si na-yu vivila?",
+                    "How many things did two women eat?"
+                ],
+                [
+                    "Na-vila bunukwa le-yamata tau m-to-na?",
+                    "How many pigs did this man look after?"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Bibani navasi yena minasina tetala tau.",
+                    "One man will catch these four fish."
+                ],
+                [
+                    "Lekota dimdim mtona.",
+                    "This white man arrived."
+                ],
+                [
+                    "Bikota gwadi magudiwena.",
+                    "That child will arrive."
+                ],
+                [
+                    "Legisi waga makesiwena na-mwaya minana.",
+                    "This old woman saw those canoes."
+                ],
+                [
+                    "Amtona tau lekalimati nayu bunukwa?",
+                    "Which man killed two pigs?"
+                ],
+                [
+                    "Leyamatasi teyu tauwau nunumwaya.",
+                    "The old women looked after two men."
+                ],
+                [
+                    "Bigisi kwetala vivila minawena nakabitam.",
+                    "That clever woman will see something."
+                ],
+                [
+                    "Navila ka’ukwa lekotasi?",
+                    "How many dogs arrived?"
+                ],
+                [
+                    "Amakena waga legisesi gweguyau?",
+                    "Which canoe did the chiefs see?"
+                ],
+                [
+                    "Legisi dakuna makwena gwadi magudiwena gudimanabweta.",
+                    "That beautiful child saw this stone."
+                ],
+                [
+                    "Kwevila lekamkwamsi dimdim mtosiwena?",
+                    "How many things did those white men eat?"
+                ],
+                [
+                    "Lekalimati natala bunukwa nagasisi guyau tokabitam.",
+                    "The clever chief killed one wild pig."
+                ],
+                [
+                    "Navila vivila biyamatasi tau mtona?",
+                    "How many women will look after this man?"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":5,
+            "sentences": [
+                [
+                    "Navila vivila biyamata tomwaya mtona?",
+                    "How many women will this old man look after?"
+                ],
+                [
+                    "Bikamkwamsi kweyu vivila minasina.",
+                    "These women will eat two things."
+                ],
+                [
+                    "Amagudina gwadi lekota?",
+                    "Which child arrived?"
+                ],
+                [
+                    "Tevila tauwau bigisesi gwadi gudigasisi?",
+                    "How many men will see the wild child?"
+                ],
+                [
+                    "Legisesi ketala waga vivila minasiwena.",
+                    "Those women saw one canoe."
+                ],
+                [
+                    "Kevila waga legisesi nunumwaya minasiwena?",
+                    "How many canoes did those old women see?"
+                ],
+                [
+                    "Biyamatasi gwadi magudina gudikabitam tevasi dimdim mtosina.",
+                    "These four white men will look after this clever child."
+                ],
+                [
+                    "Gudivila gugwadi bikamkwamsi bunukwa minasina?",
+                    "How many children will eat these pigs?"
+                ],
+                [
+                    "Aminana vivila lebani yena minasiwena namanabweta?",
+                    "Which woman caught those beautiful fish?"
+                ],
+                [
+                    "Legisesi tomwaya mtowena nayu ka’ukwa nagasisi.",
+                    "Two wild dogs saw that old man."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Oceanic branch of the Austronesian family. It is spoken by approx.20,000 people on the Trobriand islands of Papua New Guinea."
+}

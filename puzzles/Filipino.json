@@ -1,0 +1,215 @@
+{
+    "name": "Filipino",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "bilini ng kaibigan ang tiket",
+                    "A friend bought a ticket"
+                ],
+                [
+                    "bilini ng ale ang bahay",
+                    "An aunt bought a house"
+                ],
+                [
+                    "bilini ng babae ang tiket",
+                    "A woman bought a ticket"
+                ],
+                [
+                    "bilini ng anak ang bahay",
+                    "A child bought a house"
+                ],
+                [
+                    "bilini ng amá ang kotse",
+                    "A father bought a car"
+                ],
+                [
+                    "bilini ng iná ang baròng",
+                    "A mother bought a dress"
+                ],
+                [
+                    "bilini ng babae ang kapote",
+                    "A woman bought a raincoat"
+                ],
+                [
+                    "inihatid ng amá ang bilya",
+                    "A father took a villa"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "bilini ng anak ang tiket",
+                    "A child bought a ticket"
+                ],
+                [
+                    "inihatid ng babae ang baròng",
+                    "A woman took a dress"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "bilini ng kaibigan ko ang bahay",
+                    "My friend bought *a house*"
+                ],
+                [
+                    "inihatid ng ale ang kapote",
+                    "An aunt took a *raincoat*"
+                ],
+                [
+                    "bumili ang iná ko ng bahay",
+                    "*My mother* bought a house"
+                ],
+                [
+                    "bumili ang anak ng kapote",
+                    "*A child* bought a raincoat"
+                ]
+            ],
+            "objective": "focus/possessive",
+            "category": "syntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "bumili ang babae ng bilya",
+                    "*A woman* bought a villa"
+                ],
+                [
+                    "bumili ang ale ko ng bahay",
+                    "*My aunt* bought a house"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "bumili kayó ng tiket sa istasyon",
+                    "*He* bought a ticket at the station"
+                ],
+                [
+                    "bilini niyá ang baròng",
+                    "He bought *a dress*"
+                ],
+                [
+                    "bumili si Lourde ng kapote sa anak ko",
+                    "*Lourde* bought a raincoat for my child"
+                ],
+                [
+                    "bilini ni Lourde ang baròng",
+                    "Lourde bought *a dress*"
+                ]
+            ],
+            "objective": "focus/proper name",
+            "category": "syntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "bumili kayó ng bahay",
+                    "*He* bought a house"
+                ],
+                [
+                    "bilini ni Lourde ang kotse sa istasyon",
+                    "Lourde bought *a car* at the station"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "bilini ng kaibigan ko ang tiket.",
+                    "My friend bought *a ticket*."
+                ],
+                [
+                    "bumili ang ale ko ng tiket.",
+                    "*My aunt* bought a ticket."
+                ],
+                [
+                    "bilini ni Lourdes ang bahay.",
+                    "Lourdes bought *the house*."
+                ],
+                [
+                    "bilini niyá ang bahay.",
+                    "She bought *the house*."
+                ],
+                [
+                    "bumili kayó ng bahay.",
+                    "*She* bought the house."
+                ],
+                [
+                    "bumili si Lourdes ng bahay.",
+                    "*Lourdes* bought the house."
+                ],
+                [
+                    "bumili ang babae ng bahay.",
+                    "*The woman* bought the house."
+                ],
+                [
+                    "bumili kayó ng baròng.",
+                    "*He* bought the dress."
+                ],
+                [
+                    "bilini niyá ang baròng.",
+                    "He bought *the dress*."
+                ],
+                [
+                    "bumili ang kaibigan ko ng tiket para sa ale ko.",
+                    "*My friend* bought a ticket for my aunt."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "bilini niyá ang bilya para sa iná ko.",
+                    "He bought *the villa* for my mother."
+                ],
+                [
+                    "bumili kayó ng bilya para sa iná ko.",
+                    "*He* bought the villa for my mother."
+                ],
+                [
+                    "Inihatid ng anak ko ang iná ko sa istasyon.",
+                    "*My child* took my mother to the station."
+                ],
+                [
+                    "Inihatid ng iná ko ang anak ko sa istasyon.",
+                    "*My mother* took my child to the station."
+                ],
+                [
+                    "bumili ang amá ko ng kotse.",
+                    "*My father* bought the car."
+                ],
+                [
+                    "bumili kayó ng kotse.",
+                    "*She* bought the car."
+                ],
+                [
+                    "bilini niyá ang bilya.",
+                    "He bought *the villa*."
+                ],
+                [
+                    "bilini ni Bayani ang kapote.",
+                    "Bayani bought *the raincoat*."
+                ],
+                [
+                    "bumili kayó ng kapote.",
+                    "*He* bought the raincoat."
+                ],
+                [
+                    "bumili ni Eric ang baròng.",
+                    "Eric bought *the dress*."
+                ]
+            ]
+        }
+    },
+    "note": "Lourde, Eric, Bayani are names. Focus is marked with *. Mark focus in your answer (in English), in the same format.",
+    "special":"á,ò,ó"
+}

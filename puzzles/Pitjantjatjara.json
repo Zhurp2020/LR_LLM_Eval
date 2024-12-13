@@ -1,0 +1,284 @@
+{
+    "name": "Pitjantjatjara",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "pula ŋammu ŋalkunu",
+                    "They (du) ate the egg"
+                ],
+                [
+                    "ŋanaɳa papa iluntanu",
+                    "We (pl) killed the dog"
+                ],
+                [
+                    "ŋali mama ɲaŋu",
+                    "We (du) saw the father"
+                ],
+                [
+                    "cana cici ɲaŋu",
+                    "They (pl) saw the child"
+                ],
+                [
+                    "ɲuntu pakanu",
+                    "You (sg) ran"
+                ],
+                [
+                    "ɲura picaŋu",
+                    "You (pl) came"
+                ],
+                [
+                    "ɲuntu ŋuɲcu ɲaŋu",
+                    "You (sg) saw the mother"
+                ],
+                [
+                    "ɲupali maɭu iluntanu",
+                    "You (du) killed the kangaroo"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "ŋali maɭu ɲaŋu",
+                    "We (du) saw the kangaroo"
+                ],
+                [
+                    "ɲuntu picaŋu",
+                    "You (sg) came"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "naomi-ɲa picaŋu",
+                    "Naomi came."
+                ],
+                [
+                    "papa picaŋu",
+                    "The dog came"
+                ],
+                [
+                    "cici pakanu",
+                    "The child ran"
+                ],
+                [
+                    "ŋali ɲura-mma picaŋu",
+                    "We (du) came for you (pl)."
+                ],
+                [
+                    "tom-lu ŋanaɳa-ɲa ɲaŋu",
+                    "Tom saw us (pl)"
+                ],
+                [
+                    "emanuel-lu mama-ku cana-mma ŋammu ŋalkunu",
+                    "Emanuel ate their (pl) egg for the father."
+                ],
+                [
+                    "pula ɲuntu-mma mama-ku maɭu uŋu",
+                    "They (du) gave the father’s kangaroo for you (sg)"
+                ],
+                [
+                    "cici-ŋŋu emanuel-ku tom-ɲa ɲaŋu",
+                    "The child saw Tom for Emanuel."
+                ],
+                [
+                    "maɭu-ŋŋu ŋammu iluntanu",
+                    "The kangaroo killed the dog."
+                ],
+                [
+                    "emanuel-ku mama cici-ku maɭu-ku mukuriŋu",
+                    "Emanuel's father liked the child's kangaroo."
+                ],
+                [
+                    "cana-mma ŋuɲcu ŋanaɳa-mma papa-ku mukuriŋu",
+                    "Their (pl) mother liked our (pl) dog."
+                ],
+                [
+                    "ŋanaɳa ɲura-mma mukuriŋu",
+                    "We (pl) liked you (pl)."
+                ]
+
+            ],
+            "objective": "alignment/indirect object/possessive",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "naomi-lu ɲupali-mma papa ŋalkunu",
+                    "Naomi ate your (du) dog."
+                ],
+                [
+                    "ɲura-mma ŋuɲcu cana-mma papa-ku mukuriŋu",
+                    "Your (pl) mother likes their (pl) dog."
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "ɲuntu-mma mama paka-nu",
+                    "Your (sg) father ran."
+                ],
+                [
+                    "maɭu paka-naɲi",
+                    "The kangaroo runs."
+                ],
+                [
+                    "cici-ku papa ɲura-mma pica-ɲi",
+                    "The child's dog comes for you (pl)."
+                ],
+                [
+                    "cici-ku ŋuɲcu-ŋŋu ɲupali-ɲa ɲa-ɲi",
+                    "The child’s mother sees you (du)."
+                ],
+                [
+                    "tom-lu ŋuɲcu-ku pula-mma ŋammu ŋalku-naɲi",
+                    "Tom eats their (du) egg for the mother."
+                ],
+                [
+                    "ŋuɲcu-ku mama cana-mma mukuri-ŋaɲi",
+                    "The mother’s father likes them (pl)."
+                ],
+                [
+                    "ɲuntu ŋuɲcu-ku mama mukuri-ŋaɲi",
+                    "You (sg) like the mother's father."
+                ],
+                [
+                    "ŋanaɳa papa-ku ŋuɲcu ilunta-nu",
+                    "We (pl) killed the dog’s mother."
+                ],
+                [
+                    "pula mama-ku maɭu u-ɲi",
+                    "They (du) give the father’s kangaroo."
+                ],
+                [
+                    "maɭu-ŋŋu cana-ɲa u-ŋu",
+                    "The kangaroo gave them (pl)."
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "naomi-lu mama-ku ɲupali-mma ŋammu ŋalku-nu",
+                    "Naomi ate your (du) egg for the father."
+                ],
+                [
+                    "ɲura-mma ŋuɲcu cana-mma papa-ku mukuri-ŋaɲi",
+                    "Your (pl) mother likes their (pl) dog."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "emanuellu mamaku canamma ŋammu ŋalku-nu",
+                    "Emanuel ate their (pl) egg for the father."
+                ],
+                [
+                    "maɭuŋŋu canaɲa ŋalku-naɲi",
+                    "The kangaroo eats them (pl)."
+                ],
+                [
+                    "mamaku papaŋŋu ɲupalimma mariaɲa ilunta-nu",
+                    "The father’s dog killed Maria for you (du)."
+                ],
+                [
+                    "ŋali ɲuramma pica-ŋu",
+                    "We (du) came for you (pl)."
+                ],
+                [
+                    "ŋanaɳa ɲuramma mukuri-ŋu",
+                    "We (pl) liked you (pl)."
+                ],
+                [
+                    "ŋanaɳa papaku ŋuɲcu ilunta-nu",
+                    "We (pl) killed the dog’s mother."
+                ],
+                [
+                    "ŋuɲcuku maɭu ŋalimma ciciku paka-naɲi",
+                    "The mother’s kangaroo runs for our (du) child."
+                ],
+                [
+                    "ŋuɲcuku mama canamma mukuri-ŋaɲi",
+                    "The mother’s father likes them (pl)."
+                ],
+                [
+                    "ɲuntu ŋanaɳamma papaku mukuri-ŋaɲi",
+                    "You (sg) like our (pl) dog."
+                ],
+                [
+                    "ɲuntu pulamma mama ɲa-ŋu",
+                    "You (sg) saw their (du) father."
+                ],
+                [
+                    "pula mamaku maɭu u-ɲi",
+                    "They (du) give the father’s kangaroo."
+                ],
+                [
+                    "naomiɲa pica-ŋu",
+                    "Naomi came."
+                ],
+                [
+                    "naomilu canaɲa ilunta-naɲi",
+                    "Naomi kills them (pl)."
+                ],
+                [
+                    "cici maɭuku mukuri-ŋu",
+                    "The child liked the kangaroo."
+                ],
+                [
+                    "ciciku ŋuɲcuŋŋu ɲupaliɲa ɲa-ɲi",
+                    "The child’s mother sees you (du)"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":2,
+            "sentences": [
+                [
+                    "emanuelɲa pica-ɲi",
+                    "Emanuel comes."
+                ],
+                [
+                    "ŋanaɳamma cici naomiku ŋammuku mukuri-ŋaɲi",
+                    "Your (pl) child likes Naomi’s egg."
+                ],
+                [
+                    "naomiɲa emanuelku pica-ɲi",
+                    "Naomi comes for Emanuel."
+                ],
+                [
+                    "ɲura ŋanaɳamma paka-nu",
+                    "You (pl) ran for us (pl)."
+                ],
+                [
+                    "ɲuntu ŋalimma mukuri-ŋaɲi",
+                    "You (sg) like us (du)."
+                ],
+                [
+                    "papa emanuelku mukuri-ŋu",
+                    "The dog liked Emanuel."
+                ],
+                [
+                    "papaku maɭuŋŋu ɲuraɲa ɲa-ɲi",
+                    "The dog’s kangaroo sees you (pl)."
+                ],
+                [
+                    "marialu papaku ɲuntumma ŋammu u-ŋu",
+                    "Maria gave your (sg) egg for the dog."
+                ]
+            ]
+        }
+    },
+    "note": "The language is a variety of the Western Desert language, which belongs to the Pama–Nyungan family. It is spoken by approx. 3,125 people in Central Australia.ɭ , ŋ, ɳ and ɲ are consonants)sg = singular (one person); du = dual (two persons); pl = plural (more than two persons).Emanuel, Naomi and Maria are names of people.",
+    "special":"ɭ,ɳ,ŋ,ɲ"
+}

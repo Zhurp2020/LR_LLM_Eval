@@ -1,0 +1,205 @@
+{
+    "name": "Adyghe",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "śanyćyr hakum deʁəuco.",
+                    "He puts the kettle into the stove."
+                ],
+                [
+                    "aχśər ʔanym deʁəuco.",
+                    "He puts the mony into the table"
+                ],
+                [
+                    "śywanyr hakum deʁafə",
+                    "He drops the cauldron into the stove"
+                ],
+                [
+                    "laʁər ʔanym deʒə",
+                    "He throws the plate into the table"
+                ],
+                [
+                    "aχśər pχwantym deʁafə",
+                    "He drops the money into the chest"
+                ],
+                [
+                    "laʁər pχənṭəḳum deʒə",
+                    "He throws the plate into the stool"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "śywanyr pχənṭəḳum deʒə",
+                    "He throws the cauldron into the stool"
+                ],
+                [
+                    "śanyćyr pχwantym deʁafə.",
+                    "He drops the kettle into the chest"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "ʔany-r pχwanty-m deʁəuco",
+                    "He puts the table into the chest"
+                ],
+                [
+                    "pχwanty-r ʔany-m deʁəuco",
+                    "He puts the chest into the table"
+                ]
+            ],
+            "objective": "case",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "aχśə-r laʁə-m deʒə",
+                    "He throws the money into the plate"
+                ],
+                [
+                    "laʁə-r aχśə-m deʒə",
+                    "He throws the plate into the money"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "śywany-r pχwanty-m tyr-e-ʁafə",
+                    "He drops the cauldron onto the chest"
+                ],
+                [
+                    "śywany-r pχwanty-m d-e-ʁafə",
+                    "He drops the cauldron into the chest"
+                ],
+                [
+                    "śywany-r pχwanty-m ć̣-e-ʁafə",
+                    "He drops the cauldron under the chest"
+                ]
+            ],
+            "objective": "locative",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "śanyćy-r laʁə-m tyr-e-ʁəuco.",
+                    "He puts the kettle onto the plate"
+                ],
+                [
+                    "śanyćy-r laʁə-m d-e-ʁəuco.",
+                    "He puts the kettle into the plate"
+                ],
+                [
+                    "śanyćy-r laʁə-m ć̣-e-ʁəuco.",
+                    "He puts the kettle under the plate"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "syda laʁə-m tyr-i-ʒə-rər?",
+                    "What does he throw onto the plate?"
+                ],
+                [
+                    "syda pχənṭəḳu-m ć̣-i-ʁafə-rər?",
+                    "What does he drop under the stool?"
+                ],
+                [
+                    "laʁə-r tyda zy-ć̣-i-ʁəuco-rər?",
+                    "Where(under what) does he put the plate?"
+                ],
+                [
+                    "laʁə-r tyda zy-tyr-i-ʒə-rər?",
+                    "Where(onto what) does he throw the plate?"
+                ]
+            ],
+            "objective": "interrogative",
+            "category": "syntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "syda ʔany-m tyr-i-ʁəuco-rər?",
+                    "What does he put onto the table?"
+                ],
+                [
+                    "śywany-r tyda zy-d-i-ʁafə-rər?",
+                    "Where (into what) does he drop the cauldron?"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "śanycýr hakum deʁəuco.",
+                    "He puts the kettle into the stove."
+                ],
+                [
+                    "syda laʁəm tyriʒərər?",
+                    "What does he throw onto the plate?"
+                ],
+                [
+                    "aχśər pχwantym tyreʁafə.",
+                    "He drops the money onto the chest."
+                ],
+                [
+                    "śywanyr ʔanym tyreʁəuco.",
+                    "He puts the cauldron onto the table."
+                ],
+                [
+                    "syda pχənṭəḳum cíʁafərər?",
+                    "What does he drop under the stool?"
+                ],
+                [
+                    "laʁər tyda zyć̣iʁəucorər?",
+                    "Where(under what) does he put the plate?"
+                ],
+                [
+                    "laʁər tyda zytyriʒərər?",
+                    "Where(onto what) does he throw the plate?"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":2,
+            "sentences": [
+                [
+                    "pχənṭəḳur hakum deʒə",
+                    "He throws the stool into the stove"
+                ],
+                [
+                    "aχśər tyda zydiʁafərər?",
+                    "Into what does he drop the money?"
+                ],
+                [
+                    "laʁər śanyćym ć̣eʁəuco",
+                    "He puts the plate under the kettle"
+                ],
+                [
+                    "syda pχwantym ć̣iʒərər?",
+                    "What does he throw under the chest?"
+                ],
+                [
+                    "syda śywanym diʁafərər?",
+                    "What does he drop into the cauldron?"
+                ],
+                [
+                    "ʔanyr tyda zydiʁəucorər",
+                    "Where(onto what) does he put the table?"
+                ]
+            ]
+        }
+    },
+    "note": "The language is of the Abkhaz-Adyghean (North West Caucasian) language family. It is spoken by over 300 thousand people, mostly in the Republic of Adyghea (Russian Federation). ć, ć̣, ḳ, ʁ, ś, ṭ, χ, ʒ, ʔ are specific cosonants; ə and y are vowels.",
+    "special":"ə,í,ý,ć,ć̣,ḳ,ś,ṭ,χ,ʔ,ʁ,ʒ"
+}

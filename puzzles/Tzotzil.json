@@ -1,0 +1,273 @@
+{
+    "name": "Tzotzil",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "‘oy ‘ixim ta na",
+                    "There is corn at home."
+                ],
+                [
+                    "‘oy vob ta k’in",
+                    "There is music at the party"
+                ],
+                [
+                    "‘oy batz’i ‘ixim ta p’in",
+                    "There is real corn in the pot"
+                ],
+                [
+                    "‘oy lekil chenek’",
+                    "There is a good haricot"
+                ],
+                [
+                    "‘oy batz’i chi’il ta chan-vun",
+                    "There is a real friend at school"
+                ],
+                [
+                    "‘oy lekil k’op ta k’in",
+                    "There is a good talk at the party"
+                ]
+            ],
+            "objective": "words/expletive/adjective",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "‘oy lekil ‘ixim ta chan-vun",
+                    "There is good corn at school"
+                ],
+                [
+                    "‘oy batz’i chenek’ ta p’in",
+                    "There is a real haricot in the pot"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "‘oy a-lekil na",
+                    "You have a good home"
+                ],
+                [
+                    "‘oy i-chi’il",
+                    "I have a friend"
+                ],
+                [
+                    "‘oy s-p’in",
+                    "He has a pot"
+                ],
+                [
+                    "‘oy s-batz’i p’in",
+                    "You have a real pot"
+                ]
+            ],
+            "objective": "possessive",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "‘oy i-lekil chenek’",
+                    "I have a good haricot"
+                ],
+                [
+                    "‘oy s-vob",
+                    "He has music"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "‘oy ‘ox chan-vun junabi",
+                    "There was a school last year"
+                ],
+                [
+                    "‘oy ‘ox i-‘ixim volje",
+                    "I had corn yesterday"
+                ],
+                [
+                    "‘oy ‘ox s-vob ta k’in nax",
+                    "There was music at the party earlier today"
+                ],
+                [
+                    "oy ‘ox chenek’ ta p’in lavie",
+                    "There will be a haricot in the pot later today"
+                ],
+                [
+                    "‘oy ‘ox s-k’op ‘ok’ob",
+                    "He will have a talk tomorrow"
+                ],
+                [
+                    "‘oy ‘ox i-na po’ot",
+                    "I will have a home soon"
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "‘oy ‘ox a-‘ixim nax",
+                    "You had corn earlier today"
+                ],
+                [
+                    "‘oy ‘ox s-chi’il po’ot",
+                    "He will have a friend soon"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "Mi ‘oy ‘ox k’in ta Jobel junabi?",
+                    "Was there a party in San Cristobal last year?"
+                ],
+                [
+                    "K’usi ‘oy ‘ox ta s-chan-vun volje?",
+                    "What did he have at school yesterday?"
+                ],
+                [
+                    "Bu ‘oy ‘ox s-k’op li Xunka ne ‘ok’ob?",
+                    "Where will Juana have the talk tomorrow?"
+                ],
+                [
+                    "Ch’abal ‘ox s-chenek’ junabi",
+                    "Juana did not have haricot last year."
+                ],
+                [
+                    "Muk’ bu li Xunka ne.",
+                    "Juana is nowhere"
+                ],
+                [
+                    "Muk’ k’usi 'ox ta chan-vun lavie",
+                    "There will be nothing in the school later today."
+                ]
+            ],
+            "objective": "interrogative/negative",
+            "category": "syntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "Mi ‘oy ‘ox chan-vun ta Jobel po’ot?",
+                    "Will there be a school in San Cristobal soon?"
+                ],
+                [
+                    "Muk’ k’usi ‘ox ta na volje",
+                    "There was nothing in the house yesterday."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "‘Oy ‘ox ‘ixim ta ana nax.",
+                    "You had corn at home today."
+                ],
+                [
+                    "Bu ‘oy ‘ox li Romin e ‘ok’ob?",
+                    "Where will Domingo be tomorrow?"
+                ],
+                [
+                    "Ch’abal ‘ox chenek’ ta jp’in po’ot.",
+                    "Soon there will be no haricots in my pot."
+                ],
+                [
+                    "Mi ‘oy ‘ox k’in ta Jobel ‘ok’ob?",
+                    "Will there be a party in San Cristobal tomorrow?"
+                ],
+                [
+                    "‘Oy chan-vun ta batz’i k’op ta Jobel.",
+                    "There is a Tzotzil school in San Cristobal."
+                ],
+                [
+                    "Mi ‘oy sbatz’i chi’il li Xun e?",
+                    "Does Juan have a real friend?"
+                ],
+                [
+                    "Muk’ bu li Xunka e.",
+                    "Juana is nowhere."
+                ],
+                [
+                    "‘Oy ‘ox jlekil na po’ot.",
+                    "I will soon have a good house."
+                ],
+                [
+                    "Mi ‘oy ‘ox chan-vun ta Jobel junabi?",
+                    "Was there a school in San Cristobal last year?"
+                ],
+                [
+                    "Mi ‘oy ‘ixim ta p’in lavie?",
+                    "Is there corn in his pot?"
+                ],
+                [
+                    "Ch’abal shenek’ lavie.",
+                    "He has no haricots today."
+                ],
+                [
+                    "‘Oy ‘ox lekil vob ta k’in lavie.",
+                    "There will be good music at the party today."
+                ],
+                [
+                    "K’usi ‘oy ‘ox ta achan-vun volje?",
+                    "What did you have at school yesterday?"
+                ],
+                [
+                    "Bu ‘oy ‘ox k’op nax?",
+                    "Where was the talk today?"
+                ],
+                [
+                    "Ch’abal ‘ox schi’il li Romin e junabi.",
+                    "Last year Domingo had no friend."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "ch’abal alekil ‘ixim",
+                    "You have no good corn"
+                ],
+                [
+                    "mi ‘oy ‘ox vob ta k’in volje",
+                    "Was there be music at the party yesterday?"
+                ],
+                [
+                    "k’usi ‘oy ‘ox ta Mexico lavie",
+                    "What will there be in mexico today?"
+                ],
+                [
+                    "‘oy ‘ox k’op ta jna volje",
+                    "There was a talk in my house yesterday"
+                ],
+                [
+                    "Bu ‘oy k’in lavie?",
+                    "Where is the party today?"
+                ],
+                [
+                    "Muk’ k’usi ‘ox ta p’in nax",
+                    "There was nothing in the pot today"
+                ],
+                [
+                    "'Oy abatz’i na",
+                    "You have a real house"
+                ],
+                [
+                    "mi ‘oy ‘ox le Xunka e ta Jobel ‘ok’ob?",
+                    "Will Juana be in San-Cristobal tomorrow?"
+                ],
+                [
+                    "ch’abal ‘ox sp’in po’ot",
+                    "He will soon have no pot."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Mayan family. It is spoken by more than 100 000 people in Mexico. x is a consonant similar to sh as in shoe; j is a consonant similar to ch as in loch, or h as in have; p’, t’, tz’, ch’, k’, and ‘ are specific consonants.",
+    "special":"‘,’"
+}

@@ -1,0 +1,316 @@
+{
+    "name": "Coastal Marind",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "i-ba-tum",
+                    "e-ba-tum"
+                ],
+ 
+                [
+                    "ki-sa-nah",
+                    "ke-sa-nah"
+                ],
+                [
+                    "e-bum",
+                    "e-bum"
+                ],
+                [
+                    "u-ta-nab",
+                    "o-ta-nab"
+                ],
+                [
+                    "o-tab",
+                    "o-tab"
+                ],
+                [
+                    "ku-la-nawn",
+                    "ko-la-nawn"
+                ]
+            ],
+            "objective": "vowel harmony",
+            "category": "phonology"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "i-sa-ɣab",
+                    "e-sa-ɣab"
+                ],
+                [
+                    "o-bum",
+                    "o-bum"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "o dahetok",
+                    "You (sg) returned."
+                ],
+                [
+                    "nak-e dahetok",
+                    "We returned."
+                ],
+                [
+                    "e ihwin",
+                    "You (pl) cried."
+                ],
+                [
+                    "nak ihwin",
+                    "I cried."
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "nak dahetok",
+                    "I returned."
+                ],
+                [
+                    "nak-e ihwin",
+                    "We cried."
+                ]
+            ]
+        },
+        "train 3":{
+            "sentences": [
+                [
+                    "a kul-aɣa-wn",
+                    "He laughed at you (sg)"
+                ],
+                [
+                    "nak hoɣ-a-b",
+                    "I silenced you (pl)."
+                ],
+                [
+                    "nak-e kol-e-wn",
+                    "We languhed at him."
+                ],
+                [
+                    "o-e ɣad-ana-wn",
+                    "You (sg) left us behind."
+                ],
+                [
+                    "a is-ana-b",
+                    "He cut me in half."
+                ]
+            ],
+            "objective": "object agreement",
+            "category": "morphosyntax"
+        },
+        "test 3":{
+            "sentences": [
+                [
+                    "o ɣad-a-wn",
+                    "You (sg) left him behind."
+                ],
+                [
+                    "nak-e huɣ-ana-b",
+                    "We silenced you (sg)."
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "nak-um-e kol-a-wn",
+                    "We languhed at you (pl) in vain."
+                ],
+                [
+                    "u-bat-e huɣ-ana-b",
+                    "Aw, you (sg) silenced us."
+                ],
+                [
+                    "nam-bam-e kis-aɣa-h",
+                    "Oh, we spat on you (sg)"
+                ],
+                [
+                    "o-bam es-e-b",
+                    "Oh, you (sg) cut him in half!"
+                ],
+                [
+                    "i-bat-um ɣad-e-wn",
+                    "Aw, you (pl) left him behind in vain."
+                ],
+                [
+                    "e-b kes-e-h",
+                    "You (pl) really spat on him."
+                ],
+                [
+                    "nam-b-um-e ot-a-b",
+                    "We really chased you (pl) away in vain."
+                ]
+            ],
+            "objective": "adverb/object agreement",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "nam-bam yad-e-wn",
+                    "Oh, I left him behind！"
+                ],
+                [
+                    "nam-bat-um-e hoɣ-a-b",
+                    "Aw, we silenced you (pl) in vain."
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "bat-e tam-ana-b",
+                    "Aw, we floated to the surface."
+                ],
+                [
+                    "b-a tam-a-b",
+                    "You (pl) really floated to the surface."
+                ],
+                [
+                    "a ɣuy-aɣa-h",
+                    "You (sg) shuddered."
+                ],
+                [
+                    "bam ɣuy-ana-h",
+                    "Oh, I shuddered!"
+                ],
+                [
+                    "bam tam-aɣa-b",
+                    "Oh, you (sg) floated to the surface!"
+                ]
+            ],
+            "objective": "intransitive",
+            "category": "syntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "bat-e ɣuy-ana-h",
+                    "Aw, we shuddered."
+                ],
+                [
+                    "bam tam-ana-b",
+                    "Oh, I floated to the surface!"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "nake-dahetok",
+                    "We returned."
+                ],
+                [
+                    "nambat-ihwin",
+                    "Aw, I cried."
+                ],
+                [
+                    "nambe-otab",
+                    "We really chased you (pl) away."
+                ],
+                [
+                    "um-kulaɣawn",
+                    "He laughed at you (sg) in vain."
+                ],
+                [
+                    "ubate-huɣanab",
+                    "Aw, you (sg) silenced us."
+                ],
+                [
+                    "nakum-hoɣab",
+                    "I silenced you (pl) in vain."
+                ],
+                [
+                    "nambame-ɣadaɣawn",
+                    "Oh, we left you (sg) behind!"
+                ],
+                [
+                    "ebe-ɣadanawn",
+                    "you (pl) really left us behind."
+                ],
+                [
+                    "ibatum-ɣadewn",
+                    "Aw, you (pl) left him behind in vain."
+                ],
+                [
+                    "a-isanab",
+                    "He cut me in half."
+                ],
+                [
+                    "obam-eseb",
+                    "Oh, you (sg) cut him in half !"
+                ],
+                [
+                    "bate-tamanab",
+                    "Aw, we floated to the surface."
+                ],
+                [
+                    "ba-tamab",
+                    "you (pl) really floated to the surface."
+                ],
+                [
+                    "a-ɣuyaɣah",
+                    "you (sg) shuddered."
+                ],
+                [
+                    "bam-ɣuyanah",
+                    "Oh, I shuddered!"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":5,
+            "sentences": [
+                [
+                    "e-ɣuyanah",
+                    "We shuddered."
+                ],
+                [
+                    "ba-ihwin",
+                    "He really cried."
+                ],
+                [
+                    "nambum-kisaɣah",
+                    "I really spat on you (sg) in vain."
+                ],
+                [
+                    "bat-ɣadawn",
+                    "Aw, he left you (pl) behind."
+                ],
+                [
+                    "ubamum-kolewn",
+                    "Oh, you (sg) laughed at him in vain!"
+                ],
+                [
+                    "a-tameb",
+                    "He floated to the surface."
+                ],
+                [
+                    "obat-dahetok",
+                    "Aw, you (sg) returned."
+                ],
+                [
+                    "nambam-hoɣeb",
+                    "Oh, I silenced him!"
+                ],
+                [
+                    "be-utanab",
+                    "He really chased us away."
+                ],
+                [
+                    "ibume-kisanah",
+                    "You (pl) really spat on us in vain."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Anim family. It is spoken by approx. 8,000 people in the South Papua province of Indonesia.ɣ and y are consonants.",
+    "special":"ɣ"
+}

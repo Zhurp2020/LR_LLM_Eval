@@ -1,0 +1,294 @@
+{
+    "name": "Panará",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "ĩkôrãkriti kakua",
+                    "The watermelon will be ripe."
+                ],
+                [
+                    "prĩ karãpio",
+                    "The child will be sick."
+                ],
+                [
+                    "nãkôwsia kakua",
+                    "The orange will be ripe"
+                ],
+                [
+                    "yôriti karãprâ",
+                    "The peacary will be painted."
+                ],
+                [
+                    "yôriti katẽ",
+                    "The peacary will fall."
+                ],
+                [
+                    "kwati kakuapiâ",
+                    "The inajá will grow"
+                ],
+                [
+                    "ĩkôrãkriti kakuapiâ",
+                    "The watermelon will grow"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "prĩ kaprâ",
+                    "The child will be painted"
+                ],
+                [
+                    "nãkôwsia kakuapiâ",
+                    "The orange will grow"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "mara ka-rãprâ",
+                    "He will be painted."
+                ],
+                [
+                    "mara hẽ ka-ti-kua-sa ĩkôrãkriti",
+                    "He will bite the watermelon."
+                ],
+                [
+                    "prĩ hẽ ka-ti-mẽ-kâ yôriti-ra",
+                    "The child wil cut the two peccaries."
+                ],
+                [
+                    "prĩ-rã ka-ti-mẽ-mẽ-sy-kâ fêsãw-ra",
+                    "The two children will cut the two beans"
+                ],
+                [
+                    "yôriti hẽ ka-ti-sy-tõpy mõsy",
+                    "The peccary will buy corn"
+                ],
+                [
+                    "yôriti-ra ka-rãpio",
+                    "The two peccaries will be sick"
+                ],
+                [
+                    "mara hẽ ka-ti-tõpy prĩ",
+                    "He will buy the child"
+                ],
+                [
+                    "mara ka-rãpio",
+                    "He will be sick"
+                ],
+                [
+                    "piutĩ ka-kua",
+                    "The genipap will be ripe"
+                ]
+            ],
+            "objective": "alignment/noun class/noun number",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "mõsy ka-sy-piâ",
+                    "The corn will grow"
+                ],
+                [
+                    "mara hẽ ka-ti-mẽ-kua-tõpy ĩkôrãkriti-ra",
+                    "He will buy the two watermelons"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "ĩkjẽ hẽ ka-ri-kua-kâ kwati",
+                    "I will cut the inajá."
+                ],
+                [
+                    "ka hẽ ka-ka-kâ yôriti",
+                    "You (sg) will cut the peccary."
+                ],
+                [
+                    "ĩkjẽ hẽ ka-ri-a-mẽ-kâ",
+                    "I will cut you two."
+                ],
+                [
+                    "ĩkjẽ-rã ka-ri-mẽ-a-kâ",
+                    "We two will cut you (sg)."
+                ],
+                [
+                    "ka hẽ ka-ka-ra-sa",
+                    "You (sg) will bite me"
+                ],
+                [
+                    "yôritira-rã ka-ti-mẽ-ra-sa",
+                    "The two peccaries will bite me"
+                ]
+            ],
+            "objective": "object agreement/subject agreement/alignment",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "ĩkjẽ hẽ ka-ri-a-mẽ-sa",
+                    "I will bite you two"
+                ],
+                [
+                    "ka-rã ka-ka-mẽ-mẽ-sy-tõpy fêsãw-ra",
+                    "You two will buy the two beans"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "nãkôwsia jy-kua-tẽ",
+                    "The orange has fallen."
+                ],
+                [
+                    "piutĩ jy-sy-piâ",
+                    "The genipap has grown."
+                ],
+                [
+
+                    "mõsy jy-sy",
+                    "The corn is ripe"
+                ],
+                [
+                    "prĩ-rã ti-mẽ-ra-mẽ-sa",
+                    "The two children have bitten us two."
+                ],
+                [
+                    "prĩ hẽ ti-a-sa",
+                    "The child has bitten you (sg)."
+                ],
+                [
+                    "mara jy-rãprâ",
+                    "He is painted."
+                ],
+                [
+                    "ka jy-a-rãpio",
+                    "You (sg) are sick."
+                ]
+            ],
+            "objective": "tense/alignment",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "prĩ jy-rãpio",
+                    "The child is sick."
+                ],
+                [
+                    "mara hẽ ti-kua-sa ĩkôrãkriti",
+                    "He has bitten the watermelon."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "fêsãw jysy",
+                    "The bean is ripe."
+                ],
+                [
+                    "ĩkôrãkritira jymẽkuarãpio",
+                    "The two watermelons are warm."
+                ],
+                [
+                    "mõsy jysypiâ",
+                    "The corn has grown."
+                ],
+                [
+                    "mara jyrãprâ",
+                    "He is painted."
+                ],
+                [
+                    "prĩra kamẽrãpio",
+                    "The two children will be sick."
+                ],
+                [
+                    "nãkôwsia jykuatẽ",
+                    "The orange has fallen."
+                ],
+                [
+                    "ĩkjẽ hẽ rikuakâ kwati",
+                    "I have cut the inajá."
+                ],
+                [
+                    "ka hẽ kamẽkâ yôritira",
+                    "You (SG) have cut the two peccaries."
+                ],
+                [
+                    "ĩkjẽrã karimẽasa",
+                    "We two will bite you (SG)."
+                ],
+                [
+                    "prĩrã timẽramẽsa",
+                    "The two children have bitten us two."
+                ],
+                [
+                    "yôriti hẽ tisysa mõsy",
+                    "The peccary has bitten the corn."
+                ],
+                [
+                    "ka hẽ kakasytõpy fêsãw",
+                    "You (SG) will buy the bean."
+                ],
+                [
+                    "ĩkjẽrã karimẽakâ",
+                    "We two will cut you (SG)."
+                ],
+                [
+                    "mara hẽ katikuasa ĩkôrãkriti",
+                    "He will bite the watermelon."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":3,
+            "sentences": [
+                [
+                    "kara jyamẽtẽ",
+                    "You two have fallen."
+                ],
+                [
+                    "piutĩ jykua",
+                    "The genipap is ripe."
+                ],
+                [
+                    "karã kamẽsysa mõsy",
+                    "You two will bite the corn"
+                ],
+                [
+                    "mararã timẽkuatõpy kwati",
+                    "They two have bought the inajá."
+                ],
+                [
+                    "prĩ hẽ tisykâ mõsy",
+                    "The child has cut the corn"
+                ],
+                [
+                    "mõsyra jymẽsyrãprâ",
+                    "The two corns are painted."
+                ],
+                [
+                    "yôriti hẽ timẽkuasa piutĩra",
+                    "The peccary has bitten the two genipaps."
+                ],
+                [
+                    "ĩkjẽ karapiâ",
+                    "I will grow."
+                ]
+            ]
+        }
+    },
+    "note": "The langauge belongs to the Macro-Jê family. It is spoken by approx. 500 people in the Brazilian states of Mato Grosso and Pará. One of the main customs of Panará people is body painting, usually done with extracts from the a chiote fruit, which has a bright-red colour. Inajá is a type of coconut. (Counts as a fruit) Genipap is the fruit of the Genipa americana tree. (Also counts as a fruit) A peccary is a type of wild boar. A bean counts as a corn. â, ê, ô and y are vowels. A tilde above a vowel (e.g., ã) denotes nasalisation",
+    "special":"á,â,ã,ê,ẽ,ĩ,õ,ô"
+}

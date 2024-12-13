@@ -1,0 +1,367 @@
+{
+    "name": "Nǀuuki",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "u ǁãu ke ǀqhõʕo",
+                    "Your (pl) brother dances."
+                ],
+                [
+                    "ǂhun ke ǃaukea ŋ ɡǀi",
+                    "The dog is afraid of us."
+                ],
+                [
+                    "u xaŋki ke ǂʔii ŋ ŋǀŋ",
+                    "Your (pl) mother thinks about me."
+                ],
+                [
+                    "a ke ŋǀii i ŋǁŋ",
+                    "You (sg) see our house."
+                ],
+                [
+                    "i ke ŋǀii a",
+                    "We see you (sg)"
+                ],
+                [
+                    "na ǂqheeke",
+                    "I sing"
+                ],
+                [
+                    "i ke ts’aaʔa a xaŋki.",
+                    "We like your (sg) mother."
+                ],
+                [
+                    "ŋ ǂhun ke ts’aaʔa ŋ",
+                    "My dog likes me."
+                ],
+                [
+                    "na ǁu sĩisen",
+                    "I do not work"
+                ],
+                [
+                    "a ke ǁu ǃaukea ŋ ɟanasa",
+                    "You are not afraid of the thief."
+                ],
+                [
+                    "u ke ǁu ǂʔii ŋ ŋǁŋ",
+                    "You (pl) do not think about the house."
+                ]
+            ],
+            "objective": "negative/possessive",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "i ǁãu ke ts’aaʔa a",
+                    "Our brother likes you (sg)."
+                ],
+                [
+                    "ŋ xaŋki ke ŋǀii u ǂhun",
+                    "My mother sees your (pl) dog."
+                ],
+                [
+                    "i ke ǃaukea ŋ ɡǀa xaŋki",
+                    "We are afraid of your (sg) mother."
+                ],
+                [
+                    "a ke ǁu ǃaukea ŋ ŋǀŋ",
+                    "You (sg) are not afraid of me."
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "ŋ kee ts’aaʔa ǂhun",
+                    "It is *I* who likes the dog."
+                ],
+                [
+                    "ǀeeki kee ts’aaʔ ǂhun",
+                    "It is *the woman* who likes the dog"
+                ],
+                [
+                    "ɟanasa xae ǂqheeke",
+                    "Is it *the thief* who sings?"
+                ],
+                [
+                    "ɡǀa xae sĩisen ŋ ɡǃari",
+                    "Is it *you (sg)* who work at Upington?"
+                ]
+            ],
+            "objective": "focus/interrogative/negative",
+            "category": "syntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "ɡǀu xae ǂqheeke",
+                    "Is it *you (pl)* who sing?"
+                ],
+                [
+                    "ŋ kee sĩisen",
+                    "It is *I* who work."
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "a kee ǀeeki si ts’aaʔa",
+                    "It is *you (sg)* whom the woman will like."
+                ],
+                [
+                    "ǂoo kee ǀeeki ŋǀii",
+                    "It is *the man* whom the woman sees."
+                ],
+                [
+                    "ɟanasa kee ǂhun si ǃʔai",
+                    "It is *the thief* whom the dog will call."
+                ],
+                [
+                    "cuu xae si i ŋǀii",
+                    "*Whom* is it that we will see?"
+                ],
+                [
+                    "ɡǀu xae ǂhun ǃʔai",
+                    "Is it *you (pl)* whom the dog calls?"
+                ],
+                [
+                    "ɡǀa xae ǂoo ŋǀii",
+                    "Is it *you (sg)* whom the man sees?"
+                ]
+            ],
+            "objective": "focus/interrogative/tense",
+            "category": "syntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "ɟanasa kee u si ŋǀii",
+                    "It is the thief whom you (pl) will see."
+                ],
+                [
+                    "ǂoo xae a ǃʔai",
+                    "Is it *the man* whom you (sg) call?"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "u kee ǀeeki ǂʔii ŋǁa",
+                    "It is *you (pl)* whom the woman thinks about."
+                ],
+                [
+                    "aŋki kee ɟanasa ǃaukea ŋǁa",
+                    "It is *the father* whom the thief is afraid of."
+                ],
+                [
+                    "a kee ŋ ǂhun ǃaukea ŋǁa",
+                    "It is *you (sg)* whom my dog is afraid of."
+                ],
+                [
+                    "kiɟa xae ǂoo sĩisen ŋǁa",
+                    "*Where* does the man work?"
+                ],
+                [
+                    "kama ɟa xae ŋ si ŋǀii u ŋǁa",
+                    "*When* will I see you (pl)?"
+                ],
+                [
+                    "cuu xae ŋ ǂʔii ŋǁa",
+                    "*Whom* do I think about?"
+                ]
+            ],
+            "objective": "focus/interrogative",
+            "category": "syntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "ɟanasa kee ŋ xaŋki ǂʔii ŋǁa",
+                    "It is *the thief* whom my mother thinks about"
+                ],
+                [
+                    "cuu xae a ǃaukea ŋǁa",
+                    "*Whom* are you (sg) afraid of?"
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "a xaŋki ke kacuuʔi ŋ ɡǀa ts’aaʔa ŋ",
+                    "Your (sg) mother asks if you (sg) like me."
+                ],
+                [
+                    "ŋ ǃuu ke kacuuʔi ŋ ŋǀŋ si ǂqheeke ŋ ɡǃari",
+                    "My grandfather asks if I will sing in Upington."
+                ],
+                [
+                    "na kacuuʔi ŋ ŋǀŋ xae si sĩisen ŋ ǃhaeke",
+                    "I ask if it is *I* whom will work tomorrow."
+                ],
+                [
+                    "ǂoo ŋǀii ŋ ɡǃari",
+                    "Does the man see me in Upington?"
+                ],
+                [
+                    "ɡǀa ŋǀii a ŋǁŋ",
+                    "Do you (sg) see your (sg) house?"
+                ],
+                [
+                    "ŋǀŋ ŋǀii a",
+                    "Do I see you (sg)?"
+                ]
+            ],
+            "objective": "clause/interrogative",
+            "category": "syntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "ŋ aŋki ke kacuuʔi ŋ ɡǀa si ǂqheeke ǃhaeke",
+                    "My father asks if you (sg) will sing tomorrow."
+                ],
+                [
+                    "a ke kacuuʔi ŋ ŋǀŋ ts’aaʔa ŋ xaŋki",
+                    "You (sg) ask if I like my mother."
+                ],
+                [
+                    "ɡǀa ǃaukea ŋ ŋǀŋ",
+                    "Are you (sg) afraid of me?"
+                ],
+                [
+                    "ŋǀŋ si ǂqheeke",
+                    "Will I sing?"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "ǂoo ŋǀii ŋ",
+                    "Does the man see me?"
+                ],
+                [
+                    "ɡǀa ǃaukea ŋ ŋǀŋ",
+                    "Are yousg afraid of me?"
+                ],
+                [
+                    "cuu xae a ǂʔii ŋǁa",
+                    "Whom do yousg think about?"
+                ],
+                [
+                    "u ǁãu ke ǁu ǀqhõʕo",
+                    "Yourpl brother does not dance."
+                ],
+                [
+                    "ɟanasa xae ǂqheeke",
+                    "Is it the thief who sings?"
+                ],
+                [
+                    "ŋǀŋ si sĩisen ŋ ǃhaeke",
+                    "Will I work tomorrow?"
+                ],
+                [
+                    "ǂhun ke ǃaukea ŋ ɡǀi",
+                    "The dog is afraid of us."
+                ],
+                [
+                    "na ǁu ǂʔii ŋ ɡǀa xaŋki",
+                    "I do not think about your (sg) mother."
+                ],
+                [
+                    "ɡǀi aŋki si ǀqhõʕo ŋ ɡǃari",
+                    "Will our father dance in Upington?"
+                ],
+                [
+                    "kiɟa xae ǂoo sĩisen ŋǁa",
+                    "Where does the man work?"
+                ],
+                [
+                    "ɡǀa ŋǀii a ŋǁŋ",
+                    "Do yousg see yoursg house?"
+                ],
+                [
+                    "ŋǀŋ xae a ǃʔai",
+                    "Is it I whom yousg call?"
+                ],
+                [
+                    "u kee ǀeeki ǂʔii ŋǁa",
+                    "It is youpl whom the woman thinks about."
+                ],
+                [
+                    "a xaŋki ke kacuuʔi ŋ ɡǀa ts’aaʔa ŋ",
+                    "Yoursg mother asks if yousg like me."
+                ],
+                [
+                    "kama ɟa xae ŋ si ŋǀii u ŋǁa",
+                    "When will I see youpl?"
+                ],
+                [
+                    "ŋ ǃuu ke kacuuʔi ŋ ŋǀŋ si ǂqheeke ŋ ǃhaeke",
+                    "My grandfather asks if I will sing tomorrow."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":6,
+            "sentences": [
+                [
+                    "na kacuuʔi ŋ ɡǀu xae ŋ ǃuu ǃʔai",
+                    "I ask if it is *you (pl)* whom my grandfather calls."
+                ],
+                [
+                    "na ǁu si sĩisen ŋ ɡǃari",
+                    "I will not work in Upington."
+                ],
+                [
+                    "ǀeeki ke ǃaukea ŋ ŋǀŋ ǂhun",
+                    "The woman is afraid of my dog."
+                ],
+                [
+                    "ŋ kee si ǃʔai a",
+                    "It is *I* who will call you (sg)."
+                ],
+                [
+                    "cuu xae u ŋǀii",
+                    "*Whom* do you (pl) see?"
+                ],
+                [
+                    "cuu xae ts’aaʔa ŋ",
+                    "*Who* likes me?"
+                ],
+                [
+                    "i xaŋki ke ǁu si !ʔai a ǁãu",
+                    "Our mother will not call your (sg) brother."
+                ],
+                [
+                    "a kee ŋ ǂhun ǃaukea ŋǁa",
+                    "It is *you (sg)* whom my dog is afraid of."
+                ],
+                [
+                    "kiɟa xae u si ǂqheeke ŋǁa",
+                    "*Where* will you (pl) sing?"
+                ],
+                [
+                    "na kacuuʔi ŋ ɡǀi ǃuu xae a ǂʔii ŋǁa",
+                    "I ask if it is our grandfather *whom* you (sg) think about."
+                ],
+                [
+                    "cuu xae si ǀqhõʕo ŋ !haeke",
+                    "*Who* will dance tomorrow?"
+                ],
+                [
+                    "gǀu ŋǀii i",
+                    "Do you (pl) see us?"
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Tuu family. It is spoken in and around Upington (ɡǃari) in the Northern Cape province of South Africa. As of 2021, it has only one remaining nativespeaker. ã, ĩi and õʕo are vowels. ɟ, ŋ, ts’ and ʔ are consonants. ǀ, ǃ, ǁ, ǂ and the combinations ɡǀ, ɡǃ,ŋǀ, ŋǁ, ǃh, ǁh, ǂh, ǀqh, ǂqh, ǃʔ and ǂʔ denote click consonants (in particular, ŋǀ and ŋǁ are nasal clicks). Caution that 'ɡ' is different from the English letter 'g'. Focus are marked with *",
+    "special":"ã,ĩ,õ,ʕ,ɡ,ʔ,ǁ,ɟ,ǂ,ǃ,ŋ,ǀ"
+}

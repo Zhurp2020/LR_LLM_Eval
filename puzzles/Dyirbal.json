@@ -1,0 +1,457 @@
+{
+    "name": "Dyirbal",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "bayi ŋuma baŋgul yaɽaŋgu guniɲu",
+                    "The man is searching for the father"
+                ],
+                [
+                    "bayi bayimbam baŋgul gubimbuluŋgu banȷan",
+                    "The doctor is following the caterpillar"
+                ],
+                [
+                    "bayi bargan baŋgul midindu banȷan",
+                    "The possum is following the wallaby"
+                ],
+                [
+                    "bayi ŋuma baŋgul ɲalŋgaŋgu bilmban",
+                    "The boy is pushing the father"
+                ],
+                [
+                    "bayi biɲȷiriɲ baŋgul ɲalŋgaŋgu dimbaɲu",
+                    "The boy is carrying the lizzard"
+                ],
+                [
+                    "bayi yiriɲȷila baŋgul yaɽaŋgu dimbaɲu",
+                    "The man is carrying the dragonfly"
+                ],
+                [
+                    "bayi biɲȷiriɲ baŋgul gubimbulugu ŋunȷaɲu",
+                    "The doctor is blaming the lizzard"
+                ],
+                [
+                    "bayi bayimbam baŋgul midindu ŋaȷin",
+                    "The possum is ignoring the caterpillar"
+                ],
+                [
+                    "bayi yiriɲȷila baŋgul gubimbulugu buɽan",
+                    "The doctor is looking at the dragonfly"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "bayi biɲȷiriɲ baŋgul yaɽaŋgu banȷan",
+                    "The man is following the lizzard"
+                ],
+                [
+                    "bayi bargan baŋgul ɲalŋgaŋgu ŋunȷaɲu",
+                    "The boy is blaming the wallaby"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "ŋuma-ŋgu",
+                    "ŋu-ma"
+                ],
+                [
+                    "ɲalŋga-ŋgu",
+                    "ɲal-ŋga"
+                ],
+                [
+                    "yaɽa-ŋgu",
+                    "ya-ɽa"
+                ],
+                [
+                    "ɲalŋga-ŋgu",
+                    "ɲal-ŋga"
+                ],
+                [
+                    "yabu-ŋgu",
+                    "ya-bu"
+                ],
+                [
+                    "bima-ŋgu",
+                    "bi-ma"
+                ],
+                [
+                    "gubimbulu-gu",
+                    "gu-bim-bu-lu"
+                ],
+                [
+                    "yiriɲȷila-gu",
+                    "yi-riɲ-ȷi-la"
+                ],
+                [
+                    "gurugu-gu",
+                    "gu-ru-gu"
+                ],
+                [
+                    "mugunanȷa-gu",
+                    "mu-gu-nan-ȷa"
+                ],
+                [
+                    "malayigara-gu",
+                    "ma-la-yi-ga-ra"
+                ],
+                [
+                    "bargan-du",
+                    "bar-gan"
+                ],
+                [
+                    "midin-du",
+                    "mi-din"
+                ],
+                [
+                    "biɲȷiriɲ-ȷu",
+                    "biɲ-ȷi-riɲ"
+                ],
+                [
+                    "bayimbam-bu",
+                    "ba-yim-bam"
+                ],
+                [
+                    "bundiɲ-ȷu",
+                    "bun-diɲ"
+                ]
+            ],
+            "objective": "allomorph",
+            "category": "phonology"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "ȷuga-ŋgu",
+                    "ȷu-ga"
+                ],
+                [
+                    "garan-du",
+                    "ga-ran"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "bayi yaɽa baŋgul ɲalŋga-ŋgu wura-ŋgu guniɲu",
+                    "The little boy is searching for the man"
+                ],
+                [
+                    "bayi ɲalŋga wura baŋgul yaɽa-ŋgu guli-ŋgu guniɲu",
+                    "The strong man is searching for the little boy"
+                ],
+                [
+                    "bayi yaɽa baŋgul ɲalŋga-ŋgu guli-ŋgu guniɲu",
+                    "The strong boy is searching for the man"
+                ],
+                [
+                    "bayi midin muguru baŋgul gubimbulu-gu ŋaȷin",
+                    "The doctor is ignoring the quiet possum"
+                ],
+                [
+                    "bayi midin baŋgul gubimbulu-gu bambun-du ŋaȷin",
+                    "The healthy doctor is ignoring the possum"
+                ],
+                [
+                    "bayi midin ȷagi baŋgul gubimbulu-gu biŋgun-du buɽan",
+                    "The tired doctor is looking at the big possum"
+                ]
+            ],
+            "objective": "adjective/subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "bayi gubimbulu baŋgul midin-du wura-ŋgu buɽan",
+                    "The little possum is looking at the doctor"
+                ],
+                [
+                    "bayi midin muguru baŋgul biɲȷiriɲ-ȷu guli-ŋgu dimbaɲu",
+                    "The strong lizzard is carrying the quiet possum"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "bayi ŋuma baŋgul ɲalŋga-ŋgu buɽan",
+                    "The boy is looking at the father"
+                ],
+                [
+                    "bayi ɲalŋga baŋgul ŋuma-ngu buɽan",
+                    "The father is looking at the boy"
+                ],
+                [
+                    "balan yabu baŋgun ɲalŋga-ngu ŋunȷaɲu",
+                    "The girl is blaming the mother"
+                ],
+                [
+                    "balan ɲalŋga baŋgun yabu-ŋgu ŋunȷaɲu",
+                    "The mother is blaming the girl"
+                ],
+                [
+                    "balan mugunanȷa baŋgun yabu-ŋgu ŋunȷaɲu",
+                    "The mother is blaming the aunt"
+                ],
+                [
+                    "balan duŋan baŋgun waymin-du ŋunȷaɲu",
+                    "The mother-in-law is blaming the stinging tree"
+                ],
+                [
+                    "balan malayigara baŋgun bundiɲ-ȷu ŋunȷaɲu",
+                    "The grasshopper is blaming the scorpion"
+                ],
+                [
+                    "bala yila baŋgu garan-du dimbaɲu",
+                    "The smoke is carrying the feather"
+                ],
+                [
+                    "bala ȷuga baŋgu gurugu-gu dimbaɲu",
+                    "The booze is carrying the sugar"
+                ],
+                [
+                    "bala gurugu baŋgu diban-du dimbaɲu",
+                    "The stone is carrying the booze"
+                ],
+                [
+                    "bala garan baŋgul ɲalŋga-ŋgu buɽan",
+                    "The boy is looking at the smoke"
+                ],
+                [
+                    "bala garan baŋgun yabu-ŋgu buɽan",
+                    "The mother is looking at the smoke"
+                ]
+            ],
+            "objective": "noun class",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "balan ɲalŋga baŋgun mugunanȷa-gu dimbaɲu",
+                    "The aunt is carrying the girl"
+                ],
+                [
+                    "bayi yaɽa baŋgun ɲalŋga-gu buɽan",
+                    "The girl is looking at the man"
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "bayi biɲȷiriɲ baŋgul ŋuma-gu buɽa-n",
+                    "The father is looking at lizzard"
+                ],
+                [
+                    "bayi biɲȷiriɲ baŋgul ŋuma-gu ɲalŋga-buɽa-l-nay-muŋa-gu dimba-ɲu",
+                    "The father that is always looking at the boy is carrying the lizzard"
+                ],
+                [
+                    "bayi ɲalŋga baŋgul ŋuma-gu biɲȷiriɲ-buɽa-l-nay-muŋa-gu dimba-ɲu",
+                    "The father that is always looking at the lizzard is carrying the boy"
+                ],
+                [
+                    "bayi ɲalŋga baŋgun yabu-ŋgu ȷuga-dimba-nay-muŋa-gu buɽa-n",
+                    "The mother that is always carrying the sugar is looking at the boy"
+                ],
+                [
+                    "bayi ɲalŋga garan-ŋaȷi-l-nay-muŋa baŋgun yabu-ŋgu guni-ɲu",
+                    "The mother is searching for the boy that is always ignoring the smoke"
+                ],
+                [
+                    "balan bima ɲalŋga-guni-nay-muŋa baŋgun yabu-ŋgu ŋaȷi-n",
+                    "The mother is ignoring the death adder that is always searching for the boy"
+                ],
+                [
+                    "balan bima baŋgul ɲalŋga-ŋgu guni-y-muŋa-gu buɽa-n",
+                    "The boy that is always being searched for is looking at the death adder"
+                ],
+                [
+                    "balan bima baŋgul ɲalŋga-ŋgu bilmba-l-muŋa-gu buɽa-n",
+                    "The boy that is always being pushed is looking at the death adder"
+                ],
+                [
+                    "balan baŋgay dimba-y-muŋa baŋgul midin-du guni-ɲu",
+                    "The possum is searching for the spear that is always being carried"
+                ]
+            ],
+            "objective": "word derivation",
+            "category": "morphosyntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "bayi midin baŋgay-dimba-nay-muŋa baŋgul ŋuma-gu guni-ɲu",
+                    "The father is searching for the possum that is always carrying the spear"
+                ],
+                [
+                    "balan bima baŋgun yabu-ŋgu ŋaȷi-l-muŋa-gu bilmba-n",
+                    "The mother that is always being ignored is pushing the death adder."
+                ]
+            ]
+        },
+        "train 6": {
+            "sentences": [
+                [
+                    "bala ȷuga baŋgul gubimbulu-gu biŋgun ŋunȷa-ɲu",
+                    "The tired doctor is blaming the sugar"
+                ],
+                [
+                    "bayi gubimbulu baŋgu ȷuga-ŋgu biŋgun-man",
+                    "The sugar is making the doctor tired"
+                ],
+                [
+                    "bayi gubimbulu baŋgun baŋgay-ŋgu mundu-man",
+                    "The spear is making the doctor offended"
+                ],
+                [
+                    "balan bundiɲ ȷagun baŋgun yabu-ŋgu banȷa-n",
+                    "The mother is following the sleeping grasshopper"
+                ],
+                [
+                    "balan yabu baŋgun bundiɲ-ȷu ȷagun-man",
+                    "The grasshopper is making the mother asleep"
+                ],
+                [
+                    "balan yabu bambun baŋgu ȷuga-ŋgu ȷami-man",
+                    "The sugar is making the healthy mother fat"
+                ],
+                [
+                    "balan baŋgay baŋgul yaɽa-ŋgu waɽu-man",
+                    "The man is making the spear bent"
+                ],
+                [
+                    "bayi yaɽa baŋgu muŋga-ŋgu biŋgun-man",
+                    "The noise is making the man tired"
+                ]
+            ],
+            "objective": "word derivation",
+            "category": "morphosyntax"
+        },
+        "test 6": {
+            "sentences": [
+                [
+                    "balan yabu baŋgul ɲalŋga-ŋgu mundu-man",
+                    "The boy is making the mother offended"
+                ],
+                [
+                    "bayi yaɽa baŋgu muŋga-ŋgu ȷagun-man",
+                    "The noise is making the man asleep"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "bayi yaɽa ŋunȷaymuŋa baŋgu gurugugu biŋgunman.",
+                    "Booze is making the man that is always being blamed tired."
+                ],
+                [
+                    "balan yabu bimabanȷalŋaymuŋa baŋgul yaɽaŋgu guliŋgu ŋunȷaɲu.",
+                    "The strong man is blaming the mother that is always following death adders."
+                ],
+                [
+                    "balan waymin bambun baŋgu ȷugaŋgu ȷamiman.",
+                    "Sugar is making the healthy mother-in-law fat."
+                ],
+                [
+                    "bala yila wura baŋgul bargandu biŋgundu guniɲu.",
+                    "The tired wallaby is searching for the little feather."
+                ],
+                [
+                    "balan malayigara baŋgu garandu biŋgunman.",
+                    "The smoke is making the scorpion tired."
+                ],
+                [
+                    "bala gurugu baŋgul ŋumaŋgu munduŋgu dimbaɲu.",
+                    "The offended father is carrying the booze."
+                ],
+                [
+                    "bayi midin baŋgun bimaŋgu malayigaraguninaymuŋagu banȷan.",
+                    "The death adder that is always searching for scorpions is following the possum."
+                ],
+                [
+                    "bayi gubimbulu biŋgun baŋgu gurugugu ȷagunman.",
+                    "Booze is making the tired doctor fall asleep."
+                ],
+                [
+                    "bala garan baŋgul biɲȷiriɲȷu banȷan.",
+                    "The lizard is following the smoke."
+                ],
+                [
+                    "balan duŋan baŋgul yiriɲȷilagu guniɲu.",
+                    "The dragonfly is searching for the stinging tree."
+                ],
+                [
+                    "bala ȷuga baŋgun yabuŋgu ŋaȷilmuŋagu dimbaɲu.",
+                    "The mother that is always being ignored is carrying the sugar."
+                ],
+                [
+                    "bala diban ȷagiɲ baŋgul gubimbulugu ȷamiŋgu bilmban.",
+                    "The fat doctor is pushing the big stone."
+                ],
+                [
+                    "bala garan baŋgun waymindu dibanbilmbalŋaymuŋagu buɽan.",
+                    "The mother-in-law that is always pushing stones is looking at the smoke."
+                ],
+                [
+                    "balan baŋgay waɽu baŋgun bundiɲȷu ȷagiɲȷu guniɲu.",
+                    "The big grasshopper is searching for the bent spear."
+                ],
+                [
+                    "bayi biɲȷiriɲ biŋgun baŋgul ɲalŋgaŋgu mugurugu buɽan.",
+                    "The quiet boy is looking at the tired lizard."
+                ],
+                [
+                    "bayi ŋuma guli baŋgul yaɽaŋgu banȷalmuŋagu munduman.",
+                    "The man that is always being followed is offending the strong father."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":3,
+            "sentences": [
+                [
+                    "balan ɲalŋga baŋgul ŋumaŋgu guniymuŋagu bambunman.",
+                    "The father that is always being searched for is making the girl healthy"
+                ],
+                [
+                    "bala diban bilmbalmuŋa baŋgun biɲȷiriɲȷu guniɲu.",
+                    "The lizard is searching for the stone that is always being pushed."
+                ],
+                [
+                    "bayi bargan baŋgul yaɽaŋgu gubimbuluŋunȷanaymuŋagu banȷan.",
+                    "The man that is always blaming doctors is following the wallaby."
+                ],
+                [
+                    "bayi yiriɲȷila baŋgul bargandu wuraŋgu buɽan.",
+                    "The little wallaby is looking at the dragonfly."
+                ],
+                [
+                    "bala yila baŋgun mugunanȷagu banȷalmuŋagu waɽuman.",
+                    "The aunt that is always being followed is making the feather bent."
+                ],
+                [
+                    "bala muŋga baŋgul midindu ȷagundu ŋaȷin.",
+                    "The sleeping possum is ignoring the noise."
+                ],
+                [
+                    "bayi yaɽa dibandimbanaymuŋa baŋgul bayimbambu guniɲu.",
+                    "The caterpillar is searching for the man that is always carrying stones."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Pama–Nyungan family; it is a dying Australian Aboriginal language spoken in northeast Queensland.ŋ = ng in hang.ɲ ≈ ni in onion; ȷ is a stop (as d) articulated in the same place in the mouth as ɲ .A death adder is an Australian venomous snake. A wallaby is a small animal, related to kangaroo. A possum is an Australian arboreal marsupial. Stinging trees are a genus of shrubsand trees with stinging hairs, some of which are dangerous to humans.",
+    "special":"ɽ,ŋ,ɲ,ȷ"
+}

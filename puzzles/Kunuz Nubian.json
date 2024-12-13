@@ -1,0 +1,400 @@
+{
+    "name": "Kunuz Nubian",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "kadeː-cci",
+                    "kade"
+                ],
+                [
+                    "beyyeː-cci",
+                    "beyye"
+                    
+                ],
+                [
+                    "kanarriː-cci",
+                    "kanarri"
+                ],
+                [
+                    "jahal-i",
+                    "jahal"
+                ],
+                [
+                    "kam-i",
+                    "kam"
+                ],
+                [
+                    "darbad-i",
+                    "darbad"
+                ]
+            ],
+            "objective": "allomorph",
+            "category": "phonology"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "magas-i",
+                    "magas"
+                ],
+                [
+                    "hanuː-cci",
+                    "hanu"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "kadeː-g",
+                    "kade"
+                ],
+                [
+                    "beyyeː-g",
+                    "beyye"
+                ],
+                [
+                    "kanarriː-g",
+                    "kanarri"
+                ],
+                [
+                    "jahal-gi",
+                    "jahal"
+                ],
+                [
+                    "kam-gi",
+                    "kam"
+                ],
+                [
+                    "iːd-ki",
+                    "iːd"
+                ],
+                [
+                    "baːb-ki",
+                    "baːb"
+                ]
+            ],
+            "objective": "allomorph",
+            "category": "phonology"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "darbad-ki",
+                    "darbad"
+                ],
+                [
+                    "hanuː-g",
+                    "hanu"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "iːd kadeːg jaːnsu",
+                    "The man bought the dress"
+                ],
+                [
+                    "jahal baːbki allesu",
+                    "The young man repaired the door"
+                ],
+                [
+                    "iːd kamgi elsu",
+                    "The man found the camel"
+                ],
+                [
+                    "kanarri beyyeːg allesu",
+                    "The neighbour repaired the necklace"
+                ],
+                [
+                    "tirt hanuːg maːgsu",
+                    "The owener stole the donkey."
+                ],
+                [
+                    "magas beyyeːg maːgsu",
+                    "The thief stole the necklace"
+                ],
+                [
+                    "tirt baːbki jomsu",
+                    "The owner stroke the door"
+                ],
+                [
+                    "sarkaːy darbadki elsu",
+                    "The coward found the chicken."
+                ],
+                [
+                    "wal darbadki jomsu",
+                    "The dog stroke the chicken"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "iːd darbadki maːgsu",
+                    "The man stole the chicken"
+                ],
+                [
+                    "tirt kamgi jaːnsu",
+                    "The owner bought the camel"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "iːd wal-gi jaːnsu",
+                    "The man bought the dog"
+                ],
+                [
+                    "iːd wal-iː-g jaːn-ir-su",
+                    "The man bought the dogs"
+                ],
+                [
+                    "wal iːd-ki el-su",
+                    "The dog found the man"
+                ],
+                [
+                    "magas iːd-iː-g jom-ir-su",
+                    "The thief stroke the men"
+                ],
+                [
+                    "magas kanarriː-cciː-g jom-ir-su",
+                    "The thief stroke the neighbours"
+                ]
+            ],
+            "objective": "object agreement/noun number/alignment",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "iːd magas-ki jom-su",
+                    "The man stroke the thief"
+                ],
+                [
+                    "wal baːb-iː-g maːg-ir-su",
+                    "The dog stole the doors"
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "ay kam-gi jaːn-s-i",
+                    "I bought the camel"
+                ],
+                [
+                    "jahal kam-gi jaːn-s-u",
+                    "The young man bought the camel"
+                ],
+                [
+                    "ar beyyeː-g alle-s-u",
+                    "We repaired the necklace"
+                ],
+                [
+                    "jahal-i darbad-ki alle-s-a",
+                    "The young men repaired the chicken"
+                ],
+                [
+                    "kam-i ar-gi jom-ir-s-a",
+                    "The camels stroke us"
+                ],
+                [
+                    "man beyyeː-cciː-g jom-ir-s-u",
+                    "He stroke the necklaces"
+                ]
+            ],
+            "objective": "subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "man baːb-iː-g jaːn-ir-s-u",
+                    "He bought the doors"
+                ],
+                [
+                    "wal-i ay-gi el-s-a",
+                    "The dogs found me"
+                ]
+            ]
+        },
+        "train 6": {
+            "sentences": [
+                [
+                    "iːd ay-gi kadeː-g deːn-s-u",
+                    "The man gave the dress to me"
+                ],
+                [
+                    "iːd-i ar-gi kadeː-cciː-g deː-ccir-s-a",
+                    "The men gave the dresses to us"
+                ],
+                [
+                    "sarkaːy ik-ki hanuː-g jaːn-ti-ccir-s-u",
+                    "The coward bought the donkey for you (pl)"
+                ],
+                [
+                    "kanarri jahal-gi baːb-i el-tir-s-u",
+                    "The neighbours found the doors for the young man"
+                ],
+                [
+                    "kanarriː-cci jahal-gi beyyeː-g el-ti-ccir-s-a",
+                    "The neighbours found the necklace for the young men."
+                ]
+            ],
+            "objective": "subject agreement/indirect object",
+            "category": "morphosyntax"
+        },
+        "test 6": {
+            "sentences": [
+                [
+                    "sarkaːy-i ay-gi darbad deːn-s-a",
+                    "The cowards gave the chicken to me"
+                ],
+                [
+                    "jahal kanarriː-cciː-g beyyeː-g maːg-ti-ccir-s-a",
+                    "The young man stole the necklace for the neighbours"
+                ]
+            ]
+        },
+        "train 7": {
+            "sentences": [
+                [
+                    "man hanuː-g bi-maːg-r-u",
+                    "He will steal the donkey"
+                ],
+                [
+                    "man hanuː-cciː-g a-maːg-ir-d-u",
+                    "He is stealing the donkeys"
+                ],
+                [
+                    "ay ar-gi baːb-ki a-jaːn-deː-ccir-d-i",
+                    "I am buying the door for us"
+                ],
+                [
+                    "iːd ay-gi baːb-iː-g bi-jaːn-deːn-r-u",
+                    "The man will buy the doors for me"
+                ],
+                [
+                    "iːd-i magas-iː-g hanuː-g a-jom-ti-ccir-d-a",
+                    "The men are striking the donkey for the thieves"
+                ],
+                [
+                    "kanarriː-cci man-gi magas-ki bi-jom-tir-r-a",
+                    "The neighbours will strike the thief for him."
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 7": {
+            "sentences": [
+                [
+                    "man ay-gi hanuː-g bi-jaːn-deːn-r-u",
+                    "He will buy the donkey for me"
+                ],
+                [
+                    "ay sarkaːy-iː-g baːb-ki a-ti-ccir-d-i",
+                    "I am giving the door to the cowards"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "ar kanarriːcciːg kamiːg jaːnticcirsu.",
+                    "We bought the camels for the neighbours."
+                ],
+                [
+                    "tirt kadeːg allesu.",
+                    "The owner repaired the dress."
+                ],
+                [
+                    "jahali waliːg darbadki biticcirra.",
+                    "The young men will give the chicken to the dogs."
+                ],
+                [
+                    "man jahalgi kadeːcciːg maːgtirsu.",
+                    "He stole the dresses for the young man."
+                ],
+                [
+                    "ay beyyeːcciːg ajaːnirri.",
+                    "I am buying the necklaces."
+                ],
+                [
+                    "wal aygi baːbiːg eldeːnsu.",
+                    "The dog found the doors for me."
+                ],
+                [
+                    "magas ikki waliːg ticcirsu.",
+                    "The thief gave you (pl.) the dogs."
+                ],
+                [
+                    "iːdi magaski kamiːg tirsa.",
+                    "The men gave the camels to the thief."
+                ],
+                [
+                    "ay hanuːg bijomri.",
+                    "I will strike the donkey."
+                ],
+                [
+                    "sarkaːyi aygi beyyeːcciːg adeːnda.",
+                    "The cowards are giving me the necklaces."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":5,
+            "sentences": [
+                [
+                    "magasi argi ajomirra",
+                    "The thieves are striking us."
+                ],
+                [
+                    "ay kanarriːg baːbki alletirsi.",
+                    "I repaired the door for the neighbour."
+                ],
+                [
+                    "hanu tirtiːg elirsu.",
+                    "The donkey found the owners."
+                ],
+                [
+                    "tirti argi kamgi deːccirsa",
+                    "The owners gave us the camel."
+                ],
+                [
+                    "ay darbadki bijaːndi.",
+                    "I will buy the chicken."
+                ],
+                [
+                    "kanarriːcci tirtki beyyeːg atirra.",
+                    "The neighbours are giving the necklace to the owner."
+                ],
+                [
+                    "jahal argi walgi jaːndeːccirsu.",
+                    "The young man bought the dog for us."
+                ],
+                [
+                    "ar mangi bimaːgru.",
+                    "We will steal him."
+                ],
+                [
+                    "tirti magasiːg jomirsa.",
+                    "The owners struck the thieves."
+                ],
+                [
+                    "wali sarkaːygi darbadiːg eltirsa.",
+                    "The dogs found the chickens for the coward."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Eastern Sudanic family. It is spoken by approx. 50,000people in Egypt.y = y in yum. The mark ː indicates that the preceding vowel is long.",
+    "special":"ː"
+}

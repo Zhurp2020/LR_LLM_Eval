@@ -1,0 +1,305 @@
+{
+    "name": "Hakhun",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "ŋabə nɤ cʰam tɤʔ ne",
+                    "Did I know you (sg)?"
+                ],
+                [
+                    "ŋabə nuʔrum cʰam tɤʔ ne",
+                    "Did I know you (pl)?"
+                ],
+                [
+                    "ŋabə ati clapkʰi tɤʔ ne",
+                    "Did I see him?"
+                ],
+                [
+                    "ŋabə ati lan tɤʔ ne",
+                    "Did I beat him?"
+                ],
+                [
+                    "ŋabə nɤ lan tɤʔ ne",
+                    "Did I beat you (sg)?"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "ŋabə nɤ lapkʰi tɤʔ ne",
+                    "Did I see you (sg)"
+                ],
+                [
+                    "ŋabə nuʔrum lan tɤʔ ne",
+                    "Did I beat you (pl)?"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "ŋa ka t-ɤ-ʔ ne",
+                    "Did I go?"
+                ],
+                [
+                    "nɤ ka t-u-ʔ ne",
+                    "Did you (sg) go?"
+                ],
+                [
+                    "nɤbə ati lapkʰi t-u-ʔ ne",
+                    "Did you (sg) see him?"
+                ],
+                [
+                    "nirum kəmə nuʔrum lapkʰi t-i-ʔ ne",
+                    "Did we see you (pl)?"
+                ],
+                [
+                    "nirum ʒip t-i-ʔ ne",
+                    "Did we sleep?"
+                ],
+                [
+                    "nuʔrum kəmə ati cʰam t-an-ʔ ne",
+                    "Did you (pl) know him?"
+                ],
+                [
+                    "nuʔrum ʒip t-an-ʔ ne",
+                    "Did you (pl) sleep?"
+                ],
+                [
+                    "nuʔrum kəmə tarum cʰam t-i-ʔ ne",
+                    "Did we know them?"
+                ]
+            ],
+            "objective": "alignment",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "nuʔrum kəmə tarum lapkʰi t-an-ʔ ne",
+                    "Did you (pl) see them?"
+                ],
+                [
+                    "nɤbə ati lan t-u-ʔ ne",
+                    "Did you (sg) beat him?"
+                ],
+                [
+                    "nirum ka t-i-ʔ ne",
+                    "Did we go?"
+                ],
+                [
+                    "nɤ ʒip t-u-ʔ ne",
+                    "Did you (sg) sleep?"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "ati kəmə nɤ lan tʰ-u ne",
+                    "Did he beat you (sg)?"
+                ],
+                [
+                    "tarum kəmə nɤ lan tʰ-u ne",
+                    "Did they beat you (sg)?"
+                ],
+                [
+                    "tarum kəmə nɤ lapkʰi tʰ-u ne",
+                    "Did they see you (sg)?"
+                ],
+                [
+                    "nɤbə nirum lapkʰi tʰ-i ne",
+                    "Did you (sg) see us?"
+                ],
+                [
+                    "nuʔrum kəmə ŋa lan tʰ-ɤ ne",
+                    "Did you (pl) beat me?"
+                ],
+                [
+                    "ati kəmə nuʔrum lan tʰ-an ne",
+                    "Did he beat you (pl)?"
+                ],
+                [
+                    "nuʔrum kəmə nirum lapkʰi tʰ-i ne",
+                    "Did you (pl) see us?"
+                ]
+            ],
+            "objective": "alignment/subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "ati kəmə ŋa lapkʰi tʰ-ɤ ne",
+                    "Did he see me?"
+                ],
+                [
+                    "tarum kəmə nirum lapkʰi tʰ-i ne",
+                    "Did they see us?"
+                ],
+                [
+                    "nɤbə ŋa lan tʰ-ɤ ne",
+                    "Did you (sg) beat me?"
+                ],
+                [
+                    "tarum kəmə nuʔrum lapkʰi tʰ-an ne",
+                    "Did they see you (pl)?"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "ŋa ka k-ɤ ne",
+                    "Do I go?"
+                ],
+                [
+                    "nuʔrum kəmə ati lapkʰi k-an ne",
+                    "Do you (pl) see him?"
+                ],
+                [
+                    "nirum kəmə nuʔrum cʰam k-i ne",
+                    "Do we know you (pl) ?"
+                ],
+                [
+                    "nɤbə tarum lapkʰi k-u ne",
+                    "Do you (sg) see them?"
+                ],
+                [
+                    "nɤbə ŋa lapkʰi r-ɤ ne",
+                    "Do you (sg) see me?"
+                ],
+                [
+                    "tarum kəmə ŋa lan r-ɤ ne",
+                    "Do they beat me?"
+                ],
+                [
+                    "ati kəmə nirum lapkʰi r-i ne",
+                    "Does he see us?"
+                ],
+                [
+                    "tarum kəmə nuʔrum lan r-an ne",
+                    "Do they beat you (pl)?"
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "nirum kəmə nɤ lan k-i ne",
+                    "Do we beat you (sg)?"
+                ],
+                [
+                    "ŋabə ati cʰam k-ɤ ne",
+                    "Do I know him?"
+                ],
+                [
+                    "tarum kəmə nirum lapkʰi r-i ne",
+                    "Do they see us?"
+                ],
+                [
+                    "tarum kəmə nɤ lapkʰi r-u ne",
+                    "Do they see you (sg)?"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "ŋa ka kɤ ne",
+                    "Do I go?"
+                ],
+                [
+                    "nɤ ʒip tuʔ ne",
+                    "Did you (sg) sleep?"
+                ],
+                [
+                    "ŋabə ati lapkʰi tɤʔ ne",
+                    "Did I see him?"
+                ],
+                [
+                    "nirum kəmə nuʔrum cʰam ki ne",
+                    "Do we know youpl ?"
+                ],
+                [
+                    "nɤbə ŋa lapkʰi rɤ ne",
+                    "Do yousg see me?"
+                ],
+                [
+                    "tarum kəmə nɤ lan tʰu ne",
+                    "Did they beat you (sg) ?"
+                ],
+                [
+                    "nuʔrum kəmə ati lapkʰi kan ne",
+                    "Do you (pl) see him?"
+                ],
+                [
+                    "nɤbə ati cʰam tuʔ ne",
+                    "Did you (sg) know him?"
+                ],
+                [
+                    "tarum kəmə nirum lapkʰi ri ne",
+                    "Do they see us?"
+                ],
+                [
+                    "ati kəmə ŋa lapkʰi tʰɤ ne",
+                    "Did he see me?"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng": 6,
+            "sentences": [
+                [
+                    "nɤ ʒip ku ne",
+                    "Do you (sg) sleep?"
+                ],
+                [
+                    "ati kəmə nirum lapkʰi tʰi ne",
+                    "Did he see us?"
+                ],
+                [
+                    "tarum kəmə nuʔrum cʰam ran ne",
+                    "Do they know you (pl) ?"
+                ],
+                [
+                    "nirum kəmə tarum lan ki ne",
+                    "Do we beat them?"
+                ],
+                [
+                    "nirum kəmə nɤ cʰam tiʔ ne",
+                    "Did we know you (sg) ?"
+                ],
+                [
+                    "nirum ka tiʔ ne",
+                    "Did we go?"
+                ],
+                [
+                    "ŋabə nɤ lan tɤʔ ne",
+                    "Did I beat you (sg) ?"
+                ],
+                [
+                    "tarum kəmə ŋa lapkʰi tʰɤ ne",
+                    "Did they see me?"
+                ],
+                [
+                    "ati kəmə nɤ cʰam ru ne",
+                    "Does he know you (sg) ?"
+                ],
+                [
+                    "nuʔrum ʒip kan ne",
+                    "Do you (pl) sleep?"
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Sal branch of the Sino-Tibetan family. It is spoken by approx.10,000 people in the extreme East of India and the neighbouring districts of Myanmar. ə and ɤ are vowels. cʰ, kʰ, ŋ, tʰ, ʒ and ʔ are consonants.",
+    "special":"ə,ɤ,cʰ,kʰ,tʰ,ʒ,ʔ,ŋ"
+}

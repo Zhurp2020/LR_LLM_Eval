@@ -1,0 +1,281 @@
+{
+    "name": "Engenni",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "ọ kịnono/kịnono ậno",
+                    "kịnono"
+                ],
+                [
+                    "ọ nwạ́sesè/nwạ́sesè ậno",
+                    "nwạ́sesè"
+                ],
+                [
+                    "ọ ạvùràmù/ạvùràmù ậno",
+                    "ạvùràmù"
+                ],
+                [
+                    "o amemùrè/amemùrè âno",
+                    "amemùrè"
+                ],
+                [
+                    "o edèì/edèì âno",
+                    "edèì"
+                ],
+                [
+                    "o ozyí/ozyí âno",
+                    "ozyí"
+                ]
+            ],
+            "objective": "tone change",
+            "category": "phonology"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "ọ ạmò/ạmò ậno",
+                    "ạmò"
+                ],
+                [
+                    "o wuese/wuese âno",
+                    "wuese"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "edèì wei ga o gbúnonò ạmò",
+                    "The man said that he will heal the child"
+                ],
+                [
+                    "edèì wei ga ó gbunono ạmò",
+                    "The man said that he did not heal the child"
+                ],
+                [
+                    "edèì wei ga ò gbunono ạmò",
+                    "The man said that he healed the child"
+                ],
+                [
+                    "edèì wei ga ọ nwạ́sesè ạmò",
+                    "The man said that he will frighten the child"
+                ],
+                [
+                    "edèí dhiá wei ga ọ́ nwạsese ạmò",
+                    "The evil man said that he did not frighten the child"
+                ],
+                [
+                    "edèí dhiá wei ga ọ̀ nwạsese ạmò",
+                    "The evil man said that he frightened the child"
+                ],
+                [
+                    "edèì wei ga ọ kị́nonò ạmò",
+                    "The man said that he will resemble the child"
+                ]
+            ],
+            "objective": "words/negative/tone change",
+            "category": "word order"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "edèì wei ga ọ́ kịnono ạmò",
+                    "The man said that he did not resemble the child"
+                ],
+                [
+                    "edèí dhiá wei ga ọ̀ kịnono ạmò",
+                    "The evil man said that he resembled the child"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "ạvùràmú dhiá wei ga o gbúnonò amemùrè",
+                    "The evil woman said that she (someone else) will heal the girl"
+                ],
+                [
+                    "ozyi âno wei ga o wúesè opilopo",
+                    "This thief said that he (someone else) will kill the pig"
+                ],
+                [
+                    "okàà âno wei ga o wúesè ozyí kofilomù",
+                    "This old man said that he (someone else) will kill the coughing thief"
+                ],
+                [
+                    "ạmò wei ga òki kị́nonò amemùrè",
+                    "The child said that he (the child) will resemble the girl"
+                ],
+                [
+                    "ạmò ậno wei ga òki nwạ́sesè ozyí lẹlemù",
+                    "This child said that she (the child) will frighten the deceived thief"
+                ],
+                [
+                    "ạmodhyòmú nụamù wei ga òki gbúnonò okàà âno",
+                    "This beaten youth said that he (the youth) will heal this old man."
+                ]
+            ],
+            "objective": "tone change/adjective/demonstrative",
+            "category": "syntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "ozyi âno wei ga òki wúesè amemùrè",
+                    "The thief said that he (the thief) will kill the girl"
+                ],
+                [
+                    "opilopó nụamù wei ga ọ kị́nonò ạmò ậno",
+                    "The beaten pig said that he (someone else) will resemble this child"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "edèì âno nwạ́sesè ozyí lẹlemù à?",
+                    "Will this man frighten the deceived thief?"
+                ],
+                [
+                    "ạvùràmù kịnono amemùrè ânò à?",
+                    "Did the woman resemble this girl?"
+                ],
+                [
+                    "amemùré dhiá kịnono opilopo ânò à?",
+                    "Did the evil girl not resemble this pig?"
+                ],
+                [
+                    "ạvùràmú kofilomù wei ga o gbúnonò ạmò.",
+                    "The coughing woman said that he (someone else) would heal the child."
+                ],
+                [
+                    "ozyi wei ga òkí gbunono okàá nụamù ậnò.",
+                    "The thief said that he (the thief) would not heal this beaten old man."
+                ],
+                [
+                    "ạmodhyòmù wei ga ò wuese ạvùràmù.",
+                    "The youth said that he (someone else) killed the woman."
+                ]
+            ],
+            "objective": "interrogative/tense/tone change",
+            "category": "syntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "ạmó gbunono amemùrè ânò à?",
+                    "Did the child not heal this girl?"
+                ],
+                [
+                    "ozyí nụamù wei ga ọ̀ kịnono ạmò",
+                    "The beatened thief said that he (someone else) resembled the child."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "edèì âno nẉạ́sesè ozyí lẹlemù à?",
+                    "Will this man frighten the deceived thief?"
+                ],
+                [
+                    "edèì ânò wei ga òkí nwạsese ozyí lẹlemù.",
+                    "This man said that he would not frighten the deceived thief."
+                ],
+                [
+                    "ạvùràmù kịnono amemùrè ânò à?",
+                    "Did the woman resemble this girl?"
+                ],
+                [
+                    "ạvùràmù wei ga òkì kịnono amemùrè ânò.",
+                    "The woman said that she did resemble this girl."
+                ],
+                [
+                    "ạmó lẹlemù ậnó wuese ạvùràmù à?",
+                    "Did this deceived child not kill the woman?"
+                ],
+                [
+                    "ạmodhyòmù wei ga ò wuese ạvùràmù.",
+                    "The youth said that he did kill the woman."
+                ],
+                [
+                    "edèí dhia gbúnonò ạmò à?",
+                    "Will the evil man heal the child?"
+                ],
+                [
+                    "ạvùràmú kofilomù wei ga o gbúnonò ạmò.",
+                    "The coughing woman said that he would heal the child."
+                ],
+                [
+                    "amemùré dhiá kịnono opilopo ânò à?",
+                    "Did the evil girl not resemble this pig?"
+                ],
+                [
+                    "ạvùràmù wei ga ọ́kịnono opilopo ânò.",
+                    "The woman said that she did not resemble this pig."
+                ],
+                [
+                    "ozyì gbunono okàá nụamù ậnò à?",
+                    "Did the thief heal this beaten old man?"
+                ],
+                [
+                    "ozyì wei ga òkí gbunono okàá nụamù ậnò.",
+                    "The thief said that he did not heal this beaten old man."
+                ],
+                [
+                    "ozyi âno kị́nonò edèí kofilomù à?",
+                    "Will this thief resemble the coughing man?"
+                ],
+                [
+                    "ạmò ậnò wei ga ọ́ kịnono edèí kofilomù.",
+                    "This child said that he would not resemble the coughing man."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":5,
+            "sentences": [
+                [
+                    "edèì ânò nwạsese ozyi à?",
+                    "Did this man frighten the thief?"
+                ],
+                [
+                    "amemùrè wei ga ọ̀ nwạsese ozyi.",
+                    "The girl said that he (someone else) frightened the thief."
+                ],
+                [
+                    "amemùré lẹlemù wúesè ạmodhyòmù ậno à?",
+                    "Will the deceived girl kill this youth?"
+                ],
+                [
+                    "amemùré lẹlemù wei ga òki wúesè ạmodhyòmù ậno.",
+                    "The deceived girl said that she(the girl) will kill this youth."
+                ],
+                [
+                    "ozyi ânò wei ga ạmó gbunono edèì.",
+                    "This thief said that the child did not heal the man."
+                ],
+                [
+                    "okàa kị́nonò ạmodhyòmú kofilomù ânò à?",
+                    "Will the old man resemble this coughing youth?"
+                ],
+                [
+                    "ạmò wei ga ọ́ kịnono ạmodhyòmú kofilomù ânò.",
+                    "The child said that he (someone else) would not resemble this coughing youth."
+                ],
+                [
+                    "ạvùràmú nụamù ậno nwạsese edèì à?",
+                    "Did this beaten woman not frighten the man?"
+                ],
+                [
+                    "ạvùràmú nụamù ậno wei ga òkí nwạsese edèì.",
+                    "This beaten woman said that she (the woman) did not frighten the man."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Benue-Congo family. It is spoken by approx. 20,000 people in Nigeria.The mark . underneath a word's frst vowel indicates that all of the word's vowels are pronounced with a slightly lowered tongue. The marks á, à, and â indicate high, low, and falling tone, respectively; if none is present, the syllable has middle tone. You can interpret all negative forms in this puzzle as negatives in past tense. (did/would not)", 
+    "special":"á,ạ́,â,ậ,à,ạ,é,ẹ,è,í,ị́,ì,ị,ò,ọ̀,ó,ọ́,ọ,ù,ú,ụ"
+}

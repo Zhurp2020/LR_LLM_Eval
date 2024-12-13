@@ -1,0 +1,317 @@
+{
+    "name": "Apurinã",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "n-y-kanawa",
+                    "kanawa"
+                ],
+                [
+                    "n-y-syka",
+                    "syka"
+                ],
+                [
+                    "nh-i-ximaky",
+                    "ximaky"
+                ],
+                [
+                    "nh-i-nhikary",
+                    "nhikary"
+                ],
+                [
+                    "nh-i-txipary",
+                    "txipary"
+                ],
+                [
+                    "n-ĩpurãã",
+                    "ĩpurãã"
+                ],
+                [
+                    "n-uky",
+                    "uky"
+                ]
+            ],
+            "objective": "allomorph",
+            "category": "phonology"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "n-apuka",
+                    "apuka"
+                ],
+                [
+                    "n-y-myna",
+                    "myna"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "pita xinhika-ry ukĩtxi",
+                    "You remembered the eye."
+                ],
+                [
+                    "nuta ãta-ry ĩpurãã",
+                    "I drank the water."
+                ],
+                [
+                    "hãtakuru xinhika-ry ĩpurãã",
+                    "The girl remembered the water"
+                ],
+                [
+                    "pita apuka-ry ukĩtxi",
+                    "You found the eye"
+                ],
+                [
+                    "ywa nhika-ry ximaky",
+                    "He ate the fish."
+                ],
+                [
+                    "ximaky nhika-ry txipary",
+                    "The fish ate the banana."
+                ],
+                [
+                    "nuta apuka-ru hãtakuru",
+                    "I found the girl."
+                ]
+            ],
+            "objective": "words/noun gender",
+            "category": "word order"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "nuta nhika-ry txipary",
+                    "I ate the banana."
+                ],
+                [
+                    "hãtakuru apuka-ry ximaky",
+                    "The girl found the fish."
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "ywa xinhika-ry n-aiku-te",
+                    "He remembered my house."
+                ],
+                [
+                    "ywa apuka-ry n-y-kanawa-te",
+                    "He found my canoe."
+                ],
+                [
+                    "nuta apuka-ry p-i-txipary-te",
+                    "I found your banana."
+                ],
+                [
+                    "nuta nhika-ry u-ximaky-te",
+                    "I ate her fish"
+                ],
+                [
+                    "ywa ãta-ry ĩpurãã-te",
+                    "He drank his water"
+                ],
+                [
+                    "nuta apuka-ry hãtakuru txipary-te",
+                    "I found the girl's banana."
+                ],
+                [
+                    "ximaky nhika-ry apĩ-txi",
+                    "The fish ate the bone."
+                ],
+                [
+                    "hãtakuru apuka-ry p-apy",
+                    "The girl found your bone."
+                ],
+                [
+                    "ywa xinhika-ry kyky uky",
+                    "He remembered the man's eye."
+                ]
+            ],
+            "objective": "possessive",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "nuta apuka-ry n-aiku-te",
+                    "I found my house."
+                ],
+                [
+                    "pita apuka-ry hãtakuru apy",
+                    "You found the girl's bone."
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "kyky myna-ru n-y-herẽka sytu-mukary",
+                    "The man brought my blood to the woman."
+                ],
+                [
+                    "ywa myna-nu kyky uky nuta-mukary",
+                    "He brought the man’s eye to me."
+                ],
+                [
+                    "nuta myna-ry sytu aiku-te kyky-mukary",
+                    "I brought the woman's house to the man."
+                ],
+                [
+                    "nh-ĩ-purããte n-ãta-ry",
+                    "I drank my water."
+                ],
+                [
+                    "kywĩ-txi apuka-ry",
+                    "He found the head."
+                ],
+                [
+                    "p-i-txipary-te u-myna-ry kyky-mukary",
+                    "She brought your banana to the man."
+                ],
+                [
+                    "p-apy u-syka-nu nuta-mukary",
+                    "She gave your bone to me."
+                ],
+                [
+                    "y-kanawate y-syka-ry nuta-mukary kyky",
+                    "The man gave his canoe to me."
+                ],
+                [
+                    "sytu apy y-syka-nu nuta-mukary kyky",
+                    "The man gave the woman’s bone to me."
+                ]
+            ],
+            "objective": "indirect object/secondary order",
+            "category": "syntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "nuta syka-ru n-y-herẽka hãtakuru-mukary",
+                    "I gave my blood to the girl."
+                ],
+                [
+                    "pita myna-ru u-kanawa-te sytu-mukary",
+                    "You brought her canoe to the woman."
+                ],
+                [
+                    "hãtakuru myna-ru kyky aiku-te nuta-mukary",
+                    "The girl brought the man's house to me."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "nuta sykaru nykanawate uwamukary",
+                    "I gave my canoe to her."
+                ],
+                [
+                    "pita ãtary ĩpurãã",
+                    "Yousg drank the water."
+                ],
+                [
+                    "kyky mynaru nyherẽka sytumukary",
+                    "The man brought my blood to the woman."
+                ],
+                [
+                    "herẽkatxi uãtary sytu",
+                    "The woman drank the blood."
+                ],
+                [
+                    "nhiximakyte pixinhikary",
+                    "Yousg remembered my fish (sg)."
+                ],
+                [
+                    "pitxiparyte umynary kykymukary",
+                    "She brought yoursg banana to the man."
+                ],
+                [
+                    "hãtakuru xinhikary naikute",
+                    "The girl remembered my house."
+                ],
+                [
+                    "sytu apy ysykanu nutamukary kyky",
+                    "The man gave the woman’s bone to me."
+                ],
+                [
+                    "nhĩpurããte nãtary",
+                    "I drank my water."
+                ],
+                [
+                    "kywĩtxi apukary",
+                    "He found the head."
+                ],
+                [
+                    "ywa mynanu kyky uky nutamukary",
+                    "He brought the man’s eye to me."
+                ],
+                [
+                    "ximaky nhikary apĩtxi",
+                    "The fish (sg) ate the bone."
+                ],
+                [
+                    "hãtakuru txiparyte napukary",
+                    "I found the girl’s banana."
+                ],
+                [
+                    "ximaky kywy inhikary",
+                    "He ate the fish’s (sg) head."
+                ],
+                [
+                    "hãtakuru uapukaru",
+                    "She found the girl."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":3,
+            "sentences": [
+                [
+                    "uwa xinhikaru sytu",
+                    "She remembered the woman."
+                ],
+                [
+                    "txipary nhinhikary",
+                    "I ate the banana."
+                ],
+                [
+                    "kyky aikute pysykary ywamukary",
+                    "You gave the man’s house to him."
+                ],
+                [
+                    "aiku papukary",
+                    "You found the house."
+                ],
+                [
+                    "pykanawate nymynaru hãtakurumukary",
+                    "I brought your canoe to the girl."
+                ],
+                [
+                    "pĩpurããte ymynanu nutamukary",
+                    "He brought your water to me"
+                ],
+                [
+                    "hãtakuru herẽka ãtary kyky",
+                    "The man drank the girl’s blood."
+                ],
+                [
+                    "ukĩtxi nhixinhikary",
+                    "I remembered the eye."
+                ],
+                [
+                    "nhitxiparyte pinhikary",
+                    "You ate my banana."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Purus group of the Arawakan family. It is spokenby no more than 30% of a total ethnic population of ca. 9,500 Apurinã along the Purus River,in the northwestern Amazon region of Brazil.nh ≈ ny in canyon; tx = ch in church; x = sh in sheesh. y = oo in goose but with the lipsunrounded. ã, ẽ, ĩ are nasal vowels.",
+    "special":"ĩ,ẽ,ã"
+}

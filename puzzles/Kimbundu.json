@@ -1,0 +1,212 @@
+{
+    "name": "Kimbundu",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "djálá djámónà dìhónʒò",
+                    "The man saw the banana"
+                ],
+                [
+                    "dìkámbá djásáŋgà dìkòlómbólò",
+                    "The friend met the rooster"
+                ],
+                [
+                    "djálá djáʃíkà",
+                    "The man sang"
+                ],
+                [
+                    "dìkòlómbóló djákínà",
+                    "The rooster danced"
+                ],
+                [
+                    "dìkámbá djádjà dìhónʒò",
+                    "The friend ate the banana"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "dìkámbá djáʃíkà",
+                    "The friend sang"
+                ],
+                [
+                    "dìkòlómbóló djádjà dìhónʒò",
+                    "The rooster ate the banana"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "dj-álá dj-ámóná mú-tù",
+                    "The man saw the person"
+                ],
+                [
+                    "m-álá m-ámóná mà-hónʒò",
+                    "The men saw the bananas"
+                ],
+                [
+                    "mú-lóʒí mw-áʃíkà",
+                    "The sorcerer sang"
+                ],
+                [
+                    "à-lóʒí ákínà",
+                    "The sorcerers danced"
+                ],
+                [
+                    "à-tú ámóná mú-kìtándà",
+                    "The people saw the square"
+                ],
+                [
+                    "dì-kámbá dj-ámóná mà-lóŋgà",
+                    "The friend saw the plates"
+                ]
+            ],
+            "objective": "subject agreement/noun number/noun gender",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "dj-álá dj-ásáŋgà à-lóʒì",
+                    "The man met the sorcerers"
+                ],
+                [
+                    "mà-kámbá m-ádjà à-kìtándà",
+                    "The friends ate the squares"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "ŋg-ámónà dì-hónʒò mù-dì-lóŋgà",
+                    "I saw the banana on the plate."
+                ],
+                [
+                    "ŋg-ádjà dì-hónʒó dj-ámì mù-dì-kúŋgù",
+                    "I ate my banana in the cave"
+                ],
+                [
+                    "mù-dj-úlú mw-álà ʒì-téténbwà",
+                    "There are stars in the sky"
+                ],
+                [
+                    "mú-lóʒí mw-ámì mw-álà mù-lwándà",
+                    "My sorcerer is in Luanda."
+                ],
+                [
+                    "ŋg-ámónà mà-kòlómbólò nì mà-hónʒò mù-dì-kúŋgú",
+                    "Did I see the roosters and bananas in the cave?"
+                ],
+                [
+                    "à-tú ádjà dì-hónʒò mù-lwándá",
+                    "Did the people eat the banana in Luanda?"
+                ]
+            ],
+            "objective": "interrogative/expletive/locative/tone change",
+            "category": "syntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "mú-lóʒí mw-áʃíkà nì mw-ákínà mù-dì-kúŋgù",
+                    "The sorcerer sang and danced in the cave"
+                ],
+                [
+                    "dì-kámbá dj-ámí dj-ámónà ʒì-téténbwá",
+                    "Did my friend saw the stars?"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "ŋgámónà dìhónʒò mùdìlóŋgà",
+                    "I saw the banana on the plate."
+                ],
+                [
+                    "àlóʒí ásáŋgá djálà mùdìkúŋgù",
+                    "The sorcerers met the man in the cave."
+                ],
+                [
+                    "ŋgádjà dìhónʒó djámì",
+                    "I ate my banana."
+                ],
+                [
+                    "mùdjúlù mwálà ʒìtéténbwà",
+                    "There are stars in the sky."
+                ],
+                [
+                    "dìkámbá djámí djáʃíkà nì djákínà",
+                    "My friend sang and danced."
+                ],
+                [
+                    "ŋgámónà dìkúŋgú djámí",
+                    "Did I see my cave?"
+                ],
+                [
+                    "ŋgámóná málà mùkìtándà",
+                    "I saw the men in the square."
+                ],
+                [
+                    "ŋgásáŋgá múlóʒí mwámì mùlwándà",
+                    "I met my sorcerer in Luanda."
+                ],
+                [
+                    "mùkìtándà mwálá djálá djámì",
+                    "My man (husband) is in the square."
+                ],
+                [
+                    "mùdìkúŋgù ŋgámónà màkòlómbóló",
+                    "Did I see the roosters in the cave?"
+                ],
+                [
+                    "àtú ádjà dìhónʒò mùlwándá",
+                    "Did the people eat the banana in Luanda?"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":3,
+            "sentences": [
+                [
+                    "múlóʒí mwámónà ʒìtéténbwá",
+                    "Did the sorcerer see the stars?"
+                ],
+
+                [
+                    "ŋgákínà",
+                    "I danced."
+                ],
+                [
+                    "djálá djámónà màhónʒò mùlwándá",
+                    "Did the man see the bananas in Luanda?"
+                ],
+                [
+                    "ŋgáʃíká",
+                    "Did I sing?"
+                ],
+                [
+                    "mútú mwásáŋgá múlóʒì nì dìkámbà mùkìtándà",
+                    "The person met the sorcerer and the friend in the square."
+                ],
+                [
+                    "djálá djámí djámónà dìkúŋgù",
+                    "My man saw the cave."
+                ],
+                [
+                    "mùlwándà mwálà àlóʒì",
+                    "There are sorcerers in Luanda."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Bantu group of the Benue-Congo branch of the Atlantic-Congo family. It is spoken by approx. 50,000 people in Angola. w = w in win. j = y in yum. ʃ and ʒ are consonants. The marks ˊ and ˋ indicate high andlow tone, respectively. Be caution that the tone of the last syllable assimilates to the tone of the first syllable of the following word.",
+    "special":"á,à,é,í,ì,ò,ó,ú,ù,ʃ,ʒ,ŋ"
+}

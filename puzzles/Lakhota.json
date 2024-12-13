@@ -1,0 +1,299 @@
+{
+    "name": "Lakhota",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "lakhota ki matho ki kte",
+                    "The Indian killed the bear."
+                ],
+                [
+                    "wičhaša ki hokšila ki kte",
+                    "The man killed the boy"
+                ],
+                [
+                    "lakhota ki hokšila ki čho",
+                    "The Indian called the boy"
+                ],
+                [
+                    "wičhaša ki hi",
+                    "The man came"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "matho ki hokšila ki čho",
+                    "The bear called the boy"
+                ],
+                [
+                    "hokšila ki matho ki čho",
+                    "The boy called the bear"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "ma-kte",
+                    "He killed me"
+                ],
+                [
+                    "ni-kte",
+                    "He killed you"
+                ],
+                [
+                    "matho ki čho",
+                    "He called the bear"
+                ],
+                [
+                    "matho ki wičha-čho",
+                    "He called the bears"
+                ]
+            ],
+            "objective": "object agreement",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "ma-čho",
+                    "He called me"
+                ],
+                [
+                    "ni-čho",
+                    "He called you"
+                ],
+                [
+                    "matho ki kte",
+                    "He killed the bear"
+                ],
+                [
+                    "matho ki wičha-kte",
+                    "He killed the bears"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "wa-kte",
+                    "I killed him"
+                ],
+                [
+                    "ya-kte",
+                    "You killed him"
+                ],
+                [
+                    "matho ki čho-pi",
+                    "They called the bear"
+                ]
+            ],
+            "objective": "subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "wa-čho",
+                    "I called him"
+                ],
+                [
+                    "ya-čho",
+                    "You called him"
+                ],
+                [
+                    "matho ki kte-pi",
+                    "They killed the bear"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "ma-ya-kte",
+                    "You killed me"
+                ],
+                [
+                    "ma-kte-pi",
+                    "They killed me"
+                ],
+                [
+                    "matho ki wičha-wa-kte",
+                    "I killed the bears"
+                ],
+                [
+                    "matho ki wičha-kte-pi",
+                    "They killed the bears"
+                ]
+            ],
+            "objective": "object agreement/subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "ni-wa-kte",
+                    "I killed you"
+                ],
+                [
+                    "ni-kte-pi",
+                    "They killed you"
+                ],
+                [
+                    "matho ki wičha-ya-kte",
+                    "You killed the bears"
+                ],
+                [
+                    "matho ki wičha-kte",
+                    "He killed the bears"
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "ya-hi čha matho ki kte",
+                    "You came, and he killed the bear."
+                ],
+                [
+                    "ya-hi čha ma-čho",
+                    "You came, and he called me"
+                ],
+                [
+                    "matho ki ya-kte ną ma-ya-čho",
+                    "You killed the bear and called me"
+                ],
+                [
+                    "tuwa matho ki kte ną ma-čho",
+                    "Someone killed the bear and called me"
+                ],
+                [
+                    "tuwa ni-čho he",
+                    "Who called you?"
+                ],
+                [
+                    "tuwa ya-čho he",
+                    "Whom did you call?"
+                ]
+            ],
+            "objective": "interrogative/clause",
+            "category": "syntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "wa-čho čha hi",
+                    "I called him and he came"
+                ],
+                [
+                    "ma-čho ną hi",
+                    "He called me and came"
+                ],
+                [
+                    "tuwa kte-pi he?",
+                    "Whom did they kill?"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "lakhota ki wičhakte",
+                    "The Indian killed them."
+                ],
+                [
+                    "matho ki wakte",
+                    "I killed the bear."
+                ],
+                [
+                    "lakhota ki mačho",
+                    "The Indian called me."
+                ],
+                [
+                    "tuwa ničho he",
+                    "Who called you?"
+                ],
+                [
+                    "wičhaša ki tuwa kte",
+                    "The person killed someone."
+                ],
+                [
+                    "tuwa hi he",
+                    "Who came?"
+                ],
+                [
+                    "matho ki wičhačho",
+                    "He called the bears."
+                ],
+                [
+                    "yahi čha hi",
+                    "You came, and he came."
+                ],
+                [
+                    "matho ki hipi ną lakhota ki čhopi",
+                    "The bears came and called the Indian."
+                ],
+                [
+                    "yahi čha hokšila ki nikte",
+                    "You came, and the boy killed you."
+                ],
+                [
+                    "lakhota ki wačho ną hokšila ki wakte",
+                    "I called the Indian and killed the boy."
+                ],
+                [
+                    "hokšila ki wakte čha tuwa lakhota ki wičhačho",
+                    "I killed the boy, and someone called the Indians."
+                ],
+                [
+                    "lakhota ki hipi čha mayačho",
+                    "The Indians came, and you called me."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "wahi čha lakhota ki matho ki wičhačhopi",
+                    "I came and the Indians called the bears."
+                ],
+                [
+                    "wičhaša ki nikte ną mačho",
+                    "The man killed you and called me."
+                ],
+                [
+                    "wičhaša ki nikte čha mačho",
+                    "The man killed you, and he called me."
+                ],
+                [
+                    "nikte",
+                    "He killed you."
+                ],
+                [
+                    "lakhota ki hokšita ki ktepi čha matho ki hi",
+                    "The Indians killed the boy, and the bear came."
+                ],
+                [
+                    "yahi ną lakhota ki yakte",
+                    "You came and killed the Indian."
+                ],
+                [
+                    "tuwa wačho he",
+                    "Whom did I call?"
+                ],
+                [
+                    "wičhaša ki hipi čha tuwa wičhakte",
+                    "The men came, and someone killed them."
+                ]
+            ]
+        }
+    },
+    "note": "The language is of the Sioux family. It is spoken by 6000 people in the Midwest of the USA. š, č, h, y, w, ą are specific sounds of the language.",
+    "special":"š,č,ą"
+}

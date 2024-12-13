@@ -1,0 +1,311 @@
+{
+    "name": "Miskito",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "man araskam man playkam prukisa",
+                    "Your (sg) horse hits your (sg) post."
+                ],
+                [
+                    "man araskam man playkam kaikisa",
+                    "Your (sg) horse sees your (sg) post."
+                ],
+                [
+                    "man pyutkam man araskam kaikisa",
+                    "Your (sg) snake sees your (sg) horse."
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "man pyutkam man araskam prukisa.",
+                    "Your (sg) snake hits your (sg) horse."
+                ],
+                [
+                    "man pyutkam man playkam kaikisa",
+                    "Your (sg) snake sees your (sg) post."
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "yang pul-i-sna",
+                    "I play."
+                ],
+                [
+                    "yang pul-ai-sna.",
+                    "I will play."
+                ],
+                [
+                    "man in-ai-sma",
+                    "You (sg) will cry."
+                ],
+                [
+                    "man in-i-sma",
+                    "You (sg) cry."
+                ],
+                [
+                    "witin man araskam kaik-i-sa",
+                    "He sees your (sg) horse."
+                ],
+                [
+                    "witin man araskam kaik-ai-sa",
+                    "He will see your (sg) horse."
+                ]
+            ],
+            "objective": "tense/subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "witin in-i-sa",
+                    "He cries."
+                ],
+                [
+                    "man pul-i-sma",
+                    "You (sg) play."
+                ],
+                [
+                    "yang man araskam kaik-ai-sa",
+                    "I will see your horse."
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "yang nani pul-i banghw-i-sna.",
+                    "We (1+3) play"
+                ],
+                [
+                    "yawan pul-i banghw-ai-sa",
+                    "We (1+2) will play"
+                ],
+                [
+                    "yawan pul-i banghw-ai-sa",
+                    "We (1+2) play"
+                ],
+                [
+                    "man nani ai kaik-i banghw-ai-sma",
+                    "You (pl) will see me/us (1+3)."
+                ],
+                [
+                    "man nani wan kaik-i banghw-i-sma",
+                    "You (pl) see us(1+2)."
+                ],
+                [
+                    "witin nani wan plik-i banghw-ai-sa",
+                    "They will look for us (1+2)"
+                ],
+                [
+                    "yang nani mai kaik-i banghw-i-sna",
+                    "We (1+3) look for you (sg/pl)."
+                ]
+            ],
+            "objective": "subject agreement/alignment",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "witin nani ai kaik-i banghw-ai-sa",
+                    "They will see me/us (1+3)."
+                ],
+                [
+                    "man nani wan plik-i banghw-i-sma",
+                    "You (pl) look for us (1+2)."
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "yawan witin ai-aras-ka kulk-i banghw-ai-sa",
+                    "We (1+2) will detest his horse."
+                ],
+                [
+                    "yawan yang nani aras-ki kulk-i banghw-ai-sa",
+                    "We (1+2) will detest our (1+3) horse."
+                ],
+                [
+                    "yawan man nani pyut-kam piak-i banghw-ai-sa",
+                    "We (1+2) will cook your (pl) snake"
+                ],
+                [
+                    "man nani witin nani ai-pyut-ka piak-i banghw-ai-sma",
+                    "You (pl) will cook their snake."
+                ],
+                [
+                    "man yang aibip-ki kulk-ai-sma",
+                    "You (sg) will detest my cow."
+                ],
+                [
+                    "yang yawan wan-batan-ka pruk-ai-sna.",
+                    "I will hit our (1+2) grease."
+                ],
+                [
+                    "yang man aibip-ki pruk-ai-sna",
+                    "I will hit your (sg) cow"
+                ]
+            ],
+            "objective": "possessive",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "yawan wan-pyut-ka kulk-i banghw-ai-sa.",
+                    "We (1+2) will detest our (1+2) snake."
+                ],
+                [
+                    "man nani man nani aras-kam kulk-i bangwh-ai-sma.",
+                    "You (pl) will detest your (pl) horse."
+                ],
+                [
+                    "yang within ai-batan-ka piak-ai-sna.",
+                    "I will cook his grease."
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "yang nani pyuta piak-i banghwras sna",
+                    "We (1+3) don't cook the snake."
+                ],
+                [
+                    "yawan plik-ras kai-i banghwras kai-sa",
+                    "We (1+2) won't look for him/them."
+                ],
+                [
+                    "yang plik-ras sna",
+                    "I don't look for him/them."
+                ],
+                [
+                    "witin nani plik-i banghwras sa",
+                    "They don't look for him/them."
+                ],
+                [
+                    "man pyuta piak-ras kai-sma",
+                    "You (sg) won't cook the snake."
+                ],
+                [
+                    "witin pyuta piak-ras kai-sa",
+                    "He won't cook the snake."
+                ]
+            ],
+            "objective": "negative/subject agreement/tense",
+            "category": "syntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "yang plik-ras kai-sna",
+                    "I won't look for him/them."
+                ],
+                [
+                    "witin nani pyuta piak-i banghwras kai-sa",
+                    "They won't cook the snake."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "man nani ai kaiki banghwras kaisma",
+                    "You (pl) won’t see me/us (1+3). "
+                ],
+                [
+                    "yawan man nani playkam kaiki banghwisa",
+                    "We (1+2) see your (pl) post."
+                ],
+                [
+                    "yang pulisna",
+                    "I play."
+                ],
+                [
+                    "yawan ini banghwaisa",
+                    "We (1+2) will cry."
+                ],
+                [
+                    "man araskam playa prukisa",
+                    "Your (sg) horse hits the post."
+                ],
+                [
+                    "yang batana piakras kaisna",
+                    "I won't cook the grease."
+                ],
+                [
+                    "yang araski wan prukisa",
+                    "My horse hits us (1+2)."
+                ],
+                [
+                    "yang nani witin aibipka pliki banghwaisna",
+                    "We (1+3) will look for his/their cow"
+                ],
+                [
+                    "man nani witin aipyutka piaki banghwisma",
+                    "You (pl) cook his snake."
+                ],
+                [
+                    "witin nani ini banghwras sa",
+                    "They don’t cry."
+                ],
+                [
+                    "man yawan wanplayka plikaisma",
+                    "You (sg) will look for our (1+2) post."
+                ],
+                [
+                    "witin man nani prukaisna",
+                    "He detests you (pl)."
+                ],
+
+                [
+                    "yang nani pruki banghwaisna",
+                    "We (1+3) will hit him/them."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":3,
+            "sentences": [
+                [
+                    "man yawan wanaraska piakras sma",
+                    "You (sg) don’t cook our (1+2) horse"
+                ],
+                [
+                    "witin witin nani aiaraska kaikaisa",
+                    "He will see their horse."
+                ],
+                [
+                    "witin nani pyuta kulki banghwras kaisa",
+                    "They will not detest the snake"
+                ],
+                [
+                    "Yang mai plik-ras sna.",
+                    "I don’t look for you (sg/pl)."
+                ],
+                [
+                    "Yang nani kaiki banghwras kaisna",
+                    "We (1+3) will not see him/them"
+                ],
+                [
+                    "Yawan man nani pyutkam kulki banghwaisa",
+                    "We (1+2) will detest your (pl) snake."
+                ],
+                [
+                    "Man nani yawan wanbata-ka pruki banghwisma",
+                    "You (pl) hit our (1+2) grease."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Misumalpan family. It is spoken by approx. 700,000 people alongthe eastern coasts of Honduras and Nicaragua. We (1+2) = you (pl) and I; We (1+3) = they and I"
+}

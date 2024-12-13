@@ -1,0 +1,313 @@
+{
+    "name": "Wambaya",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "Bardbi ga juwa",
+                    "The man ran away"
+                ],
+                [
+                    "Bardbi ga alanga",
+                    "The girl ran away"
+                ],
+                [
+                    "Gulugbi ga juwa",
+                    "The man slept"
+                ],
+                [
+                    "Gulugbi ga ngunybulugi",
+                    "The doctor slept"
+                ],
+                [
+                    "Yagu ga bungmanya",
+                    "The old woman left"
+                ],
+                [
+                    "Ngarlu ga janijin",
+                    "The dog danced"
+                ],
+                [
+                    "Yagu ga alanga",
+                    "The girl left"
+                ],
+                [
+                    "Dirragbi ga janijin",
+                    "The dog jumped"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "Gulugbi ga alanga",
+                    "The girl slept"
+                ],
+                [
+                    "Ngarlu ga bungmanya",
+                    "The old woman danced"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "Dirrag-bi ng-a",
+                    "I jumped"
+                ],
+                [
+                    "Dirrag-ba ng-u",
+                    "I will jump"
+                ],
+                [
+                    "Dirrag-bi ny-a",
+                    "You jumped"
+                ],
+                [
+                    "Ngarlu g-u",
+                    "He danced"
+                ],
+                [
+                    "Ngarlu-jba ny-u",
+                    "You will dance"
+                ],
+                [
+                    "Gulug-bi g-a",
+                    "He slept"
+                ]
+            ],
+            "objective": "tense/subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "Gulug-ba ng-u",
+                    "I will sleep"
+                ],
+                [
+                    "Bard-ba g-u",
+                    "He will run away"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "Alayulu ny-i-ng-a",
+                    "You found me"
+                ],
+                [
+                    "Alayulu ng-i-ny-a",
+                    "I found you"
+                ],
+                [
+                    "Daguma-jba ny-u-ng-u",
+                    "You will strike me"
+                ],
+                [
+                    "Alayulu-jba ng-u barrawu",
+                    "I will find the house"
+                ],
+                [
+                    "Daguma ny-a janjin",
+                    "You stroke the dog"
+                ],
+                [
+                    "Ngaj-bi ng-i-y-a balamurru",
+                    "She saw the spear"
+                ],
+                [
+                    "Daguma-jba ng-u-y-u-ng-u alanga",
+                    "She will strike me"
+                ],
+
+                [
+                    "Ngaj-ba g-u-n-u darranggu",
+                    "He will see the stick"
+                ],
+                [
+                    "Ngirra g-i-n-a gijilulu",
+                    "He stole the money"
+                ]
+            ],
+            "objective": "alignment",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "Ngirra-jba ng-u-y-u gijilulu",
+                    "She will steal the money"
+                ],
+                [
+                    "Ngaj-bi ng-a barrawu",
+                    "I saw the house"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "Ngunybulugi barrawu-ngu-ji",
+                    "The doctor (m) has a house."
+                ],
+                [
+                    "Ngunybulugi barrawu-wa-ji",
+                    "The doctor (m) does not have a house."
+                ],
+                [
+                    "Bard-bi g-a darranggu-ngu-nya",
+                    "She ran (away) with the stick."
+                ],
+                [
+                    "Bungmaji g-i-n-a ngaj-bi balamurru-wa-ji",
+                    "He saw the old man without a spear."
+                ],
+                [
+                    "Ngaj-bi g-i-n-a bungmaji-ni",
+                    "The old man saw her"
+                ],
+                [
+                    "Bungmaji-ni g-u-n-u ngaj-ba gijilulu-ngu-nya",
+                    "The old man will see her with the money."
+                ]
+            ],
+            "objective": "possessive/noun gender",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "janjin gijilulu-wa-ji",
+                    "The dog (male) does not have money"
+                ],
+                [
+                    "alanga-ni ng-u-y-u barrawu-wa-nya",
+                    "The girl left her without the house"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Ngarlu nya",
+                    "You danced."
+                ],
+                [
+                    "Gulugba ngu",
+                    "I will sleep."
+                ],
+                [
+                    "Bardbi ga bungmanya",
+                    "The old woman ran (away)."
+                ],
+                [
+                    "Ngunybulugi barrawunguji",
+                    "The doctor has a house."
+                ],
+                [
+                    "Ngajbi nginya",
+                    "I saw you (sg.)."
+                ],
+                [
+                    "Dagumajba nguyu ngunybulugi",
+                    "She will strike the doctor."
+                ],
+                [
+                    "Alanga gu ngarlujba janjingunya",
+                    "The girl will dance with the dog."
+                ],
+                [
+                    "Ngajba gununyu",
+                    "He will see you (sg.)."
+                ],
+                [
+                    "Ngirra nga gijilulu",
+                    "I stole the money."
+                ],
+                [
+                    "Yagujba nyu barrawuwaji",
+                    "You will leave him without a house."
+                ],
+                [
+                    "Daguma ngiyinga bungmanyani",
+                    "The old woman struck me."
+                ],
+                [
+                    "Bardbi ga darranggunguji",
+                    "He ran (away) with the stick."
+                ],
+                [
+                    "Alayulu ngiya juwa",
+                    "She found the man."
+                ],
+                [
+                    "Juwani gina ngajbi gijilulungunya",
+                    "The man saw her with the money."
+                ],
+                [
+                    "Yagu gininga",
+                    "He left me."
+                ],
+                [
+                    "Bungmaji gina ngajbi balamurruwaji",
+                    "He saw the old man without a spear."
+                ],
+                [
+                    "Dirragba gu bungmaji",
+                    "The old man will jump."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":6,
+            "sentences": [
+                [
+                    "Alayulujba nguyunyu bungmanyani.",
+                    "The old woman will find you."
+                ],
+                [
+                    "Yagu gininya.",
+                    "He left you."
+                ],
+                [
+                    "Janji darrangguwaji.",
+                    "The dog doesn’t have a stick."
+                ],
+                [
+                    "Ngirra nya alanga.",
+                    "You stole the girl."
+                ],
+                [
+                    "Daguma nyinga.",
+                    "You struck me."
+                ],
+                [
+                    "Yagujba nyungu.",
+                    "You will leave me."
+                ],
+                [
+                    "Gulugbi ga ngunybulugi.",
+                    "The doctor slept."
+                ],
+                [
+                    "Juwa gu bardba gijilulunguji.",
+                    "The man will run away with the money."
+                ],
+                [
+                    "Ngirrajba gunu janji.",
+                    "He will steal the dog."
+                ],
+                [
+                    "Ngajbi ngiyinya alangani.",
+                    "The girl saw you."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the West Barkly family. It is spoken by approx. 50 people in the Northern Territory, Australia."
+}

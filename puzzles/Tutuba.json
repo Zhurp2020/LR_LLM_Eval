@@ -1,0 +1,319 @@
+{
+    "name": "Tutuba",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "sube ma an vamol",
+                    "The chief ate the orange"
+                ],
+                [
+                    "viriu ma ati boe",
+                    "The dog bited the pig"
+                ],
+                [
+                    "tasim ma an niu",
+                    "The brother ate the coconut"
+                ],
+                [
+                    "viriu mo sor niu",
+                    "The dog looked at the coconut"
+                ],
+                [
+                    "toa ma an masi",
+                    "The chicken ate the fish"
+                ],
+                [
+                    "mesa mo ote toa",
+                    "The wife brought the chicken"
+                ],
+                [
+                    "mera mo ote taŋa",
+                    "The boyfriend brought the bag."
+                ],
+                [
+                    "mesa me ve ti",
+                    "The wife made the tea."
+                ],
+                [
+                    "arivitamaute mi sile masi",
+                    "The cat gave away the fish."
+                ],
+                [
+                    "arivitamaute mo sor urede",
+                    "The cat looked at the laplap."
+                ],
+                [
+                    "sube mi sile batu",
+                    "The chief gave away the head."
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "toa mo sor boe",
+                    "The chicken looked at the pig"
+                ],
+                [
+                    "tasim mi sile ti",
+                    "The brother gave away the tea"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "nno sor vidin",
+                    "I looked at the tail"
+                ],
+                [
+                    "nno an masi",
+                    "I ate the fish"
+                ],
+                [
+                    "o sor vidin",
+                    "You looked at the tail."
+                ],
+                [
+                    "o ve boe",
+                    "You made the pig"
+                ],
+                [
+                    "mi sile arivitamaute",
+                    "He gave away the cat."
+                ],
+                [
+                    "sube ma an urede",
+                    "The chief ate the laplap"
+                ]
+            ],
+            "objective": "subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "nno an vamol",
+                    "I ate the orange"
+                ],
+                [
+                    "o sile masi",
+                    "You gave away the fish"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "mesa mo ote taŋa",
+                    "The wife brought the bag"
+                ],
+                [
+                    "a ote vamol",
+                    "He will bring the bag"
+                ],
+                [
+                    "ka ote vamol",
+                    "I will bring the orange"
+                ],
+                [
+                    "e sor boe",
+                    "You will look at the pig"
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "ka sile vamol",
+                    "I will give away the orange"
+                ],
+                [
+                    "a ati masi.",
+                    "He will bite the fish"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "sube mo sor mesa-ku",
+                    "The chief looked at my wife"
+                ],
+                [
+                    "sube mo sor batu-ku",
+                    "The chief looked at my head"
+                ],
+                [
+                    "viriu ma an niu a-ku",
+                    "The dog ate my coconut (as food)"
+                ],
+                [
+                    "viriu ma an urde a-ku",
+                    "The dog ate my laplap"
+                ],
+                [
+                    "arivitamaute bula-ku ma an niu ma-ku",
+                    "My cat drank my coconut (as drink)"
+                ],
+                [
+                    "mera-ku ma an ti ma-ku",
+                    "My boyfriend drank my tea"
+                ],
+                [
+                    "arivitamaute bula-ku ma an masi ma-ku",
+                    "My cat ate my fish (as food)"
+                ],
+                [
+                    "boe no-ku mo sor taŋa no-ku",
+                    "My pig looked at my bag"
+                ]
+            ],
+            "objective": "noun class",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "sube ma an vamol a-ku",
+                    "The chief ate my orange"
+                ],
+                [
+                    "tasim-ku mo ote boe no-ku",
+                    "My brother brought my pig"
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "mera-m mo ote taŋa",
+                    "Your boyfriend brought the bag"
+                ],
+                [
+                    "mesa-na mo ote taŋa",
+                    "His wife brought the bag"
+                ],
+                [
+                    "viriu bula-m ma ati niu a-na",
+                    "Your dog bited his coconut (as food)"
+                ],
+                [
+                    "toa bula-na a sile ti ma-m",
+                    "His chicken will give away your tea"
+                ],
+                [
+                    "batu-n viriu a sor taŋa no-n arivitamaute",
+                    "The dog's head will look at the cat's bag."
+                ],
+                [
+                    "masi bula-n a an urede a-n toa",
+                    "The chief's fish will eat the chicken's laplap."
+                ]
+            ],
+            "objective": "possessive",
+            "category": "morphosyntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "mesa-ku a an urede a-na",
+                    "My wife will eat his laplap"
+                ],
+                [
+                    "masi bula-m a an ti ma-n arivitamaute",
+                    "Your fish will drink the cat's tea"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "me ve urede am",
+                    "He made your (sg) laplap."
+                ],
+                [
+                    "sube noku a sile boe nona",
+                    "My chief will give away his pig."
+                ],
+                [
+                    "o ve ti man tasim",
+                    "You (sg) made your (sg) brother’s tea."
+                ],
+                [
+                    "viriu ma an toa bulaku",
+                    "The dog ate my chicken."
+                ],
+                [
+                    "ma an toa",
+                    "He ate the chicken meat."
+                ],
+                [
+                    "ka sor batuna",
+                    "I will look at his head."
+                ],
+                [
+                    "e ote niu man dokta noku",
+                    "You (sg) will bring my doctor’s coconut water."
+                ],
+                [
+                    "nno ote niu an boe",
+                    "I brought the pig’s coconut meal."
+                ],
+                [
+                    "arivitamaute bulana ma ati vidin boe",
+                    "His cat bit the pig’s tail"
+                ],
+                [
+                    "mesaku mo sor vamol aku",
+                    "My wife looked at my orange."
+                ],
+                [
+                    "arivitamaute bulan mera noku a an masi",
+                    "My boyfriend’s cat will eat the fish (sg)."
+                ],
+                [
+                    "nno ve taŋa non tamana",	
+                    "I made his father’s bag."
+                ]
+            ],
+                "category":"org train"
+            },
+            "org test": {
+                "to_eng":3,
+                "sentences": [
+                    [
+                        "nno an boe non sube",
+                        "I ate the chief’s pig."
+                    ],
+                    [
+                        "a ati toa ana",
+                        "He will bite his chicken (as meat)."
+                    ],
+                    [
+                        "o sor arivitamaute",
+                        "You (sg) looked at the cat."
+                    ],
+                    [
+                        "viriu bulam ma an batun masi",
+                        "Your (sg) dog ate the fish (sg)’s head."
+                    ],
+                    [
+                        "mo ote niu nom",
+                        "He brought your (sg) coconut shell."
+                    ],
+                    [
+                        "ka sile vamol maku",
+                        "I will give away my orange (as juice)."
+                    ]
+                ]
+            }
+        },
+        "note": "The language belongs to the Oceanic branch of the Austronesian family. It is spoken by approx. 500 people in Vanuatu.ŋ is a consonant.Laplap is a traditional dish in Vanuatu. Coconuts have various uses: the shell is used as a cup, the inside of the seed as feed (known as coconut meal), and the liquid inside as drinking water (known as coconut water)",
+        "special":"ŋ"
+    }

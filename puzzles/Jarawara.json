@@ -1,0 +1,348 @@
+{
+    "name": "Jarawara",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "maki kerewe watehiri",
+                    "The man grabbed the sloth."
+                ],
+                [
+                    "okiti kerewe watehiri",
+                    "My grandfather grabbed the sloth."
+                ],
+                [
+                    "okiti jomee katomeri",
+                    "My grandfather fought the jaguar."
+                ],
+                [
+                    "okiti jomee watehiri",
+                    "My grandfather grabbed the jaguar."
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "maki jomee katomeri",
+                    "The man fought the jaguar."
+                ],
+                [
+                    "jomee kerewe watehiri",
+                    "The jaguar grabbed the sloth."
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "maki tiwa kakatome-hi-ri",
+                    "The man looked at you (sg)."
+                ],
+                [
+                    "komi tera kakatoma-ha-ro",
+                    "The mother looked at you (pl)."
+                ],
+                [
+                    "kerewe jifari kaba-ha-ro",
+                    "The sloth ate the banana."
+                ],
+                [
+                    "maki jifari kabe-hi-ri",
+                    "The man ate the banana."
+                ],
+                [
+                    "fana bijo wate-ha-ro",
+                    "The woman grabbed the spider monkey"
+                ],
+                [
+                    "bijo mera wate-hi-ri",
+                    "The spider monkey grabbed them."
+                ]
+            ],
+            "objective": "noun gender",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "fana jifari kaba-ha-ro.",
+                    "The woman ate the banana."
+                ],
+                [
+                    "kerewe mera wata-ha-ro",
+                    "The sloth grabbed them."
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "ki-jo-hi-ri/ki-jo-ha-ro",
+                    "ki-jo-ri/ki-jo-ro"
+                ],
+                [
+                    "ki-jo-ha-bo-ne/ki-jo-hi-bo-na.",
+                    "ki-jo-bo-ne/ki-jo-bo-na."
+                ],
+                [
+                    "o-ki-jo-ri/o-ki-jo-ro",
+                    "o-ki-jo-ri/o-ki-jo-ro"
+                ],
+                [
+                    "ti-ki-jo-bo-ne/ti-ki-jo-bo-na",
+                    "ti-ki-ro-bo-ne/ti-ki-ro-bo-na"
+                ],
+                [
+                    "hi-ja-re-ri/hi-ja-ra-ro",
+                    "hi-ja-re-ri/hi-ja-ra-ro"
+                ],
+                [
+                    "ti-hi-ja-ra-hi-ri/ti-hi-ja-ra-ha-ro.",
+                    "ti-hi-ja-re-ri/ti-hi-ja-ra-ro"
+                ]
+            ],
+            "objective": "allomorph",
+            "category": "phonology"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "o-hi-ja-ra-hi-ri/o-hi-ja-ra-ha-ro.",
+                    "o-hi-ja-ra-ri/o-hi-ja-ra-ro."
+                ],
+                [
+                    "ti-hi-ja-ra-ha-bo-ne/ti-hi-ja-ra-hi-bo-na.",
+                    "ti-hi-ja-ra-bo-ne/ti-hi-ja-ra-bo-na."
+                ],
+                [
+                    "hi-ja-ra-ri/hi-ja-ra-ro",
+                    "hi-ja-ra-ri/hi-ja-ra-ro"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "bijo jomee katome-ri",
+                    "The spider monkey fought the jaguar."
+                ],
+                [
+                    "bijo jomee katome-bona",
+                    "The spider monkey intends to fight the jaguar."
+                ],
+                [
+                    "fana sami katoma",
+                    "The woman fights the pineapple"
+                ],
+                [
+                    "fana sami katoma-bone",
+                    "The woman intends to fight the pineapple."
+                ],
+                [
+                    "fana maki hijara-bone.",
+                    "The woman intends to speak to the man."
+                ],
+                [
+                    "maki jomee katome.",
+                    "The man fights the jaguar"
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "fana maki hijara-ro",
+                    "The woman spoke to the man."
+                ],
+                [
+                    "maki jomee katome-bona",
+                    "The man intends to fight the jaguar."
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "o-katao kerewe wata-hi-bona.",
+                    "My son intends to grab the sloth."
+                ],
+                [
+                    "ti-katao jifari sami.",
+                    "Your son eats the pineapple."
+                ],
+                [
+                    "o-jomee owa wata-hi-bona",
+                    "My jaguar intends to grab me."
+                ],
+                [
+                    "ti-kiti kerewe wata-hi-bona.",
+                    "Your grandfather intends to grab the sloth."
+                ]
+            ],
+            "objective": "possessive",
+            "category": "morphosyntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "ti-jomee owa kakatoma.",
+                    "Your jaguar looks at me."
+                ],
+                [
+                    "o-kiti tikatao hijara.",
+                    "My grandfather speaks to your son."
+                ]
+            ]
+        },
+        "train 6": {
+            "sentences": [
+                [
+                    "okiti jaka ne-bona",
+                    "My grandfather intends to walk."
+                ],
+                [
+                    "okiti jaka ne-ri.",
+                    "My grandfather walked."
+                ],
+                [
+                    "jaka o-na-ha-bone.",
+                    "I intend to walk."
+                ],
+                [
+                    "jaka ti-na-ha-ro.",
+                    "You walked."
+                ]
+            ],
+            "objective": "mood/subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 6": {
+            "sentences": [
+                [
+                    "jaka o-na-hi-ro.",
+                    "I walked."
+                ],
+                [
+                    "jaka ti-na-ha-bone.",
+                    "You intend to walk."
+                ],
+                [
+                    "maki jaka ne-ri.",
+                    "The man walked."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "okaki jomee katomaro",
+                    "My grandmother fought the jaguar."
+                ],
+                [
+                    "okiti jaka nebona",
+                    "My grandfather intends to walk."
+                ],
+                [
+                    "okomi jaka naro",
+                    "My mother walked."
+                ],
+                [
+                    "maki fana siba neri",
+                    "The man found the woman."
+                ],
+                [
+                    "tikatao tiwa hijareri",
+                    "Your (SG) son spoke to you (SG)."
+                ],
+                [
+                    "maki tera kakatomehibona",
+                    "The man intends to look at you (PL)."
+                ],
+                [
+                    "kerewe jifari kaba",
+                    "The sloth eats the banana."
+                ],
+                [
+                    "sami owataro",
+                    "I grabbed the pineapple."
+                ],
+                [
+                    "okatao bijo karawato",
+                    "My son waits for the spider monkey."
+                ],
+                [
+                    "okobi kerewe kijohiri",
+                    "My father chased the sloth."
+                ],
+                [
+                    "tikoto mera karawatoharo",
+                    "Your (SG) daughter waited for them."
+                ],
+                [
+                    "tiwa siba onahabone",
+                    "I intend to find you (SG)."
+                ],
+                [
+                    "mera tihijaraharo",
+                    "You (SG) spoke to them."
+                ],
+                [
+                    "bijo owa watehiri",
+                    "The spider monkey grabbed me."
+                ],
+                [
+                    "okomi owa kakatomahabone",
+                    "My mother intends to look at me."
+                ],
+                [
+                    "jifari okababone",
+                    "I intend to eat the banana."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "maki kerewe kabe",
+                    "The man eats the sloth."
+                ],
+                [
+                    "jomee tikatao katomeri",
+                    "The jaguar fought your (SG) son."
+                ],
+                [
+                    "fana okaki hijara",
+                    "The woman speaks to my grandmother."
+                ],
+                [
+                    "okatao sami kabehibona",
+                    "My son intends to eat the pineapple."
+                ],
+                [
+                    "jaka tinaharo",
+                    "You (SG) walked."
+                ],
+                [
+                    "tera okakatomaro",
+                    "I looked at you (PL)."
+                ],
+                [
+                    "kerewe owa watahabone",
+                    "The sloth intends to grab me."
+                ],
+                [
+                    "bijo mera katomebona",
+                    "The spider monkey intends to fight them."
+                ]
+            ]
+        }
+    },
+    "note": "The langauge is a dialect of the Madi language, which belongs to the Arawan language family. It is spoken by approx. 170 people in Amazonas, Brazil.A spider monkey is a kind of monkey found in the rainforests of Central and South America."
+}

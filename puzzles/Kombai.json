@@ -1,0 +1,291 @@
+{
+    "name": "Kombai",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "A gwari lei.",
+                    "The snake is lying in the house."
+                ],
+                [
+                    "Dodo gwari lei.",
+                    "The snake is lying in the tree."
+                ],
+                [
+                    "A amiya lei.",
+                    "The worm is lying in the house."
+                ],
+                [
+                    "Yarimo amiya lei.",
+                    "The worm is lying in the garden."
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "Dodo amiya lei.",
+                    "The worm is lying in the tree."
+                ],
+                [
+                    "Yarimo gwari lei.",
+                    "The snake is lying in the garden."
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "O e ba-kha?",
+                    "Is the bird sitting in the water?"
+                ],
+                [
+                    "Dodo e ba-kha?",
+                    "Is the bird sitting in the tree?"
+                ],
+                [
+                    "Dodo e ba.",
+                    "The bird is sitting in the tree."
+                ],
+                [
+                    "khuro are ba-kha?",
+                    "Is the father sitting in the jungle?"
+                ],
+                [
+                    "Dodo makhü le-khe?",
+                    "Is the dog standing in the tree?"
+                ],
+                [
+                    "Dodo makhü le.",
+                    "The dog is standing in the tree."
+                ]
+            ],
+            "objective": "interrogative",
+            "category": "syntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "khuro makhü le-khe?",
+                    "Is the dog standing in the jungle?"
+                ],
+                [
+                    "khuro e ba-kha?",
+                    "Is the bird sitting in the jungle?"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "Khuro miyo le-no",
+                    "The children are standing in the jungle."
+                ],
+                [
+                    "O na le-no.",
+                    "The friends are standing in the water."
+                ],
+                [
+                    "Edolo amiya lei-no.",
+                    "The worms are lying on the fruit."
+                ],
+                [
+                    "A le.",
+                    "The hosue is standing there."
+                ]
+            ],
+            "objective": "noun number",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "O na lei-no.",
+                    "The friends are lying in the water."
+                ],
+                [
+                    "Khuro miyo ba-no.",
+                    "The children are sitting in the jungle."
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "Khe-khuro khe-namiya lei",
+                    "His worm is lying in his jungle."
+                ],
+                [
+                    "Na-no na-makhü le",
+                    "My dog is standing in my water."
+                ],
+                [
+                    "Khe-nedolo khe-ne ba.",
+                    "His bird is sitting on his friut."
+                ],
+                [
+                    "Na-nay-o khuro na-lan-a amiya lei.",
+                    "My wife's worm is lying in my friend's jungle"
+                ],
+                [
+                    "O-kh-o khuro khe-lan-a amiya lei.",
+                    "His wife's worm is lying in the water jungle"
+                ],
+                [
+                    "Dodof-a yarimo na-rey-o edolo ba.",
+                    "My father's bird is sitting in the tree garden"
+                ]
+            ],
+            "objective": "possessive/vowel harmony",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "Na-lan-o khu-ro na-lan-a amiya lei.",
+                    "My wife's worm is lying in my wife's jungle"
+                ],
+                [
+                    "O-kh-a yarimo na-rey-o e ba.",
+                    "my father's bird is sitting in the water garden"
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "O miyo le.",
+                    "The child is standing in the water."
+                ],
+                [
+                    "O miyo le-le-ma.",
+                    "The child is usually standing in the water."
+                ],
+                [
+                    "O miyo ba-ba-ma.",
+                    "The child is usually sitting in the water."
+                ],
+                [
+                    "O e le-le-ma.",
+                    "The friend is usually standing in the water."
+                ]
+            ],
+            "objective": "adverb",
+            "category": "morphosyntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "O e ba-ba-ma.",
+                    "The friend is usually sitting in the water."
+                ],
+                [
+                    "O e lei-lei-ma.",
+                    "The friend is usually lying in the water."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Nare leikhe?",
+                    "Is my father lying there"
+                ],
+                [
+                    "Dodo nalana gwari lei.",
+                    "My wife’s snake is lying in the tree."
+                ],
+                [
+                    "Areya la leikhe?",
+                    "Is the father's wife lying there?"
+                ],
+                [
+                    "Elo khuro namomo leno.",
+                    "My uncles are standing in the bird jungle."
+                ],
+                [
+                    "Khemakhü lekhe?",
+                    "Is his dog standing there?"
+                ],
+                [
+                    "A dodofa gwari leino.",
+                    "The tree snakes are lying in the house."
+                ],
+                [
+                    "Afa makhü lenokho?",
+                    "Are the house dogs standing there?"
+                ],
+                [
+                    "O khenareye e bakha?",
+                    "Is his father’s bird sitting in the water?"
+                ],
+                [
+                    "A khalakha amiya lei.",
+                    "The yam worm is lying in the house."
+                ],
+                [
+                    "Namiyaye edolo nane banokho?",
+                    "Are my birds sitting on my worm’s fruit?"
+                ],
+                [
+                    "Dodo nanaya a le.",
+                    "My friend’s house is standing in the tree."
+                ],
+                [
+                    "Namiyo leileima.",
+                    "My child is usually lying there."
+                ],
+                [
+                    "Khela yarimo naramu lei.",
+                    "My cucumber is lying in his bird's garden."
+                ],
+                [
+                    "Dodofa a la babamakha?",
+                    "Is the wife usually sitting in the tree house?"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "Nadodo miyo lelema.",
+                    "The child is usually standing in my tree."
+                ],
+                [
+                    "Nano khelana amiya leileimakha?",
+                    "Is his wife’s worm usually lying in my water?"
+                ],
+                [
+                    "Nala babamakha",
+                    "Is my wife usually sitting there?"
+                ],
+                [
+                    "Okha yarimo miyo bano.",
+                    "The children are sitting in the water garden."
+                ],
+                [
+                    "Khedolo khenamiya leino.",
+                    "His worms are lying on his fruit."
+                ],
+                [
+                    "Areyo dodo lekhe?",
+                    "Is the father’s tree standing there"
+                ],
+                [
+                    "Nayo khuro na leno.",
+                    "My houses are standing in the friend’s jungle."
+                ],
+                [
+                    "Khuro namakhü lelemakha?",
+                    "Is my dog usually standing in the jungle?"
+                ]
+            ]
+        }
+    },
+    "note": "The language is a Greater Awyu language of the Trans-New Guinea family. It is spoken byapprox. 6000 speakers in South Papua Province, Indonesia.A yam is a root vegetable. kh, gw and y are consonants. ü is pronounced like i but with rounded lips.",
+    "special":"ü"
+}

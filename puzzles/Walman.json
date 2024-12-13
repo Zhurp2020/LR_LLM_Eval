@@ -1,0 +1,316 @@
+{
+    "name": "Walman",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "Nyue wentiki ngolu",
+                    "The mother cooked the cassowary"
+                ],
+                [
+                    "Muen nanpu wuel",
+                    "The brother killed the pig"
+                ],
+                [
+                    "Chuto wentiki pelen",
+                    "The woman cooked the dog"
+                ],
+                [
+                    "Muen nklwaron ngan",
+                    "The brother deceived the father"
+                ],
+                [
+                    "Ngan nanpu ngolu",
+                    "The father killed the cassowary"
+                ],
+                [
+                    "Ngan neteren mue",
+                    "The father saw the sister"
+                ],
+                [
+                    "Chu waltawron pelen",
+                    "The wife looked for the dog"
+                ],
+                [
+                    "Mue waltawron na",
+                    "The sister looked for the son"
+                ],
+                [
+                    "Na neteren chuto",
+                    "The son saw the woman"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "Na nanpu wuel",
+                    "The son killed the pig"
+                ],
+                [
+                    "Chuto waltawron ngolu",
+                    "The woman looked for thhe cassowry"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "Runon n-ch-klwaro chim.",
+                    "He deceived you (pl)."
+                ],
+                [
+                    "Runon n-klwaro-y ri.",
+                    "He deceived them."
+                ],
+                [
+                    "Ngan n-p-a-pu kipin.",
+                    "The father killed us."
+                ],
+                [
+                    "Ngan n-ch-a-pu chi.",
+                    "The father killed you (sg)."
+                ],
+                [
+                    "Wuel n-etere-l pelen.",
+                    "The pig saw the puppy"
+                ],
+                [
+                    "Wuel n-etere-n pelen",
+                    "The pig saw the dog (m)"
+                ],
+                [
+                    "Muen n-p-altawro kum.",
+                    "The brother looked for me."
+                ],
+                [
+                    "Muen n-altawro pelen.",
+                    "The brother looked for the dog (f)."
+                ]
+            ],
+            "objective": "object agreement",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "Ngan n-p-klwaro kum",
+                    "The father deceived me"
+                ],
+                [
+                    "Muen n-etere-l wuel.",
+                    "The brother saw the piglet"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "Chim ch-a-n-pu pelen.",
+                    "You (pl) killed the dog (m)."
+                ],
+                [
+                    "Kum m-a-n-pu pelen",
+                    "I killed the dog (m)"
+                ],
+                [
+                    "Chim n-e-n-tiki ngolu",
+                    "You (sg) cooked the cassowary (m)."
+                ],
+                [
+                    "Muen n-e-tiki ngolu",
+                    "The brother cooked the cassowary (f)."
+                ],
+                [
+                    "Kipin k-etere-y wuel",
+                    "We saw the pigs."
+                ],
+                [
+                    "Ri y-etere-n muen",
+                    "They saw the brother."
+                ],
+                [
+                    "Wuel l-altawro pelen",
+                    "The piglet looked for the dog (f)"
+                ],
+                [
+                    "Wuel y-ch-altawro chim",
+                    "The piglets looked for you (sg)"
+                ],
+                [
+                    "Ru w-p-klwaro kum",
+                    "She deceived me"
+                ],
+                [
+                    "Ri y-p-klwaro kipin",
+                    "They deceived us"
+                ]
+            ],
+            "objective": "subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 3":{
+            "sentences":[                [
+                "kipin k-e-y-tiki ngolu",
+                "We cooked the cassowaries"
+            ],
+            [
+                "ru w-p-altawro kipin",
+                "She looked for us"
+            ]
+        ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "Chuto w-p-a ketiki wuel.",
+                    "The woman and I cooked the pig (f)."
+                ],
+                [
+                    "Ru w-e-y-tiki wuel l-aro-y ngolu.",
+                    "She cooked the piglet and the cassowaries."
+                ],
+                [
+                    "Muen n-ch-a ch-e-n-tiki ngolu.",
+                    "The brother and you (sg) cooked the cassowary (m)."
+                ],
+                [
+                    "Muen n-aro-n ngan y-e-y-tiki wuel l-aro-n ngolu.",
+                    "The brother and the father cooked the piglet and the cassowary (m)"
+                ],
+                [
+                    "Nyue w-aro-n na y-a-y-pu wuel.",
+                    "The mother and the son killed the pigs."
+                ],
+                [
+                    "Nyue w-ch-a y-a-n-pu pelen.",
+                    "The mother and you (pl) killed the dog (m)."
+                ]
+            ],
+            "objective": "conjunction",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+
+                [
+                    "Chi n-klwaro-y pelen l-aro-n muen.",
+                    "You (sg) deceived the puppy and the brother."
+                ],
+                [
+                    "Ru w-altawro-y nyue w-aro pelen.",
+                    "She looked for the mother and the dog (f)."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Runon nchklwaro chim.",
+                    "He deceived you (pl)."
+                ],
+                [
+                    "Ri ypa kaypu wuel.",
+                    "They and I killed the pigs."
+                ],
+                [
+                    "Chuto wpa ketiki wuel.",
+                    "The woman and I cooked the pig (f )."
+                ],
+                [
+                    "Ru wklwaroy nyue waroy muen.",
+                    "She deceived the mother and the brothers."
+                ],
+                [
+                    "Ru weytiki wuel laroy ngolu.",
+                    "She cooked the piglet and the cassowaries."
+                ],
+                [
+                    "Chi npaltawro kum.",
+                    "You (sg) looked for me."
+                ],
+                [
+                    "Mue waron muen ypaltawro kipin.",
+                    "The sister and the brother looked for us."
+                ],
+                [
+                    "Muen ncha chentiki ngolu.",
+                    "The brother and you (sg) cooked the cassowary (m)."
+                ],
+                [
+                    "Runon naron yeteren muen.",
+                    "They two (m) saw the brother."
+                ],
+                [
+                    "Kum maro chu kaltawro pelen.",
+                    "I and the wife looked for the dog (f )."
+                ],
+                [
+                    "Kum meterey pelen laron wuel.",
+                    "I saw the puppy and the pig (m)."
+                ],
+                [
+                    "Ngan naron na yanpu pelen.",
+                    "The father and the son killed the dog (m)."
+                ],
+                [
+                    "Nyue wchaltawro chi.",
+                    "The mother looked for you (sg)."
+                ],
+                [
+                    "Chim charo chklwaro ru.",
+                    "You (pl) and she deceived her."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":5,
+            "sentences": [
+                [
+                    "Ri ypapu kum.",
+                    "They killed me."
+                ],
+                [
+                    "Na ycha chaltawro chu.",
+                    "The sons and you looked for the wife."
+                ],
+                [
+                    "Chi npa kum kaltawroy chu.",
+                    "You (sg) and I looked for the wives."
+                ],
+                [
+                    "Kum meltiki ngolu.",
+                    "I cooked the baby cassowary."
+                ],
+                [
+                    "Kipin karon ngan kanpu wuel.",
+                    "We and the father killed the pig (m)."
+                ],
+                [
+                    "Chi naron chapu ngolu.",
+                    "You (sg) and he killed the cassowary (f)."
+                ],
+                [
+                    "Wuel leterey ri",
+                    "The piglet saw them."
+                ],
+                [
+                    "Ngan npaltawro kum marol pelen.",
+                    "The father looked for me and the puppy."
+                ],
+                [
+                    "Na yaro ychapu chi.",
+                    "The sons and she killed you (sg)."
+                ],
+                [
+                    "Kum mcha keltiki wuel.",
+                    "I and you (pl) cooked the piglet."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Torricelli family. It is spoken by approx. 1,700 people in Papua New Guinea. w, y and ch are consonants. A cassowary is a flightless bird native to the tropical forests of New Guinea and northeastern Australia. f = feminine, m = masculine"
+}

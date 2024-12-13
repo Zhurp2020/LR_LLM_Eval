@@ -1,0 +1,174 @@
+{
+    "name": "Ngoni",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "mbuya amguli chipula mdala",
+                    "The grandmother bought a knife for the woman"
+                ],
+                [
+                    "mbuya amguli ligela mjukulu",
+                    "The grandmother bought a hoe for the grandson"
+                ],
+                [
+                    "mdala amguli mene mgeni",
+                    "The woman bought a goat for the guest"
+                ],
+                [
+                    "mjukulu amguli ugimbi mgeni",
+                    "The grandson bought beer for the guest"
+                ],
+                [
+                    "Kamau amguli mgunda mbuya",
+                    "Kamau bought a farm for the grandmother"
+                ],
+                [
+                    "Mwangi amguli nyumba mdala",
+                    "Mwangi bought a house for the woman"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "mdala amguli ugimbi Kamau",
+                    "The woman bought beer for Kamau"
+                ],
+                [
+                    "Kamau amguli ugimbi Mdala",
+                    "Kamau bought beer for woman"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "m-buya",
+                    "grandmother"
+                ],
+                [
+                    "va-buya",
+                    "grandmothers"
+                ],
+                [
+                    "m-geni",
+                    "guest"
+                ],
+                [
+                    "va-geni",
+                    "guests"
+                ]
+            ],
+            "objective": "noun number",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "va-dala",
+                    "women"
+                ],
+                [
+                    "va-jukulu",
+                    "grandsons"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "M-dala a-va-guli ugimbi va-geni",
+                    "The woman bought beer for the guests"
+                ],
+                [
+                    "Va-dala va-m-guli ugimbi m-geni",
+                    "The women bought beer for the guest"
+                ],
+                [
+                    "M-dala a-m-guli ugimbi m-jukulu",
+                    "The woman bought beer for the grandson"
+                ]
+            ],
+            "objective": "subject agreement/indirect object",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "M-jukulu a-va-guli nyumba va-dala",
+                    "The grandson bought a house for the women"
+                ],
+                [
+                    "Va-jukulu va-m-guli nyumba m-dala",
+                    "The grandsons bought a house for the woman"
+                ],
+                [
+                    "M-jukulu a-m-guli nyumba m-dala",
+                    "The grandson bought a house for the woman"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Kamau aguli vadala mgunda.",
+                    "Kamau bought a farm for the women."
+                ],
+                [
+                    "Vabuya vaguli mjukulu ligela.",
+                    "The grandmothers bought a hoe for the grandson."
+                ],
+                [
+                    "Vajukulu vamguli mgeni ugimbi.",
+                    "The grandsons bought beer for the guest."
+                ],
+                [
+                    "Mbuya guli Kamau chipula.",
+                    "The grandmother bought a knife for Kamau."
+                ],
+                [
+                    "Mgeni avaguli mene vajukulu.",
+                    "The guest bought a goat for the grandsons."
+                ],
+                [
+                    "Mjukulu amguli mgunda Zenda.",
+                    "The grandson bought a farm for Zenda."
+                ],
+                [
+                    "Zenda amguli mbuya nyumba.",
+                    "Zenda bought a house for the grandmother."
+                ],
+                [
+                    "Vageni vamguli chipula mdala.",
+                    "The guests bought a knife for the woman."
+                ],
+                [
+                    "Mwangi avaguli vageni ligela.",
+                    "Mwangi bought a hoe for the guests."
+                ],
+                [
+                    "Vadala guli Mwangi nyumba.",
+                    "The women bought a house for Mwangi."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":2,
+            "sentences": [
+                [
+                    "Mdala amguli ugimbi Mwangi",
+                    "The woman bought beer for Mwangi."
+                ],
+                [
+                    "Kamau avaguli mene vabuya",
+                    "Kamau bought the goat for the grandmothers’."
+                ]
+            ]
+        }
+    },
+    "note": "The language is one of the many languages of Tanzania, spoken by approx. 200 thousand people. Kamau and Mwangi are names"
+}

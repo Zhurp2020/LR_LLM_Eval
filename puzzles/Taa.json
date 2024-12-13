@@ -1,0 +1,233 @@
+{
+    "name": "Taa",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "gāã ń káni kã dtsháã",
+                    "The duck wants the buchu powder"
+                ],
+                [
+                    "dàã ń |ná̰a kã ǂàã",
+                    "The polecat looks at the bone"
+                ],
+                [
+                    "gāã ń kùhm kã ǂgúã",
+                    "The duck touches the egg"
+                ],
+                [
+                    "||xàã ń |ná̰a kã ||gà’ã",
+                    "The men looks at the springbok"
+                ],
+                [
+                    "||xàã ń ||xûũ kã ǂàã",
+                    "The men throws the bone"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "dàã ń kùhm kã ||gà’ã",
+                    "The polecat touches the springbok"
+                ],
+                [
+                    "||xàã ń káni kã ǂàã",
+                    "The men wants the bone"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "||xà-ã ń káni k-ã ǂgú-ã ||qṵ-ã",
+                    "The men wants the new egg"
+                ],
+                [
+                    "||xà-ã ń káni k-e bòkòs-è",
+                    "The men wants the box"
+                ],
+                [
+                    "qá-e ń gùm k-e dō’l-e",
+                    "The woman eats the grass"
+                ],
+                [
+                    "qá-e ń gùm k-e dàhb-e ||qha-e",
+                    "The woman eats another mudwasp"
+                ],
+                [
+                    "gā-ã ń kùhm k-e bòkòs-è !xa-e",
+                    "The duck touches the big box"
+                ],
+                [
+                    "||gà’-ã !xa-ã ń kùhm k-e qá-e ||qṵ-e",
+                    "The big springbok touches the young woman"
+                ]
+            ],
+            "objective": "noun class/adjective",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "||xà-ã ||qṵ-ã ń gùm k-e dō’l-e",
+                    "The young men eats the grass"
+                ],
+                [
+                    "gā-ã ń káni k-e bòkòs-è ||qha-e",
+                    "The duck wants another box"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "èh à gùm k-ã n̄ |-ã ǂà-ã",
+                    "He ate my bone"
+                ],
+                [
+                    "n̄ à gùm k-e èh |-e dō’l-e",
+                    "I ate his grass"
+                ],
+                [
+                    "gā-ã !xa-ã ń ||xûũ k-e n̄ |-e dàhb-e",
+                    "The big duck throws my mudwasp"
+                ],
+                [
+                    "n̄ |-e qá-e à ||xûũ k-ã èh |-ã dtshá-ã ||qṵ-ã",
+                    "My woman threw his new buchu powder"
+                ]
+            ],
+            "objective": "tense/possessive",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "n̄ à gùm k-ã èh |-ã ǂgú-ã ||qṵ-ã",
+                    "I ate his new egg"
+                ],
+                [
+                    "n̄ |-ã gā-ã à gùm k-ã èh |-ã ǂà-ã !xa-ã",
+                    "My duck ate his big bone"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "|-é èh ń ||xûũ k-ã dtshá-ã",
+                    "Does he throw away the buchu powder?"
+                ],
+                [
+                    "|-ã́ gā-ã ń káni k-e bòkòs-è !xa-e",
+                    "Does the duck want the big box?"
+                ],
+                [
+                    "qá-e ń ||qhúa káni k-ã ||gà’-ã !xa-ã t-ã à kùhm k-e dō’l-e ||qṵ-e k-ã",
+                    "The woman does not want the big springbok that touched the new grass."
+                ],
+                [
+                    "èh à gùm k-ã èh |-ã ǂà-ã t-ã dà-ã à |ná̰a k-ã",
+                    "He ate his bone that the polecat looked at."
+                ],
+                [
+                    "n̄ |-ã dà-ã ||qṵ-ã ń ||qhúa dt’kx’àba k-e èh |-e bòkòs-è",
+                    "My young polecat is not stuck in his box."
+                ],
+                [
+                    "n̄ à kùhm k-e dàhb-e t-e ń dt’kx’àba k-ã ǂà-ã k-e",
+                    "I touched the mudwasp that is stuck to the bone."
+                ]
+            ],
+            "objective": "negative/interrogative/clause",
+            "category": "syntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "|-ã́ dà-ã à káni k-e èh |-e dàhb-e",
+                    "Did the polecat want his mudwasp?"
+                ],
+                [
+                    "n̄ à ||qhúa ||xûũ k-e dō’l-e ||qṵ-e t-e qá-e à |ná̰a k-e",
+                    "I did not throw the new grass that the woman looked at"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "èh |ã gāã ń káni kã dtsháã",
+                    "His duck wants the buchu powder."
+                ],
+                [
+                    "èh à gùm kã èh |ã ǂàã tã dàã à |ná̰a kã",
+                    "He ate his bone that the polecat looked at."
+                ],
+                [
+                    "n̄ |ã dàã ||qṵã ń dt’kx’àba ke èh |e bòkòsè",
+                    "My young polecat is stuck in his box."
+                ],
+                [
+                    "|ã́ gāã ń ||qhúa káni ke bòkòsè !xae",
+                    "Does the duck not want the big box?"
+                ],
+                [
+                    "n̄ à kùhm ke dàhbe te ń dt’kx’àba kã ǂàã ke",
+                    "I touched the mudwasp that is stuck to the bone."
+                ],
+                [
+                    "|é èh ń ||xûũ kã dtsháã",
+                    "Does he throw away the buchu powder?"
+                ],
+                [
+                    "|é dàhbe ||qhae à ||qhúa kùhm kã ||xàã |ã ǂgúã",
+                    "Did another mudwasp not touch the men’s egg?"
+                ],
+                [
+                    "qáe ń ||qhúa káni kã ||gà’ã !xaã tã à kùhm ke dō’le ||qṵe kã",
+                    "The woman does not want the big springbok that touched the new grass."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":3,
+            "sentences": [
+                [
+                    "|é n̄ à gùm ke dàhbe ||qṵe te à káni kã ǂgúã ke",
+                    "Did I eat the young mudwasp that wanted the egg?"
+                ],
+                [
+                    "|ã́ ||xàã ń ||qhúa gùm kã dtsháã tã n̄ à kùhm kã",
+                    "Do the men not eat the buchu powder that I touched?"
+                ],
+                [
+                    "qáe |ã ||gà’ã tã èh ń |ná̰a kã à dt’kx’àba ke dō’le",
+                    "The woman’s springbok that he looks at was stuck on the grass."
+                ],
+                [
+                    "|é n̄ ń ||xûũ kã dàã |ã ǂàã !xaã tã ń ||qhúa dt’kx’àba ke n̄ |e bòkòsè ||qṵe kã",
+                    "Do I throw away the polecat’s big bone that is not stuck to my new box?"
+                ],
+                [
+                    "|é qáe ||qṵe te n̄ à |ná̰a ke ń gùm kã dtsháã ||qṵã",
+                    "Does the young woman that I looked at eat the new buchu powder?"
+                ],
+                [
+                    "èh à ||qhúa káni kã ǂgúã ||qhaã tã ||xàã à kùhm kã",
+                    "He did not want another egg that the men touched."
+                ],
+                [
+                    "|ã́ ||gà’ã ||qhaã tã ń ||qhúa kùhm kã dàã kã à ||xûũ kã gāã |ã ǂgúã",
+                    "Did another springbok that doesn’t touch the polecat throw away the duck’s egg?"
+                ]
+            ]
+        }
+    },
+    "note": "The language is spoken by around 2,500 people in Botswana and Namibia. It includes a wide variety of click consonants (like the sound of tskor tut in English), marked by the letters !, |, ||, ǂ, and ’. ã, aã, a̰a, ae, ua, ṵã, ṵe,and uũ are vowels, and the symbols ◌́, ◌̀, ◌̂, and ◌̄ mark tone.",
+    "special":"á,à,ã,ā,á̰,ã́,é,è,ò,ō,û,ũ,ú,ù,ṵ,ǂ,ń,!,|"
+}

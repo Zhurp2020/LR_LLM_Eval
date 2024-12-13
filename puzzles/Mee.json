@@ -1,0 +1,233 @@
+{
+    "name": "Mee",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "ya-na-mee-g-e",
+                    "You (sg) brought me for him today."
+                ],
+                [
+                    "na-ka-doo-g-i",
+                    "He saw you (sg) for me today."
+                ],
+                [
+                    "ne-doo-g-e",
+                    "You (sg) saw us today."
+                ],
+                [
+                    "ka-ne-bukai-g-e",
+                    "You (sg) saved us for you (sg) today."
+                ],
+                [
+                    "niya-ka-mee-g-i",
+                    "He brought you (sg) for us today."
+                ],
+                [
+                    "ka-e-bukai-g-i",
+                    "He saved him for you (sg) today."
+                ],
+                [
+                    "kiya-e-bukai-g-e",
+                    "You (sg) saved them for you (pl) today."
+                ]
+
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "niya-na-doo-g-e",
+                    "You (sg) saw us for me."
+                ],
+                [
+                    "ya-ka-mee-g-i",
+                    "He brought you (sg) for him today."
+                ]
+
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "ya-ne-mee-p-aa",
+                    "You (pl) brought us for him."
+                ],
+                [
+                    "e-bukai-g-a",
+                    "I saved them today."
+                ],
+                [
+                    "e-dokai-p-e",
+                    "You (sg) carried him."
+                ],
+                [
+                    "niya-aa-na-bukai-p-aa",
+                    "You two saved me for us."
+                ],
+                [
+                    "na-bukai-g-i",
+                    "He saved me today."
+                ],
+                [
+                    "ke-dokai-g-e",
+                    "We carried you (pl) today."
+                ],
+                [
+                    "kiya-aa-na-dokai-g-ai",
+                    "They two carried me for you (pl) today."
+                ]
+            ],
+            "objective": "subject agreement/tense",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "aa-ka-bukai-g-e",
+                    "We two saved you (sg) today."
+                ],
+                [
+                    "na-dokai-p-ai",
+                    "They carried me."
+                ],
+                [
+                    "kiya-ne-mee-p-a",
+                    "I brought us for you (pl)"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "mee-p-aa",
+                    "You (pl) came."
+                ],
+                [
+                    "tee-kiya-aa-ne-mee-p-ai",
+                    "They two did not brought us for you (pl)."
+                ],
+                [
+                    "tee-mee-p-i",
+                    "He did not came."
+                ],
+                [
+                    "na-aka-wagee-g-ai",
+                    "They fought each other for me today."
+                ],
+                [
+                    "kiya-aa-aka-doo-p-ai",
+                    "They two met each other."
+                ]
+            ],
+            "objective": "intransitive/reflective/negative",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+
+                [
+                    "aka-doo-g-aa",
+                    "You (pl) met each other today."
+                ],
+                [
+                    "tee-aa-aka-wagee-p-ai",
+                    "They two did not fight each other"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "ya-na-mee-g-e",
+                    "You(sg) brought me for him today."
+                ],
+                [
+                    "na-ka-doo-g-i",
+                    "He saw you(sg) for me today."
+                ],
+                [
+                    "tee-ne-doo-g-i",
+                    "He did not see us today."
+                ],
+                [
+                    "niya-ne-doo-p-e",
+                    "You(sg) saw us for us."
+                ],
+                [
+                    "e-bukai-p-a",
+                    "I saved them."
+                ],
+                [
+                    "mee-g-e",
+                    "You(sg) came today."
+                ],
+                [
+                    "ka-aa-aka-doo-p-e",
+                    "We two met for you(sg)."
+                ],
+                [
+                    "na-aka-wagee-g-ai",
+                    "They fought for me today."
+                ],
+                [
+                    "aa-na-bukai-p-aa",
+                    "You two saved me."
+                ],
+                [
+                    "tee-ka-mee-g-e",
+                    "We did not bring you(sg) today."
+                ],
+                [
+                    "tee-e-dokai-p-e",
+                    "You(sg) did not carry him."
+                ],
+                [
+                    "tee-kiya-aa-mee-p-e",
+                    "We two did not come for you(pl)"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "aameepai",
+                    "They two came."
+                ],
+                [
+                    "teekedoogi",
+                    "He did not see you (pl) today."
+                ],
+                [
+                    "naaameegaa",
+                    "You two came for me today."
+                ],
+                [
+                    "teenadokaipaa",
+                    "You (pl) did not carry me."
+                ],
+                [
+                    "edooge",
+                    "You (sg) saw them today."
+                ],
+                [
+                    "teeyameega",
+                    "I did not come for him today."
+                ],
+                [
+                    "niyaaaedoopaa",
+                    "You two saw him for us."
+                ],
+                [
+                    "akabukaipai",
+                    "They saved each other."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Trans–New Guinean family. It is spoken by approx. 100,000 people in Papua province, Indonesia"
+}

@@ -1,0 +1,311 @@
+{
+    "name": "Sandawe",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "xé-ʔé̥wáá",
+                    "xéé"
+                ],
+                [
+                    "ǁ’è-ʔě̥wáá",
+                    "ǁ’èé"
+                ],
+                [
+                    "báló-ʔó̥wáá",
+                    "bálóó"
+                ]
+            ],
+            "objective": "tone change",
+            "category": "phonology"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "khà-ʔḁ̌wáá",
+                    "khàá"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "!’ìnéỳ kòŋkórìà xééyé",
+                    "A hunter brought a rooster"
+                ],
+                [
+                    "thíméỳ k’ámbà ǁ’èéyé",
+                    "A cook skinned a bull."
+                ],
+                [
+                    "ŋ!àméỳ kòŋkórìà khàáyé",
+                    "A blacksmith hit a rooster"
+                ],
+                [
+                    "thíméỳ thékáà bálóóyé",
+                    "A cook herded a leopard"
+                ],
+                [
+                    "!’ìnéỳ k’ámbà xééyé",
+                    "A hunter brought a bull"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "thíméỳ kòŋkórìà xééyé",
+                    "A cook brought a rooster"
+                ],
+                [
+                    "!’ìnéỳ k’ámbà khàáyé",
+                    "A hunter hit a bull"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "thíméỳ kókó-à xéé-sú",
+                    "A cook (m) brought a hen"
+                ],
+                [
+                    "!’ìnéỳ k’ámb-à ǁ’èé-yé",
+                    "A hunter (m) skinned a bull"
+                ],
+                [
+                    "ŋ!àméỳ múk’ùmè-à xéé-sú",
+                    "A blacksmith (m) brought a cow."
+                ],
+                [
+                    "!’ìnéỳ kòŋkórì-à xé-ʔé̥wáá",
+                    "A hunter (m) brought roosters."
+                ],
+                [
+                    "!’ìnéỳ thíméỳ-à xéé-yé",
+                    "A hunter (m) brought a cook (m)."
+                ],
+                [
+                    "!’ìnéỳ ŋ!àméỳ-sù-à xéé-sú",
+                    "A hunter (m) brought a blacksmith (f)"
+                ],
+                [
+                    "ŋ!àméỳ !’ìnéỳ-sò-à khàá-ʔín",
+                    "A blacksmith (m) hit hunters"
+                ],
+                [
+                    "ŋ!àméỳ théká-à ǁ’è-ʔě̥wáá",
+                    "A blacksmith (m) skinned leopards"
+                ],
+                [
+                    "thíméỳ ŋ!àméỳ-sò-à khàá-ʔín",
+                    "A cook (m) hit blacksmiths."
+                ]
+            ],
+            "objective": "object agreement/noun gender/noun number",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "thíméỳ kókó-à khàá-sú",
+                    "A cook (m) hit a hen"
+                ],
+                [
+                    "ŋ!àméỳ thíméỳ-sò-à xéé-ʔín",
+                    "A blacksmith (m) brought cooks"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "thíméỳ-sù kókó-sà ǁ’èé-sú",
+                    "A cook (f) skinned a hen."
+                ],
+                [
+                    "kòŋkórì !’ìnéỳ-sò-ʔà xéé-ʔín",
+                    "Roosters brought hunters."
+                ],
+                [
+                    "!’ìnéỳ-sò k’ámbà-ʔà ǁ’èé-yé",
+                    "Hunters skinned a bull"
+                ],
+                [
+                    "múk’ùmè théká-sà khà-ʔḁ̌wáá",
+                    "A cow hit leopords"
+                ],
+                [
+                    "!’ìnéỳ kókó-à bálóó-sú",
+                    "A hunter (m) herded a hen"
+                ],
+                [
+                    "!’ìnéỳ-sù kòŋkórì-sà báló-ʔó̥wáá",
+                    "A hunter (f) hereded roosters"
+                ]
+            ],
+            "objective": "subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "thíméỳ-sù kókó-sà báló-ʔó̥wáá",
+                    "A cook (f) herded hens"
+                ],
+                [
+                    "ŋ!àméỳ-sò thíméỳ-sò-ʔà xéé-ʔín",
+                    "Blacksmiths brought cooks"
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "kòŋkórì !’ìnéỳ-sò xéé-ʔín-tshó",
+                    "Roosters didn’t bring hunters."
+                ],
+                [
+                    "k’ámb kókó xéé-sú-tshèé",
+                    "A bull didn't bring a hen."
+                ],
+                [
+                    "!’ìnéỳ-sò kókó-ʔà ǁ’è-ʔě̥wáá-tshó-gé",
+                    "Apparently, hunters didn't skin hens."
+                ],
+                [
+                    "thíméỳ-sù kókó khà-ʔḁ̌wáá-tshú-gé",
+                    "Apparently, a cook (f) didn’t hit hens."
+                ],
+                [
+                    "!’ìnéỳ thíméỳ-sò-gé-à khàá-ʔíŋ",
+                    "Apparently, a hunter (m) hit cooks."
+                ],
+                [
+                    "!’ìnéỳ-sò kókó-gé-ʔà ǁ’èé-sú",
+                    "Apparently, hunters skinned a hen."
+                ]
+            ],
+            "objective": "negative/adverb",
+            "category": "morphosyntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "thíméỳ k’ámb-à khàá-yé-tshèé",
+                    "A cook (m) didn't hit a bull."
+                ],
+                [
+                    "kòŋkórì kókó xé-ʔé̥wáá-tshú-gé",
+                    "Apparently, a rooster didn't bring hens."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "!’ìnéỳsù kòŋkórìsà xéʔé̥wáá",
+                    "A hunter (f) brought roosters."
+                ],
+                [
+                    "thíméỳsù kókósà ǁ’èésú",
+                    "A cook (f) skinned a hen."
+                ],
+                [
+                    "múk’ùmè kókó xéʔé̥wáátshú",
+                    "A cow didn’t bring hens."
+                ],
+                [
+                    "kòŋkórì múk’ùmèʔà khàású",
+                    "Roosters hit a cow."
+                ],
+                [
+                    "!’ìnéỳsò k’ámbà khàáyétshógé",
+                    "Apparently, hunters didn’t hit a bull."
+                ],
+                [
+                    "thíméỳ !’ìnéỳ xééyétshèégé",
+                    "Apparently, a cook (m) didn’t bring a hunter (m)."
+                ],
+                [
+                    "!’ìnéỳsò kókógéʔà ǁ’èésú",
+                    "Apparently, hunters skinned a hen."
+                ],
+                [
+                    "!’ìnéỳsò kókóʔà khǎʔḁ́wáá",
+                    "Hunters hit hens."
+                ],
+                [
+                    "kòŋkórì !’ìnéỳà xééyé",
+                    "A rooster brought a hunter (m)."
+                ],
+                [
+                    "thíméỳsù kókó khǎʔḁ́wáátshúgé",
+                    "Apparently, a cook (f) didn’t hit hens."
+                ],
+                [
+                    "!’ìnéỳ thíméỳsògéà khàáʔíŋ",
+                    "Apparently, a hunter (m) hit cooks."
+                ],
+                [
+                    "!’ìnéỳsò thíméỳsò ǁ’èéʔíntshó",
+                    "Hunters didn’t skin cooks."
+                ],
+                [
+                    "kòŋkórì !’ìnéỳsò xééʔíntshó",
+                    "Roosters didn’t bring hunters."
+                ],
+                [
+                    "thíméỳ kòŋkórì khǎʔḁ́wáátshèé",
+                    "A cook (m) didn’t hit roosters."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "thíméỳ kòŋkórìgéà ǁ’èéyé",
+                    "Apparently, a cook (m) skinned a rooster."
+                ],
+                [
+                    "ŋ!àméỳsù thíméỳsùsà xéésú",
+                    "A blacksmith (f) brought a cook (f)."
+                ],
+                [
+                    "k’ámbà théká khàásútshógé",
+                    "Apparently, bulls didn’t hit a leopard (f)."
+                ],
+                [
+                    "múk’ùmè !’ìnéỳsòsà bálóóʔíŋ",
+                    "A cow herded hunters."
+                ],
+                [
+                    "thíméỳsò kókóʔà bálóʔó̥wáá",
+                    "Cooks herded hens."
+                ],
+                [
+                    "ŋ!àméỳsù théká ǁ’ěʔé̥wáátshúgé",
+                    "Apparently, a blacksmith (f) didn’t skin leopards."
+                ],
+                [
+                    "théká kòŋkórì bálóóyétshú",
+                    "A leopard (f) didn’t herd a rooster."
+                ],
+                [
+                    "k’ámbà thíméỳsò xééʔíntshèégé",
+                    "Apparently, a bull didn’t bring cooks."
+                ],
+                [
+                    "!’ìnéỳ ŋ!àméỳsògéà xééʔíŋ",
+                    "Apparently, a hunter (m) brought blacksmiths."
+                ]
+            ]
+        }
+    },
+    "note": "The langauge is a language isolate. It is spoken by approx. 60,000 people in  Dodoma regionof Tanzania.x, th, tsh, kh, k’, ŋ, ŋ!, ʔ, !’ and ǁ’ are consonants. The marks̀ ,́ , ˇ indicate low,high, and rising (low ↗ high) tone, respectively. A circle under a vowel (e.g. ḁ) indicates adevoiced vowel. M = masculine; f = feminine. In this problem, a cow is a female cattle and a bull is a male cattle. Likewise, a hen is a female chicken and a rooster is a male chicken. A leopord can be of either gender. ",
+    "special":"á,à,ǎ,ḁ,ḁ́,ḁ̌,é,è,ě,é̥,ě̥,ì,í,ò,ó,ó̥,ú,ù,ỳ,!,ŋ,ʔ,ǁ"
+}

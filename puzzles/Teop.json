@@ -1,0 +1,221 @@
+{
+    "name": "Teop",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "A moon paa tara bona visoasi",
+                    "The woman saw the boy"
+                ],
+                [
+                    "A otei paa ani bona taba’ani",
+                    "The man ate the food"
+                ],
+                [
+                    "A visoasi paa tara bona kae",
+                    "The boy saw the bag"
+                ],
+                [
+                    "A oraoraa paa ani bona overe",
+                    "The sorcerer ate the coconut"
+                ],
+                [
+                    "A otei paa dao bona beiko",
+                    "The man called the child"
+                ],
+                [
+                    "A beiko paa tasu bona iana",
+                    "The child struck the fish"
+                ],
+                [
+                    "A oraoraa paa asun bona iana",
+                    "The sorcerer killed the fish"
+                ],
+                [
+                    "A moon paa tasu bona vasu.",
+                    "The woman struck the stone"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "A beiko paa asun bona visoasi",
+                    "The child killed the boy"
+                ],
+                [
+                    "A moon paa ani bona iana",
+                    "The woman ate the fish"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "enaa paa tara vuan",
+                    "I saw you (sg)"
+                ],
+                [
+                    "Ean paa tara anna",
+                    "You (sg) saw me"
+                ],
+                [
+                    "Eam paa dao e",
+                    "You (pl) called him"
+                ],
+                [
+                    "Eori paa hee ameam a overe",
+                    "They gave the coconut to you (pl)"
+                ],
+                [
+                    "Eove paa hee anna a overe",
+                    "He gave the coconut to me"
+                ],
+                [
+                    "Enam paa dao vuan",
+                    "We called you (sg)"
+                ]
+            ],
+            "objective": "alignment",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "Enaa paa dao ameam",
+                    "I called you (pl)"
+                ],
+                [
+                    "Ean paa hee anna a overe",
+                    "You (sg) gave the coconut to me"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "A otei paa dao bona beiko bona iana",
+                    "The man called the boy a fish"
+                ],
+                [
+                    "Enaa paa dao a beiko bona iana",
+                    "I called the boy a fish"
+                ],
+                [
+                    "Enaa paa hee vuan a iana",
+                    "I gave you (sg) a fish"
+                ],
+                [
+                    "Enaa paa hee e bona iana",
+                    "I gave him a fish"
+                ],                [
+                    "Enaa paa tasu vuan a bona.",
+                    "I struck you (sg) with it"
+                ]
+            ],
+            "objective": "indirect object",
+            "category": "syntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "Enaa paa dao a overe bona vasu.",
+                    "I called the coconut a stone"
+                ],
+                [
+                    "A otei paa hee anna bona overe",
+                    "The man gave me a coconut"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Ean paa tasu anaa.",
+                    "You (sg) struck me"
+                ],
+                [
+                    "Eove paa ani bona iana.",
+                    "He ate the fish"
+                ],
+                [
+                    "Enam paa tasu a beiko.",
+                    "We struck the child"
+                ],
+                [
+                    "A otei paa tara bona kae.",
+                    "The man saw the bag"
+                ],
+                [
+                    "Enaa paa tara a taba’ani.",
+                    "I saw the food"
+                ],
+                [
+                    "A visoasi paa asun bona.",
+                    "The boy killed him"
+                ],
+                [
+                    "Eam paa baitono e.",
+                    "You (pl) heard him"
+                ],
+                [
+                    "Enaa paa hee a otei bona overe.",
+                    "I gave the coconut to the man"
+                ],
+                [
+                    "A moon paa hee ameam bona taba’ani.",
+                    "The woman gave the food to you (pl)"
+                ],
+                [
+                    "Enaa paa tasu vuan a vasu.",
+                    "I struck you (sg) with the stone"
+                ],
+                [
+                    "Eori paa asun bona moon bona toraara.",
+                    "They killed the woman with the axe"
+                ],
+                [
+                    "Enam paa dao a visoasi bona oraoraa.",
+                    "We called the boy a sorcerer"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":3,
+            "sentences": [
+                [
+                    "Eam paa ani a overe.",
+                    "You (pl) ate the coconut."
+                ],
+                [
+                    "Ean paa tasu a oraoraa bona kae.",
+                    "You (sg) struck the sorcerer with the bag."
+                ],
+                [
+                    "Eove paa tara ameam.",
+                    "He saw you (pl)"
+                ],
+                [
+                    "Enam paa hee vuan a taba’ani.",
+                    "We gave the food to you (sg)."
+                ],
+                [
+                    "Eove paa dao anaa bona beiko.",
+                    "He called me a child."
+                ],
+                [
+                    "Enaa paa asun e bona.",
+                    "I killed him with it"
+                ],
+                [
+                    "A oraoraa paa hee bona visoasi bona iana.",
+                    "The sorcerer gave the fish to the boy."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the Austronesian family. It is spoken by approx. 5 000 people in Papua New Guinea."
+}

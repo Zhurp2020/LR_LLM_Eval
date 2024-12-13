@@ -1,0 +1,356 @@
+{
+    "name": "Inanwatan",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "Qeqake osoi buquro meqaqabi.",
+                    "That cockatoo bites the taro."
+                ],
+                [
+                    "Idabe osoi buquro meqaqabi.",
+                    "That hawk bites the taro."
+                ],
+                [
+                    "Peraqote osoi medo moobobi.",
+                    "That devil hits the snake."
+                ],
+                [
+                    "Qeqake osoi medo moobobi.",
+                    "That cockatoo hits the snake."
+                ],
+                [
+                    "Bide osoi bido meseebi",
+                    "That boar cuts the sow."
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "Idabe osoi buquro moobobi.",
+                    "That hawk hits the taro."
+                ],
+                [
+                    "Peraqote osoi medo moobobi.",
+                    "That devil hits the snake."
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "Qotoqowar-e uto obo-sa-bi.",
+                    "His son will hit the fish."
+                ],
+                [
+                    "Maroq-o uto mo-obo-be.",
+                    "His sister hits the fish."
+                ],
+                [
+                    "Qotoqowar-o ne-sa-be.",
+                    "His daughter will sleep."
+                ],
+                [
+                    "Qotoqowar-e me-re-bi.",
+                    "His son sleeps."
+                ],
+                [
+                    "Maroq-e na-sa-bi.",
+                    "His brother will cry."
+                ],
+                [
+                    "Bid-o oote-sa-be.",
+                    "The sow will become ill."
+                ],
+                [
+                    "At-o mo-oote-be.",
+                    "The mouse becomes ill."
+                ],
+                [
+                    "Bid-e me-roo-bi.",
+                    "The boar falls."
+                ]
+            ],
+            "objective": "tense/noun gender/subject agreement",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "Qotoqowar-e uto mo-obo-bi.",
+                    "His son hits the fish."
+                ],
+                [
+                    "Maraq-o idabe obo-sa-be.",
+                    "His sister will hit the hawk."
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "Mur-o-wo na-sa-bi.",
+                    "He will cry in the river."
+                ],
+                [
+                    "Mur-o-ra na-sa-bi.",
+                    "He will cry for the river."
+                ],
+                [
+                    "Qotoqowar-e uto-ra me-qe-bi.",
+                    "His son speaks for the fish."
+                ],
+                [
+                    "Med-o uto-ra me-qe-be.",
+                    "The snake speaks for the fish."
+                ]
+            ],
+            "objective": "case",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "Bid-o muro-wo noo-sa-be.",
+                    "The sow will fall in the river."
+                ],
+                [
+                    "At-o muro-ra na-sa-be.",
+                    "The mouse will cry for the river."
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "Idab-e o-w-oi-daga meqar-o-wo me-roo-bi.",
+                    "The hawk falls in that house."
+                ],
+                [
+                    "Idab-e e-w-ai-daga mur-o-wo me-roo-bi.",
+                    "The hawk falls in this river."
+                ],
+                [
+                    "Qeqak-e o-s-oi mur-o-wo me-roo-bi.",
+                    "That cockatoo falls in the river."
+                ],
+                [
+                    "Qeqak-e e-s-ai taragar-o-wo noo-sa-bi.",
+                    "This cockatoo will fall in the lake."
+                ]
+            ],
+            "objective": "demonstrative",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "Idab-e e-w-ai-daga meqar-o-wo me-roo-bi.",
+                    "The hawk falls in this house."
+                ],
+                [
+                    "Idab-e e-s-ai taragar-o-wo noo-sa-bi.",
+                    "This hawk will fall in the lake."
+                ]
+            ]
+        },
+        "train 5": {
+            "sentences": [
+                [
+                    "Na-qid-e me-see-bi.",
+                    "My father cuts him."
+                ],
+                [
+                    "Qid-o see-sa-be.",
+                    "His mother will cut."
+                ],
+                [
+                    "Ni-qotoqowar-o mo-ri-obo-be.",
+                    "Our daughter hits us."
+                ],
+                [
+                    "Buqaritaw-e aga qide me-ra-see-bi.",
+                    "The writer's father cuts me."
+                ],
+                [
+                    "O-s-oi-daga mesida-e aga qid-e me-ra-see-bi.",
+                    "That man's father cuts me."
+                ],
+                [
+                    "O-s-oi-daga peraqot-e aga qibor-o me-ri-qaqa-be.",
+                    "That devil's tortoise bites us."
+                ]
+            ],
+            "objective": "possessive/object agreement",
+            "category": "morphosyntax"
+        },
+        "test 5": {
+            "sentences": [
+                [
+                    "Ni-qid-e qibir-o me-see-bi.",
+                    "Our father cuts the tortoise."
+                ],
+                [
+                    "Na-qotoqowar-o me-see-be.",
+                    "My daughter cuts him."
+                ],
+                [
+                    "O-s-oi-daga mesida-e aga bid-e me-ra-see-bi.",
+                    "That man's boar cuts me."
+                ]
+            ]
+        },
+        "train 6": {
+            "sentences": [
+                [
+                    "Bid-e o-s-oi e-s-ai-daga mesida-e aga qid-e-da-s-o",
+                    "That boar belongs to this man's father"
+                ],
+                [
+                    "Bid-e buqaritaw-e aga qibir-o-da-s-o",
+                    "The boar belongs to the writer's (m) tortoise"
+                ],
+                [
+                    "O-s-oi-daga peraqot-e aga meqar-o e-s-ai-daga mesida-o aga qid-e-da-w-o",
+                    "That devil's house belongs to this woman's father."
+                ],
+                [
+                    "Ni-qid-o aga meqar-o buqaritaw-o aga qibir-o-da-w-o",
+                    "Our mother's house belongs to the writer's (f) tortoise."
+                ]
+            ],
+            "objective": "possessive",
+            "category": "morphosyntax"
+        },
+        "test 6": {
+            "sentences": [
+                [
+                    "O-s-oi-daga peraqot-e aga meqar-o buqaritaw-e aga qibir-o-da-w-o",
+                    "That devil's house belongs to the writer's (m) tortoise."
+                ],
+                [
+                    "Ni-qid-o aga idab-e e-s-ai-daga mesida-e aga qid-e-da-s-o",
+                    "Our mother's hawk belongs to this man's father"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Idabe meqebi.",
+                    "The hawk speaks."
+                ],
+                [
+                    "Murowo nasabi.",
+                    "He will cry in the river."
+                ],
+                [
+                    "Qotoqoware nesabi.",
+                    "His son will sleep."
+                ],
+                [
+                    "Buquro obosabe.",
+                    "She will hit the taro."
+                ],
+                [
+                    "Bidora meraqaqabi.",
+                    "He bites me for the sow."
+                ],
+                [
+                    "Maroqo moootebe.",
+                    "His sister becomes ill."
+                ],
+                [
+                    "Ato ewai buqaritawedawo.",
+                    "This mouse belongs to the writer (m)."
+                ],
+                [
+                    "Qibiro aga qido meriqaqabe.",
+                    "The tortoise’s mother bites us."
+                ],
+                [
+                    "Qeqake osoi buquro meqaqabi.",
+                    "That cockatoo bites the taro."
+                ],
+                [
+                    "Ewaidaga medo aga qide meseebi.",
+                    "This snake’s father cuts him."
+                ],
+                [
+                    "Uto aga qidera naqaqasabi.",
+                    "He will bite me for the fish’s father."
+                ],
+                [
+                    "Peraqote aga maroqo merabe.",
+                    "The devil’s sister cries."
+                ],
+                [
+                    "Naqido aga medo noosabe.",
+                    "My mother’s snake will fall."
+                ],
+                [
+                    "Idabe esai buqaritawe aga qotoqowaredaso.",
+                    "This hawk belongs to the writer’s (m) son."
+                ],
+                [
+                    "Qido naqotoqoware aga meqarowo obosabe.",
+                    "His mother will hit him in my son’s house."
+                ],
+                [
+                    "Qeqake aga qotoqoware qido aga medora meriobobi.",
+                    "The cockatoo’s son hits us for his mother’s snake."
+                ],
+                [
+                    "Taragaro ewai owoidaga mesidao aga bide aga qidodawo.",
+                    "This lake belongs to that woman’s boar’s mother."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "Meqaro ewai naqidedawo.",
+                    "This house belongs to my father."
+                ],
+                [
+                    "Ato ewaidaga utora qesabe.",
+                    "The mouse will speak for this fish."
+                ],
+                [
+                    "Niqido aga bide moobobi.",
+                    "He hits our mother’s boar."
+                ],
+                [
+                    "Idabe osoidaga peraqote aga meqarowo meroobi.",
+                    "The hawk falls in that devil’s house."
+                ],
+                [
+                    "Bido merebe.",
+                    "The sow sleeps."
+                ],
+                [
+                    "Peraqote osoi niqotoqowarora niobosabi.",
+                    "That devil will hit us for our daughter."
+                ],
+                [
+                    "Buquro owoi maroqedawo.",
+                    "That taro belongs to his brother."
+                ],
+                [
+                    "Esaidaga mesidae aga qide owoidaga murowo moobobi.",
+                    "This man’s father hits him in that river."
+                ],
+                [
+                    "Buqaritawe aga qibiro taragarowo meraseebe.",
+                    "The writer’s (m) tortoise cuts me in the lake."
+                ]
+            ]
+        }
+    },
+    "note": "The language belongs to the South Bird’s Head group of the Trans-New Guinea family. It isspoken by approx. 800 people in the Southwest Papua province, Indonesia.The subscripts (M) and (F) refer to masculine and feminine gender, respectively. A boar and a sow represent a male and a female pig, respectively. A cockatoo is a kind of bird. A taro is a plant."
+}

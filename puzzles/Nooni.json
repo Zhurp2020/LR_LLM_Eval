@@ -1,0 +1,301 @@
+{
+    "name": "Nooni",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "wvù lě",
+                    "wvù + lé"
+                ],
+                [
+                    "kwɔ᷆ːn lě",
+                    "kwɔ᷆ːn+ lé"
+                ],
+                [
+                    "bɔ́ lé",
+                    "bɔ́ + lé"
+                ],
+                [
+                    "mutù fǐ",
+                    "mutù + fí"
+                ],
+                [
+                    "dìɛ̀msɛ̌n fí",
+                    "dìɛ̀msɛ̌n + fí"
+                ]
+            ],
+            "objective": "tone change",
+            "category": "phonology"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "dìɛ̀msɛ̌n lé",
+                    "dìɛ̀msɛ̌n + lé"
+                ],
+                [
+                    "wɔ̀ + fǐ",
+                    "wɔ̀ + fí"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "dìɛ̀msɛ̌n nɔ̂ː yɛ᷅n cɔ̌ŋ é",
+                    "The man saw the thief"
+                ],
+                [
+                    "cɔ̌ŋ nɔ̂ː yo᷅ kwɔ᷆ːn",
+                    "The thief killed the woman"
+                ],
+                [
+                    "dìɛ̀msɛ̌n nɔ̂ː nca᷅w mutù",
+                    "The man chose the car"
+                ],
+                [
+                    "cɔ̌ŋ nɔ̂ː bɔ᷅ŋ ŋwà",
+                    "The thief found the book"
+                ],
+                [
+                    "kwɔ᷆ːn nɔ̂ː cɔ᷅ŋ kèŋkfǔ fɔ̀wǎy",
+                    "The woman stole the yam at the market"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "dìɛ̀msɛ̌n nɔ̂ː nca᷅w ŋwà",
+                    "The man chose the book"
+                ],
+                [
+                    "cɔ̌ŋ nɔ̂ː bɔ᷅ŋ kwɔ᷆ːn",
+                    "The thief found the woman"
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "me n-cí nɔ̂ː n-tɔ᷅ fɔ̀wǎy fɔgò",
+                    "Yesterday, I came to the market."
+                ],
+                [
+                    "wɔ̀ cǐ nɔ̂ː bɔ᷅ŋ kèŋkfǔ kefwé",
+                    "The day before yesterday, you found the yam."
+                ],
+                [
+                    "bèsèn bɛ̂ː fi᷅ dìɛ̀msɛ̌n ɛ̀bɛ̀n",
+                    "Today, we helped the man."
+                ],
+                [
+                    "me m-bɛ̂ː n-yɛ᷅n cɔ̌ŋ é ɛ̀bɛ̀n",
+                    "Today, I saw the thief."
+                ],
+                [
+                    "bɔ́ nɔ̂ː yo᷅ cɔ̌ŋ",
+                    "They killed the thief just now."
+                ],
+                [
+                    "wvù tɔ̀ nɔ̂ː yo᷅w mutù",
+                    "He heard the car a long time ago."
+                ],
+                [
+                    "me n-tɔ̀ nɔ̂ n-yɛ᷅n mutù ě",
+                    "I saw the car a long time ago."
+                ],
+                [
+                    "wvù nǔ yów mutù",
+                    "He is about to hear the car."
+                ],
+                [
+                    "me nú n-géː n-yó cɔ̌ŋ ɛ̀bɛ̀n",
+                    "Today, I will kill the theif."
+                ],
+                [
+                    "me nú m-bóy n-fí kwɔ᷆ːn ntfǔː",
+                    "Tomorrow, I will help the woman."
+                ],
+                [
+                    "dìɛ̀msɛ̌n nú bóy tɔ́ fɔ̀wǎy fɔ̀ shě ntfǔː",
+                    "The day after tomorrow, the man will come to the market."
+                ],
+                [
+                    "cɔ̌ŋ nǔ yúː bɔ́ŋ ŋwà",
+                    "The thief will find the book a long time in the future."
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "wɔ̀ cǐ nɔ̂ː fi᷅ dìɛ̀msɛ̌n fɔgò",
+                    "You helped the man yesterday."
+                ],
+                [
+                    "dìɛ̀msɛ̌n nú bóy bɔ́ŋ cɔ̌ŋ ntfǔː",
+                    "The man will find the thief tomorrow"
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "fɔgò cǐ nú Bvukema",
+                    "Yesterday was Bvukema"
+                ],
+                [
+                    "kefwé cǐ nú Bvúzhí",
+                    "The day before yesterday was Bvúzhí"
+                ],
+                [
+                    "ntfǔː nú bvûŋka᷆ːden",
+                    "Tomorrow is Bvuŋkaden"
+                ],
+                [
+                    "fɔ̀ shě ntfǔː nú bvúzhı᷇ːde᷆n.",
+                    "The day after tomorrow is Bvuzhiden"
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "fɔgò cǐ nú bvúzhí",
+                    "Yesterday was Bvúzhí"
+                ],
+                [
+                    "ntfǔː nú bvúmbòn",
+                    "Tomorrow is Bvumbon"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "fɔgò cǐ nú bvúmbòn.",
+                    "Yesterday was Bvumbon."
+                ],
+                [
+                    "me ncí nɔ̂ː ntɔ᷅ fɔ̀wǎy bvúmbòn.",
+                    "On Bvumbon, I came to the market."
+                ],
+                [
+                    "wɔ̀ nǔ yúː cɔ́ŋ kèŋkfǔ bvúsɔ̀w.",
+                    "On Bvusɔw, you will steal the yam."
+                ],
+                [
+                    "kwɔ᷆ːn nǔ bóy fí me bvúzhí.",
+                    "On Bvuzhi, the woman will help me."
+                ],
+                [
+                    "wvù tɔ̀ nɔ̂ː bɔ᷅ŋ ŋwà bvûŋka᷆ː.",
+                    "On bvûŋka᷆ː, he found the book"
+                ],
+                [
+                    "fɔ̀ shě ntfǔː nú bvútfu᷅.",
+                    "The day after tomorrow is Bvutfu."
+                ],
+                [
+                    "me nú mbóy ncáw mutù bvútfu᷅.",
+                    "On Bvutfu, I will choose the car."
+                ],
+                [
+                    "wvù bɛ̂ː yo᷅ kwɔ᷆ːn ɛ̀bɛ̀n.",
+                    "Today, he killed the woman."
+                ],
+                [
+                    "wɔ̀ tɔ̀ nɔ̂ː yo᷅w cɔ̌ŋ.",
+                    "You heard the thief a long time ago."
+                ],
+                [
+                    "ntfǔː nú bvûŋka᷆ːde᷆n.",
+                    "Tomorrow is Bvuŋkaden."
+                ],
+                [
+                    "cɔ̌ŋ nú bóy bɔ́ŋ bèsèn bvûŋka᷆ːde᷆n.",
+                    "On Bvuŋkaden, the thief will find us."
+                ],
+                [
+                    "me mbɛ̂ː nca᷅w ŋwà ɛ̀bɛ̀n.",
+                    "Today, I chose the book."
+                ],
+                [
+                    "dìɛ̀msɛ̌n nú yɛ́n wvù lě.",
+                    "The man is about to see him."
+                ],
+                [
+                    "kefwé cí nú bvûŋka᷆ː.",
+                    "The day before yesterday was bvûŋka᷆ː"
+                ],
+                [
+                    "me nú nfí dìɛ̀msɛ̌n.",
+                    "I am about to help the man."
+                ],
+                [
+                    "kwɔ᷆ːn cǐ nɔ̂ː yɛ᷅n wáy é bvútfu᷅.",
+                    "On Bvutfu, the woman saw the market."
+                ],
+                [
+                    "bèsèn nǔ géː cɔ́ŋ mutù ɛ̀bɛ̀n.",
+                    "Today, we will steal the car."
+                ],
+                [
+                    "bɔ́ nɔ̂ː yɛ᷅n me lé fɔ̀wǎy.",
+                    "They saw me at the market just now."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "bvúsɔ̀w nǔ fɔ̀ shě ntfǔː. (Today is Bvuŋkaden)",
+                    "Bvusɔw is the day after tomorrow."
+                ],
+                [
+                    "me nú ŋgéː nyɛ́n kèŋkfǔ lé ɛ̀bɛ̀n. (Today is Bvuŋkaden)",
+                    "Today, I will see the yam."
+                ],
+                [
+                    "wvù tɔ̀ nɔ̂ː yɛ᷅n bèsèn ě bvúmbòn. (Today is Bvuŋkaden)",
+                    "On Bvumbon, he saw us."
+                ],
+                [
+                    "bèsèn nǔ bóy tɔ́ fɔ̀wǎy bvúzhı᷇ːde᷆n. (Today is Bvuŋkaden)",
+                    "On Bvuzhiden, we will come to the market."
+                ],
+                [
+                    "me ncí nɔ̂ː nfı᷅ dìɛ̀msɛ̌n bvúsɔ̀w.",
+                    "On Bvusɔw, I helped the man. (Today is Bvumbon)"
+                ],
+                [
+                    "cɔ̌ŋ nɔ̂ː cɔ᷅ŋ kèŋkfǔ.",
+                    "The thief stole the yam just now. (Today is Bvumbon)"
+                ],
+                [
+                    "me nú nyúː nyów mutù bvûŋka᷆ːde᷆n.",
+                    "On Bvuŋkaden, I will hear the car. (Today is Bvumbon)"
+                ],
+                [
+                    "kwɔ᷆ːn nǔ géː yó dìɛ̀msɛ̌n ɛ̀bɛ̀n.",
+                    "Today, the woman will kill the man. (Today is Bvumbon)"
+                ],
+                [
+                    "dìɛ̀msɛ̌n bɛ̂ː yɛ᷅n wɔ̀ lě ɛ̀bɛ̀n.",
+                    "Today, the man saw you. (Today is Bvumbon)"
+                ]
+            ]
+        }
+    },
+    "note": "The langauage belongs to the Beboid group of the Atlantic-Congo family. It is spoken by approx. 40,000 people in Cameroon. ɛ and ɔ are vowels. ŋ, sh, y and zh are consonants. The mark ː indicates that the vowel is long. The superscript marks denote tones: –́ high, –̂ falling (high ↘ low), –᷆ falling (middle↘ low), –̀ low, –᷅ rising (low ↗ middle), –̌ rising (low ↗ high); if none are present, the syllable has middle tone. Yam is the edible tuber of the tropical plant of the same name. A week in this langauge is eight days; Bvutfu, Bvuŋka, Bvuzhi, Bvukema, Bvuŋkaden, Bvuzhiden, Bvusɔw, Bvumbon.",
+    "special":"á,à,ǎ,a᷅,a᷆,é,è,ě,e᷆,í,ì,ǐ,i᷅,ó,ò,o᷅,ú,ù,ǔ,û,u᷅,ɛ́,ɛ̀,ɛ̂,ɛ̌,ɛ᷅,ɔ,ɔ́,ɔ̀,ɔ̂,ɔ̌,ɔ᷅,ɔ᷆,ː,ŋ"
+}

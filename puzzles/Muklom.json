@@ -1,0 +1,213 @@
+{
+    "name": "Muklom",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "khat sàa qhot ang",
+                    "I wash the skirt"
+                ],
+                [
+                    "kho pok bi ang",
+                    "I search for the hat"
+                ],
+                [
+                    "khat sàa hug i",
+                    "We steal the skirt"
+                ],
+                [
+                    "khat sam qhot u",
+                    "You (sg) wash the blanket"
+                ],
+                [
+                    "naa tsong bi i",
+                    "We search for the earrings"
+                ],
+                [
+                    "jàa qhòng lak chak u",
+                    "You (sg) forget the shoes"
+                ],
+                [
+                    "khat sam rí iin",
+                    "You (pl) buy the blanket"
+                ],
+                [
+                    "naa tsong lak chak iin",
+                    "You (pl) forget the earrings"
+                ],
+                [
+                    "khat sam kap aa",
+                    "He finds the blanket"
+                ],
+                [
+                    "jàa qhòng hun aa",
+                    "He makes the shoes"
+                ],
+                [
+                    "í kho pok qhat aa.",
+                    "My hat falls down."
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "khat sam bi u",
+                    "You (sg) search for the blanket"
+                ],
+                [
+                    "kho pok hug aa",
+                    "He steals the hat"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "u khat sàa sàa ang",
+                    "I wear her skrit"
+                ],
+                [
+                    "níing naa tsong tsong i",
+                    "We wear their earrings"
+                ],
+                [
+                    "í jàa qhòng qhòng u",
+                    "You (sg) wear our shoes"
+                ],
+                [
+                    "baa jàa qhòng qhòng aa",
+                    "He wears your (sg) shoes"
+                ],
+                [
+                    "i khat sam sam ang",
+                    "I wear my blanket"
+                ],
+                [
+                    "niim khat sam sam iin",
+                    "You (pl) wear your (pl) blanket"
+                ]
+            ],
+            "objective": "possessive/word derivation",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "níing kho pok pok ang",
+                    "I wear their hat"
+                ],
+                [
+                    "baa khat sàa sàa aa",
+                    "He wears your (sg) skirt"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "níing kho pok pok aa.",
+                    "She wears their hat."
+                ],
+                [
+                    "khat sam koq i.",
+                    "We give a blanket."
+                ],
+                [
+                    "kho pok pok aa.",
+                    "She wears a hat."
+                ],
+                [
+                    "baa naa tsong tsong aa.",
+                    "She wears your (sg) earrings"
+                ],
+                [
+                    "í khat sam hug aa.",
+                    "She steals our blanket."
+                ],
+                [
+                    "naa tsong hun aa.",
+                    "She makes earrings"
+                ],
+                [
+                    "khat sam sám aa.",
+                    "She wears a blanket."
+                ],
+                [
+                    "í kho pok qhat aa.",
+                    "My hat falls down."
+                ],
+                [
+                    "khat sàa qhot ang.",
+                    "I wash a skirt."
+                ],
+                [
+                    "jàa qhòng bi íin.",
+                    "You (pl) search for shoes."
+                ],
+                [
+                    "naa tsong tsong aa.",
+                    "She wears earrings."
+                ],
+                [
+                    "niim jàa qhòng kap aa.",
+                    "She finds your (pl) shoes."
+                ],
+                [
+                    "u khat sàa lak chak aa.",
+                    "She forgets her skirt."
+                ],
+                [
+                    "kho pok rí u.",
+                    "You (sg) buy a hat."
+                ],
+                [
+                    "jàa qhòng qhòng aa.",
+                    "She wears shoes."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "jaa qhòng qhòng ang.",
+                    "I wear shoes."
+                ],
+                [
+                    "u kho pok pok u.",
+                    "You (sg) wear her hat."
+                ],
+                [
+                    "í jàa qhòng kap íín.",
+                    "You (pl) find our shoes."
+                ],
+                [
+                    "baa kho pok lak chak u.",
+                    "You (sg) forget your (sg) hat."
+                ],
+                [
+                    "baa kho pok qhat aa.",
+                    "Your (sg) hat falls down."
+                ],
+                [
+                    "baa naa tsong rí i.",
+                    "We buy your (sg) earrings."
+                ],
+                [
+                    "í jàa qhòng lak chak ang.",
+                    "I forget our shoes."
+                ],
+                [
+                    "í jàa qhòng lak chak ang.",
+                    "I forget my shoes."
+                ]
+            ]
+        }
+    },
+    "note": "Muklom is a language spoken by a few thousand people in Northeast India, a linguistic hotspot that harbors languages from four different families: Sino-Tibetan, Austroasiatic, Tai-Kadai, and Indo-European. Muklom  belongs to the Sino-Tibetan family. The letter q is pronounced as a glottal stop, the sound in the middle of English “uh oh”. The combination qh is pronounced like the last two letters in the name of the composer Bach in German. The accents on the Muklom words represent different tones—put simply, the accent ['] stands for a high-pitched syllable, and [`] stands for a low-pitched syllable.",
+    "special":"á,à,í,ò"
+}

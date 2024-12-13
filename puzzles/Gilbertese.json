@@ -1,0 +1,152 @@
+{
+    "name": "Gilbertese",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "E nooria te aine te aomata",
+                    "The man saw the woman"
+                ],
+                [
+                    "E kunea te uaa te aine",
+                    "The woman found the fruit"
+                ],
+                [
+                    "E taraa te nii te nati",
+                    "The child looked at the coconut tree"
+                ],
+                [
+                    "E kamanoa te nati te aomata",
+                    "The man protected the child"
+                ],
+                [
+                    "E nooria te uee te aomata",
+                    "The man saw the flower"
+                ]
+            ],
+            "objective": "words",
+            "category": "word order"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "E kunea te aomata te aine",
+                    "The woman found the man"
+                ],
+                [
+                    "E nooria te uaa te uee",
+                    "The flower saw the fruit"
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "A na noori-a te nii taian aine",
+                    "The women will see the coconut tree"
+                ],
+                [
+                    "E kune-a te nii te aine",
+                    "The woman found the coconut tree"
+                ],
+                [
+                    "E na tara-a te uee te nati",
+                    "The child will look at the flower"
+                ],
+                [
+                    "A tara-i taian aomata taian nati",
+                    "The children looked at the men"
+                ]
+            ],
+            "objective": "object agreement/tense/noun number",
+            "category": "morphosyntax"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "E na kune-a te uee te aomata",
+                    "The man will find the flower"
+                ],
+                [
+                    "A kune-i taian uee taian aomata",
+                    "The men found the flowers"
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "E nooria te uaa te aomata",
+                    "The man saw the fruit"
+                ],
+                [
+                    "A na kunei taian uee taian aine",
+                    "The women will find the flowers"
+                ],
+                [
+                    "A na kunea te uee taian aomata",
+                    "The men will find the flower"
+                ],
+                [
+                    "E na noorii taian uee te aine",
+                    "The woman will see the flowers"
+                ],
+                [
+                    "A noorii taian uee taian aine",
+                    "The women saw the flowers"
+                ],
+                [
+                    "E na kunei taian uee te aomata",
+                    "The man will find the flowers"
+                ],
+                [
+                    "A kunei taian uee taian aine",
+                    "The women found the flowers"
+                ],
+                [
+                    "A na kunea te uaa taian aine",
+                    "The women will find the fruit"
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":4,
+            "sentences": [
+                [
+                    "E noorii taian uaa te aomata.",
+                    "The man saw the fruits."
+                ],
+                [
+                    "A kunea te uaa taian aomata.",
+                    "The men found the fruit."
+                ],
+                [
+                    "E na nooria te uee te aine.",
+                    "The woman will see the flower."
+                ],
+                [
+                    "E kunea te uaa te aine.",
+                    "The woman found the fruit."
+                ],
+                [
+                    "A taraa te uaa taian nati.",
+                    "The children looked at the fruit."
+                ],
+                [
+                    "E na kamanoi taian uee te nati.",
+                    "The child will protect the flowers."
+                ],
+                [
+                    "A na tarai taian nii taian aomata.",
+                    "The men will look at the coconut trees."
+                ],
+                [
+                    "E kamanoa te nii te aine.",
+                    "The woman protected the coconut tree."
+                ]
+            ]
+        }
+    },
+    "note": "The language is an Austronesian languagespoken mainly in Kiribati, with 120,000 native speakers."
+}

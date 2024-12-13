@@ -1,0 +1,321 @@
+{
+    "name": "Yonggom",
+    "sets": {
+        "train 1": {
+            "sentences": [
+                [
+                    "Yeeder-en-ib min-iib.",
+                    "They get up and come."
+                ],
+                [
+                    "Yeeder-en-i min-iin.",
+                    "I get up and come."
+                ],
+                [
+                    "Yeeder-en-e wen-een.",
+                    "He gets up and goes away."
+                ],
+                [
+                    "Yeeder-en-u wun-uun.",
+                    "She gets up and goes away."
+                ],
+                [
+                    "Yeeder-en-ub mun-uub.",
+                    "We get up and come."
+                ],
+                [
+                    "Yeeder-en-eb men-eeb.",
+                    "You get up and come."
+                ],
+                [
+                    "Men-en-i yeedir-iin.",
+                    "I come and get up."
+                ],
+                [
+                    "Wingk-en-u yeedir-uun.",
+                    "She sings and get up."
+                ],
+                [
+                    "Wen-en-ib wingk-iib.",
+                    "They go away and sing."
+                ]
+            ],
+            "objective": "subject agreement/vowel harmony",
+            "category": "morphosyntax"
+        },
+        "test 1": {
+            "sentences": [
+                [
+                    "Wen-en-e wingk-een.",
+                    "He goes away and sings."
+                ],
+                [
+                    "Wingk-en-eb yeeder-eeb.",
+                    "You sing and get up."
+                ],
+                [
+                    "Men-en-ub wingk-uub.",
+                    "We come and sing."
+                ],
+                [
+                    "Wingk-en-i win-iin.",
+                    "I sing and go away."
+                ],
+                [
+                    "Wingk-en-u wun-uun.",
+                    "She sings and goes away."
+                ]
+            ]
+        },
+        "train 2": {
+            "sentences": [
+                [
+                    "Men-en-i karuw-a anon-a wedm-aan.",
+                    "I came and saw the man and the dog."
+                ],
+                [
+                    "Karub wedm-en-e ok b-oon.",
+                    "He saw the man and took the water."
+                ],
+                [
+                    "Awon b-en-u anon ye weng wengambar-een.",
+                    "She took the pig and heard the dog."
+                ],
+                [
+                    "Ok b-en-i awon wedm-aan.",
+                    "I took the water and saw the pig."
+                ],
+                [
+                    "Anon-a awon-a ye weng wengambar-en-e.",
+                    "He heard the dog and the pig."
+                ],
+                [
+                    "Ambib wedm-en-u anon b-een.",
+                    "She saw the house and took the dog."
+                ]
+            ],
+            "objective": "words/conjunction",
+            "category": "word order"
+        },
+        "test 2": {
+            "sentences": [
+                [
+                    "Karuw-a anon-a ye weng wengambar-en-i.",
+                    "I heard the man and the dog."
+                ],
+                [
+                    "Ok b-en-e awon wedm-oon.",
+                    "He took the water and saw the pig."
+                ],
+                [
+                    "Anon wedm-en-u awon ye weng wengambar-een.",
+                    "She saw the dog and heard the pig."
+                ],
+                [
+                    "Awon-a ok-a wedm-en-e anon ye weng wengambor-oon.",
+                    "He saw the pig and the water and heard the dog."
+                ]
+            ]
+        },
+        "train 3": {
+            "sentences": [
+                [
+                    "Wan-an-uuw-a man-an-uun.",
+                    "We will go away and she will come."
+                ],
+                [
+                    "Wingkan-uuw-a man-an-eeb.",
+                    "We will sing and you will come."
+                ],
+                [
+                    "yeedar-an-een-a wan-an-iib.",
+                    "He will get up and they will go away."
+                ],
+                [
+                    "Wan-an-iin-a wingk-an-een.",
+                    "I will go away and he will sing."
+                ],
+                [
+                    "Wingk-an-uun-a yeedar-an-uub.",
+                    "She will sing and we will get up."
+                ],
+                [
+                    "Wan-an-iiw-a yeedar-an-iin.",
+                    "They will go away and I will get up."
+                ],
+                [
+                    "Wingk-an-eew-a wan-an-een.",
+                    "You will sing and he will go away."
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 3": {
+            "sentences": [
+                [
+                    "Man-an-iiw-a wingk-an-uun.",
+                    "They will come and she will sing."
+                ],
+                [
+                    "Wan-an-een-a yeedar-an-eeb.",
+                    "He will go away and you will get up."
+                ],
+                [
+                    "Man-an-uun-a wan-an-uub.",
+                    "She will come and we will go away."
+                ],
+                [
+                    "Wingk-an-iin-a yeedar-an-iib.",
+                    "I will sing and they will get up."
+                ]
+            ]
+        },
+        "train 4": {
+            "sentences": [
+                [
+                    "Om-a ok-a an-iib.",
+                    "They eat the bread and drink the water."
+                ],
+                [
+                    "Oon wedm-an-iin-a karub wedm-an-uub.",
+                    "I will see the fish and we will see the man."
+                ],
+                [
+                    "Om an-an-een-a oon b-an-eeb.",
+                    "He will eat the bread and you will take the fish."
+                ],
+                [
+                    "Ambib wedm-an-uun-a anon ye weng wengambar-an-iin.",
+                    "She will see the house and I will hear the dog."
+                ],
+                [
+                    "Oon an-an-eew-a ok anan-iib.",
+                    "You will take the fish and they will drink the water."
+                ],
+                [
+                    "Ok an-een-a oon wedm-iib.",
+                    "He drinks the water and they see the fish."
+                ],
+                [
+                    "Om an-an-iiw-a ok an-an-uun.",
+                    "They will eat the bread and she will drink the water."
+                ]
+            ],
+            "objective": "tense",
+            "category": "morphosyntax"
+        },
+        "test 4": {
+            "sentences": [
+                [
+                    "Ambib wedm-an-eew-a om an-an-een.",
+                    "You will see the house and he will eat the bread."
+                ],
+                [
+                    "Awon ye weng wengambar-an-uun-a oon ban-iin.",
+                    "She will hear the pig and I will take the fish."
+                ],
+                [
+                    "Ok an-an-uuw-a anon wedm-an-iib.",
+                    "We will drink the water and they will see the dog."
+                ]
+            ]
+        },
+        "org train": {
+            "sentences": [
+                [
+                    "Meneni karuwa anona wedmaan.",
+                    "I came and saw the man and the dog."
+                ],
+                [
+                    "Wingkeewa yeediriin.",
+                    "Yousing and I get up."
+                ],
+                [
+                    "Ambib wedmoona awon baan.",
+                    "He saw the house and I took the pig."
+                ],
+                [
+                    "Yeederenu om banuun.",
+                    "She will get up and will take the bread."
+                ],
+                [
+                    "Wenenub wingkanuub.",
+                    "We will go away and will sing."
+                ],
+                [
+                    "Oma oka aniib.",
+                    "They eat the bread and drink the water."
+                ],
+                [
+                    "Anon ye weng wengambaranuuwa awon ye weng wengambaraneen.",
+                    "We will hear the dog and he will hear the pig."
+                ],
+                [
+                    "Ok anaana oon wedmeen.",
+                    "I drank the water and she saw the fish."
+                ],
+                [
+                    "Yeederenib miniib.",
+                    "They get up and come."
+                ],
+                [
+                    "Wingkenu wunuun.",
+                    "She sings and goes away."
+                ],
+                [
+                    "Om bene aneen.",
+                    "He takes the bread and eats it."
+                ]
+            ],
+            "category": "org train"
+        },
+        "org test": {
+            "to_eng":6,
+            "sentences": [
+                [
+                    "Om benu aneen.",
+                    "She took the bread and ate it."
+                ],
+                [
+                    "Munuuna wunuub.",
+                    "She comes and we go away."
+                ],
+                [
+                    "Wingkiiwa ye weng wengamburuun.",
+                    "They sing and she hears."
+                ],
+                [
+                    "Anon ye weng wengamberenib yeedaraniib",
+                    "They will hear the dog and will get up."
+                ],
+                [
+                    "Oon wedmaniina karub wedmaneeb.",
+                    "I will see the fish and you will see the man."
+                ],
+                [
+                    "Ok wedmeena aniin.",
+                    "He sees the water and I drink it."
+                ],
+                [
+                    "Wananuuwa mananiib.",
+                    "We will go away and they will come."
+                ],
+                [
+                    "Awon biina oon been.",
+                    "I take the pig and he takes the fish."
+                ],
+
+                [
+                    "Oka ambiwa wedmene anon ye weng wengamboroon.",
+                    "He saw the water and the house and heard the dog."
+                ],
+                [
+                    "Om aneneb wingkeeb.",
+                    "You eat the bread and sing."
+                ]
+            ]
+        }
+    },
+    "note": "The langauge belongs to the Ok group of the Trans-New Guinea family. It is spoken byapprox. 6,000 people in Papua New Guinea."
+}
